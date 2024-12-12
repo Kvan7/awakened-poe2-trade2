@@ -37,7 +37,7 @@ export class HttpProxy {
           'user-agent': app.userAgentFallback
         },
         useSessionCookies: true,
-        referrerPolicy: 'origin-when-cross-origin'
+        referrerPolicy: 'no-referrer-when-downgrade'
       })
       proxyReq.addListener('response', (proxyRes) => {
         const resHeaders = { ...proxyRes.headers }
