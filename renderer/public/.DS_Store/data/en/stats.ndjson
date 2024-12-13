@@ -1,1 +1,909 @@
-{"ref": "#% increased Physical Damage", "better": 1, "id": "physical_local_damage_+%", "matchers": [{"string": "#% increased Physical Damage"}], "trade": {"ids": {"explicit": ["explicit.stat_419810844"], "fractured": ["fractured.stat_419810844"]}}}
+{"ref":"# Charm Slot","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1416292992"]}}}
+{"ref":"# Intelligence Requirement","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2153364323"]}}}
+{"ref":"# Life gained when you Block","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"# Life Regeneration per second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3325883026"],"implicit":["implicit.stat_3325883026"]}}}
+{"ref":"# Mana gained when you Block","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"# Maps in Range are Irradiated","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_4041853756"]}}}
+{"ref":"# Maps in Range contain Breaches","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_2219129443"]}}}
+{"ref":"# Maps in Range contain Expedition Encounters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1714888636"]}}}
+{"ref":"# Maps in Range contain Mirrors of Delirium","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_3879011313"]}}}
+{"ref":"# Maps in Range contain Ritual Altars","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_3166002380"]}}}
+{"ref":"# metre to Dodge Roll distance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_258119672"]}}}
+{"ref":"# metre to Dodge Roll distance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"# Physical Damage taken from Attack Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3441651621"]}}}
+{"ref":"# Physical damage taken from Projectile Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3612407781"]}}}
+{"ref":"# Physical Damage taken on Minion Death","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4176970656"]}}}
+{"ref":"# Resolve Aegis","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"# to # Fire Thorns damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1993950627"]}}}
+{"ref":"# to # Physical Thorns damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2881298780"]}}}
+{"ref":"# to Accuracy Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_691932474"]}}}
+{"ref":"# to Accuracy Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_803737631"],"implicit":["implicit.stat_803737631"]}}}
+{"ref":"# to all Attributes","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1379411836"],"implicit":["implicit.stat_1379411836"]}}}
+{"ref":"# to all Attributes per Level","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2333085568"]}}}
+{"ref":"# to Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3484657501"]}}}
+{"ref":"# to Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_809229260"],"implicit":["implicit.stat_809229260"]}}}
+{"ref":"# to Dexterity","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3261801346"],"implicit":["implicit.stat_3261801346"]}}}
+{"ref":"# to Evasion Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_53045048"]}}}
+{"ref":"# to Evasion Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2144192055"]}}}
+{"ref":"# to Intelligence","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_328541901"],"implicit":["implicit.stat_328541901"]}}}
+{"ref":"# to Level of all Chaos Spell Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4226189338"]}}}
+{"ref":"# to Level of all Cold Spell Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2254480358"]}}}
+{"ref":"# to Level of all Fire Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_599749213"]}}}
+{"ref":"# to Level of all Fire Spell Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_591105508"]}}}
+{"ref":"# to Level of all Lightning Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1147690586"]}}}
+{"ref":"# to Level of all Lightning Spell Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1545858329"]}}}
+{"ref":"# to Level of all Melee Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_9187492"]}}}
+{"ref":"# to Level of all Minion Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2162097452"]}}}
+{"ref":"# to Level of all Physical Spell Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1600707273"]}}}
+{"ref":"# to Level of all Projectile Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1202301673"]}}}
+{"ref":"# to Level of all Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4283407333"]}}}
+{"ref":"# to Level of all Spell Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_124131830"]}}}
+{"ref":"# to Maximum Endurance Charges","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"# to maximum Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4052037485"]}}}
+{"ref":"# to maximum Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3489782002"],"implicit":["implicit.stat_3489782002"]}}}
+{"ref":"# to Maximum Frenzy Charges","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4078695"]}}}
+{"ref":"# to maximum Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3299347043"],"implicit":["implicit.stat_3299347043"]}}}
+{"ref":"# to maximum Mana","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1050105434"],"implicit":["implicit.stat_1050105434"]}}}
+{"ref":"# to Maximum Power Charges","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_227523295"]}}}
+{"ref":"# to Maximum Rage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1181501418"]}}}
+{"ref":"# to Spirit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3981240776"],"implicit":["implicit.stat_3981240776"]}}}
+{"ref":"# to Strength","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4080418644"],"implicit":["implicit.stat_4080418644"]}}}
+{"ref":"# to Stun Threshold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_915769802"]}}}
+{"ref":"#% additional Physical Damage Reduction","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3771516363"]}}}
+{"ref":"#% additional Physical Damage Reduction","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance for each of your Keys to upgrade on completing a Floor","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance for Energy Shield Recharge to start when you Kill an Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1618482990"]}}}
+{"ref":"#% chance for Flasks you use to not consume Charges","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_311641062"]}}}
+{"ref":"#% chance for Resolve Mitigation to be doubled when Hit by an Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance for Slam Skills you use yourself to cause Aftershocks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1157523820"]}}}
+{"ref":"#% chance if you were to lose all your Honour to have 1 Honour instead","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance to Aggravate Bleeding on targets you Critically Hit with Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2438634449"]}}}
+{"ref":"#% chance to Avoid Death from Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1689729380"]}}}
+{"ref":"#% chance to Avoid gaining an Affliction","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance to Avoid Resolve loss from Enemy Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance to Avoid Resolve loss from Enemy Hits if you've been Hit recently","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance to be inflicted with Bleeding when Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3423694372"]}}}
+{"ref":"#% chance to Blind Enemies on hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance to Blind Enemies on Hit with Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_318953428"]}}}
+{"ref":"#% chance to cause Bleeding on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance to Chain an additional time","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1028592286"]}}}
+{"ref":"#% Chance to gain a Charge when you Kill an Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_828533480"]}}}
+{"ref":"#% chance to gain a Power Charge on Critical Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3814876985"]}}}
+{"ref":"#% chance to gain a Power Charge on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1453197917"]}}}
+{"ref":"#% chance to inflict Bleeding on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2174054121"]}}}
+{"ref":"#% chance to Intimidate Enemies for 4 seconds on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_78985352"]}}}
+{"ref":"#% chance to Maim on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance to not consume a bolt if you've Reloaded Recently","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_842299438"]}}}
+{"ref":"#% chance to not destroy Corpses when Consuming Corpses","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_965913123"]}}}
+{"ref":"#% chance to Pierce an Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2321178454"],"implicit":["implicit.stat_2321178454"]}}}
+{"ref":"#% chance to Poison on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_795138349"]}}}
+{"ref":"#% chance to Poison on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% chance to Poison on Hit with Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_3954735777"]}}}
+{"ref":"#% chance when you gain a Charge to gain an additional Charge","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1555237944"]}}}
+{"ref":"#% faster Curse Activation","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1104825894"]}}}
+{"ref":"#% faster start of Energy Shield Recharge","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1782086450"],"implicit":["implicit.stat_1782086450"]}}}
+{"ref":"#% increased Accuracy Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_624954515"],"implicit":["implicit.stat_624954515"]}}}
+{"ref":"#% increased Accuracy Rating with Bows","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_169946467"]}}}
+{"ref":"#% increased amount of Chests","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2745845732"]}}}
+{"ref":"#% increased amount of Life Leeched","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2112395885"]}}}
+{"ref":"#% increased amount of Magic Chests","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2898517796"]}}}
+{"ref":"#% increased amount of Mana Leeched","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2839066308"]}}}
+{"ref":"#% increased amount of Rare Chests","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_798469000"]}}}
+{"ref":"#% increased Amount Recovered","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_700317374"]}}}
+{"ref":"#% increased Area of Effect","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_280731498"]}}}
+{"ref":"#% increased Area of Effect for Attacks per 5 Intelligence","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2082207021"]}}}
+{"ref":"#% increased Area of Effect of Curses","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_153777645"]}}}
+{"ref":"#% increased Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2866361420"]}}}
+{"ref":"#% increased Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1062208444"]}}}
+{"ref":"#% increased Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Armour and Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3321629045"]}}}
+{"ref":"#% increased Armour and Evasion","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2451402625"]}}}
+{"ref":"#% increased Armour Break Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2215233444"]}}}
+{"ref":"#% increased Armour, Evasion and Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3523867985"]}}}
+{"ref":"#% increased Arrow Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1207554355"],"implicit":["implicit.stat_1207554355"]}}}
+{"ref":"#% increased Attack and Cast Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2672805335"]}}}
+{"ref":"#% increased Attack Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2843214518"]}}}
+{"ref":"#% increased Attack Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_210067635"]}}}
+{"ref":"#% increased Attack Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_681332047"],"implicit":["implicit.stat_681332047"]}}}
+{"ref":"#% increased Attack Speed per 25 Dexterity","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2241560081"]}}}
+{"ref":"#% increased Attack Speed per 5 Dexterity","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3356155703"]}}}
+{"ref":"#% increased Attack Speed while on Full Mana","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4145314483"]}}}
+{"ref":"#% increased Attack Speed with Bows","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3759735052"]}}}
+{"ref":"#% increased Attack Speed with Crossbows","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1135928777"]}}}
+{"ref":"#% increased Attack Speed with Quarterstaves","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3283482523"]}}}
+{"ref":"#% increased Attribute Requirements","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3639275092"]}}}
+{"ref":"#% increased Attributes per Socketed Rune or Soul Core","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2513318031"]}}}
+{"ref":"#% increased Bleeding Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1459321413"]}}}
+{"ref":"#% increased Bleeding Duration on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1692879867"]}}}
+{"ref":"#% increased Blind Effect","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1585769763"]}}}
+{"ref":"#% increased Block chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2481353198"]}}}
+{"ref":"#% increased Block chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4147897060"]}}}
+{"ref":"#% increased Bolt Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1803308202"]}}}
+{"ref":"#% increased bonuses gained from Equipped Quiver","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1200678966"]}}}
+{"ref":"#% increased bonuses gained from Equipped Rings","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2793222406"]}}}
+{"ref":"#% increased Cast Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2891184298"],"implicit":["implicit.stat_2891184298"]}}}
+{"ref":"#% increased chance to avoid Honour loss from Enemy Melee Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased chance to Avoid Resolve Loss from Enemy Projectile Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Chance to be afflicted by Ailments when Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_892489594"]}}}
+{"ref":"#% increased chance to Ignite","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2968503605"]}}}
+{"ref":"#% increased chance to inflict Ailments","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1772247089"]}}}
+{"ref":"#% increased chance to Shock","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_293638271"]}}}
+{"ref":"#% increased Chaos Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_736967255"]}}}
+{"ref":"#% increased Charges","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1366840608"]}}}
+{"ref":"#% increased Charges gained","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3196823591"]}}}
+{"ref":"#% increased Charges per use","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_388617051"]}}}
+{"ref":"#% increased Charm Charges gained","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3585532255"],"implicit":["implicit.stat_3585532255"]}}}
+{"ref":"#% increased Charm Effect Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1389754388"],"implicit":["implicit.stat_1389754388"]}}}
+{"ref":"#% increased Chill Duration on Enemies","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3485067555"]}}}
+{"ref":"#% increased Cold Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3291658075"]}}}
+{"ref":"#% increased Cooldown Recovery Rate","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1004011302"]}}}
+{"ref":"#% increased Critical Damage Bonus","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3556824919"]}}}
+{"ref":"#% increased Critical Damage Bonus for Attack Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3714003708"]}}}
+{"ref":"#% increased Critical Hit Chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_587431675"]}}}
+{"ref":"#% increased Critical Hit Chance for Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2194114101"],"implicit":["implicit.stat_2194114101"]}}}
+{"ref":"#% increased Critical Hit Chance for Spells","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_737908626"]}}}
+{"ref":"#% increased Critical Spell Damage Bonus","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_274716455"]}}}
+{"ref":"#% increased Crossbow Reload Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3192728503"]}}}
+{"ref":"#% increased Culling Strike Threshold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3563080185"]}}}
+{"ref":"#% increased Curse Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3824372849"]}}}
+{"ref":"#% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2154246560"]}}}
+{"ref":"#% increased Damage against Enemies with Fully Broken Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2301718443"]}}}
+{"ref":"#% increased Damage if you have Consumed a Corpse Recently","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2118708619"]}}}
+{"ref":"#% increased Damage while you have an active Charm","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_627767961"]}}}
+{"ref":"#% increased Damage with Bow Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1241625305"]}}}
+{"ref":"#% increased Damage with Bows","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4188894176"]}}}
+{"ref":"#% increased Damage with Crossbows","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_427684353"]}}}
+{"ref":"#% increased Damage with Hits against Rare and Unique Enemies","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1852872083"]}}}
+{"ref":"#% increased Damage with Maces","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1181419800"]}}}
+{"ref":"#% increased Damage with Quarterstaves","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4045894391"]}}}
+{"ref":"#% increased Damage with Warcries","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1594812856"]}}}
+{"ref":"#% increased Daze Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1949833742"]}}}
+{"ref":"#% increased Defences","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Defences from Equipped Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1215155013"]}}}
+{"ref":"#% increased Dexterity","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4139681126"]}}}
+{"ref":"#% increased Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2541588185"]}}}
+{"ref":"#% increased Duration of Curses on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2920970371"]}}}
+{"ref":"#% increased Duration of Damaging Ailments on Enemies","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1829102168"]}}}
+{"ref":"#% increased Duration of Ignite, Shock and Chill on Enemies","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1062710370"]}}}
+{"ref":"#% increased Effect of Auras from your Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_315791320"]}}}
+{"ref":"#% increased Effect of Small Passive Skills in Radius","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1060572482"]}}}
+{"ref":"#% increased Effect of Withered","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2545584555"]}}}
+{"ref":"#% increased Effect of your Curses","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2353576063"]}}}
+{"ref":"#% increased Effect of your Mark Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_712554801"]}}}
+{"ref":"#% increased Elemental Ailment Threshold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3544800472"],"implicit":["implicit.stat_3544800472"]}}}
+{"ref":"#% increased Elemental Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3141070085"]}}}
+{"ref":"#% increased Elemental Damage with Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_387439868"]}}}
+{"ref":"#% increased Endurance Charge Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1170174456"]}}}
+{"ref":"#% increased Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4015621042"]}}}
+{"ref":"#% increased Energy Shield from Equipped Focus","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3174700878"]}}}
+{"ref":"#% increased Energy Shield Recharge Rate","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2339757871"]}}}
+{"ref":"#% increased Evasion and Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1999113824"]}}}
+{"ref":"#% increased Evasion Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_124859000"]}}}
+{"ref":"#% increased Evasion Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2106365538"]}}}
+{"ref":"#% increased Evasion Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Evasion Rating if you have been Hit Recently","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1073310669"]}}}
+{"ref":"#% increased Evasion Rating if you've Dodge Rolled Recently","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1040569494"]}}}
+{"ref":"#% increased Evasion Rating when on Full Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_88817332"]}}}
+{"ref":"#% increased Experience gain","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_57434274"]}}}
+{"ref":"#% increased Experience gain","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3666934677"]}}}
+{"ref":"#% increased Explosive Placement Range","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1539368271"],"implicit":["implicit.stat_1539368271"]}}}
+{"ref":"#% increased Explosive Radius","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3289828378"],"implicit":["implicit.stat_3289828378"]}}}
+{"ref":"#% increased Fire Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3962278098"]}}}
+{"ref":"#% increased Flask Charges gained","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1836676211"],"implicit":["implicit.stat_1836676211"]}}}
+{"ref":"#% increased Flask Effect Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3741323227"]}}}
+{"ref":"#% increased Flask Life Recovery rate","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_51994685"]}}}
+{"ref":"#% increased Flask Mana Recovery rate","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1412217137"]}}}
+{"ref":"#% increased Freeze Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_473429811"]}}}
+{"ref":"#% increased Freeze Buildup with Quarterstaves","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1697447343"]}}}
+{"ref":"#% increased Freeze Threshold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3780644166"]}}}
+{"ref":"#% increased Global Defences","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1389153006"]}}}
+{"ref":"#% increased Global Defences per Socketed Rune or Soul Core","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1225174187"]}}}
+{"ref":"#% increased Global Physical Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1310194496"]}}}
+{"ref":"#% increased Gold found in this Area","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1133965702"]}}}
+{"ref":"#% increased Honour restored","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Ignite Duration on Enemies","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1086147743"]}}}
+{"ref":"#% increased Intelligence","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_656461285"]}}}
+{"ref":"#% increased Knockback Distance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_565784293"]}}}
+{"ref":"#% increased Life and Mana Recovery from Flasks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2310741722"]}}}
+{"ref":"#% increased Life Flask Charges gained","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4009879772"]}}}
+{"ref":"#% increased Life Recovered","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1261982764"]}}}
+{"ref":"#% increased Life Recovery from Flasks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_821241191"],"implicit":["implicit.stat_821241191"]}}}
+{"ref":"#% increased Life Regeneration rate","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_44972811"]}}}
+{"ref":"#% increased Light Radius","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1263695895"]}}}
+{"ref":"#% increased Lightning Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2231156303"]}}}
+{"ref":"#% increased Magic Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3873704640"]}}}
+{"ref":"#% increased Magic Pack Size","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1714706956"]}}}
+{"ref":"#% increased Magnitude of Ailments you inflict","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1303248024"]}}}
+{"ref":"#% increased Magnitude of Bleeding you inflict","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3166958180"]}}}
+{"ref":"#% increased Magnitude of Chill you inflict","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_828179689"]}}}
+{"ref":"#% increased Magnitude of Damaging Ailments you inflict with Critical Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_440490623"]}}}
+{"ref":"#% increased Magnitude of Ignite you inflict","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3791899485"]}}}
+{"ref":"#% increased Magnitude of Poison you inflict","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2487305362"]}}}
+{"ref":"#% increased Magnitude of Shock you inflict","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2527686725"]}}}
+{"ref":"#% increased Mana Flask Charges gained","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3590792340"]}}}
+{"ref":"#% increased Mana Recovered","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1811130680"]}}}
+{"ref":"#% increased Mana Recovery from Flasks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2222186378"],"implicit":["implicit.stat_2222186378"]}}}
+{"ref":"#% increased Mana Regeneration Rate","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_789117908"],"implicit":["implicit.stat_789117908"]}}}
+{"ref":"#% increased Mana Regeneration Rate per Fragile Regrowth","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_344174146"]}}}
+{"ref":"#% increased Mana Regeneration Rate while stationary","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3308030688"]}}}
+{"ref":"#% increased maximum Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2482852589"]}}}
+{"ref":"#% increased maximum Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased maximum Honour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased maximum Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_983749596"]}}}
+{"ref":"#% increased maximum Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Maximum Life per socketed Grand Spectrum","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_332217711"]}}}
+{"ref":"#% increased Maximum Life per Socketed Rune or Soul Core","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2702182380"]}}}
+{"ref":"#% increased maximum Mana","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2748665614"]}}}
+{"ref":"#% increased Maximum Mana per Socketed Rune or Soul Core","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_911712882"]}}}
+{"ref":"#% increased Melee Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1002362373"]}}}
+{"ref":"#% increased Merchant Prices","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Minion Accuracy Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1718147982"]}}}
+{"ref":"#% increased Monster Attack Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1913583994"]}}}
+{"ref":"#% increased Monster Cast Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2488361432"]}}}
+{"ref":"#% increased Monster Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1890519597"]}}}
+{"ref":"#% increased Monster Movement Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2306522833"]}}}
+{"ref":"#% increased Movement Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2250533757"],"implicit":["implicit.stat_2250533757"]}}}
+{"ref":"#% increased Movement Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Movement Speed per Frenzy Charge","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1541516339"]}}}
+{"ref":"#% increased Movement Speed when on Full Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3393547195"]}}}
+{"ref":"#% increased Movement Speed while affected by an Ailment","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_610276769"]}}}
+{"ref":"#% increased number of Explosives","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_3051490307"]}}}
+{"ref":"#% increased number of Monster Packs","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2624927319"]}}}
+{"ref":"#% increased number of Rare Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3793155082"]}}}
+{"ref":"#% increased Pack size","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2017682521"]}}}
+{"ref":"#% increased Physical Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1509134228"]}}}
+{"ref":"#% increased Pin Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3473929743"]}}}
+{"ref":"#% increased Poison Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2011656677"]}}}
+{"ref":"#% increased Poison Duration on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3301100256"]}}}
+{"ref":"#% increased Presence Area of Effect","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_101878827"]}}}
+{"ref":"#% increased Projectile Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1839076647"]}}}
+{"ref":"#% increased Projectile Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3759663284"]}}}
+{"ref":"#% increased quantity of Artifacts dropped by Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4219583418"],"implicit":["implicit.stat_4219583418"]}}}
+{"ref":"#% increased Quantity of Expedition Logbooks dropped by Runic Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1083387327"]}}}
+{"ref":"#% increased Quantity of Gold Dropped by Slain Enemies","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3175163625"]}}}
+{"ref":"#% increased Quantity of Items found in this Area","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2390685262"]}}}
+{"ref":"#% increased quantity of Keys dropped by Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased quantity of Relics dropped by Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Range","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_548198834"]}}}
+{"ref":"#% increased Rarity of Items found","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3917489142"],"implicit":["implicit.stat_3917489142"]}}}
+{"ref":"#% increased Rarity of Items found in this Area","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2306002879"]}}}
+{"ref":"#% increased Rarity of Items found per Socketed Rune or Soul Core","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_313223231"]}}}
+{"ref":"#% increased Rarity of Items found when on Low Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2929867083"]}}}
+{"ref":"#% increased Recovery rate","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_173226756"]}}}
+{"ref":"#% increased Reload Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_710476746"]}}}
+{"ref":"#% increased Resolve Aegis","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Shock Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3668351662"]}}}
+{"ref":"#% increased Skill Effect Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3377888098"]}}}
+{"ref":"#% increased Skill Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_970213192"]}}}
+{"ref":"#% increased Slowing Potency of Debuffs on You","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_924253255"],"implicit":["implicit.stat_924253255"]}}}
+{"ref":"#% increased Slowing Potency of Debuffs on You","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% increased Spell Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2974417149"]}}}
+{"ref":"#% increased Spell Damage per 10 Spirit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2412053423"]}}}
+{"ref":"#% increased Spell Physical Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2768835289"]}}}
+{"ref":"#% increased Spirit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3984865854"]}}}
+{"ref":"#% increased Stack size of Simulacrum Splinters found in Area","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2301218725"]}}}
+{"ref":"#% increased Strength","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_734614379"]}}}
+{"ref":"#% increased Strength Requirement","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_295075366"]}}}
+{"ref":"#% increased Stun Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_239367161"]}}}
+{"ref":"#% increased Stun Buildup with Maces","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_872504239"]}}}
+{"ref":"#% increased Stun Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_748522257"]}}}
+{"ref":"#% increased Stun Recovery","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2511217560"]}}}
+{"ref":"#% increased Stun Threshold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_680068163"],"implicit":["implicit.stat_680068163"]}}}
+{"ref":"#% increased Stun Threshold if you haven't been Stunned Recently","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1405298142"]}}}
+{"ref":"#% increased Thorns damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1315743832"]}}}
+{"ref":"#% increased Totem Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3851254963"]}}}
+{"ref":"#% increased Totem Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_686254215"]}}}
+{"ref":"#% increased Totem Placement speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3374165039"]}}}
+{"ref":"#% increased Warcry Buff Effect","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3037553757"]}}}
+{"ref":"#% increased Warcry Cooldown Recovery Rate","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4159248054"]}}}
+{"ref":"#% increased Warcry Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1316278494"]}}}
+{"ref":"#% increased Weapon Damage per 5 Strength","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_868290738"]}}}
+{"ref":"#% increased Weapon Swap Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3233599707"]}}}
+{"ref":"#% less Damage taken if you have not been Hit Recently","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_67637087"]}}}
+{"ref":"#% less effect of Curses on Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3796523155"]}}}
+{"ref":"#% less minimum Physical Attack Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1715495976"]}}}
+{"ref":"#% less Movement and Skill Speed per Dodge Roll in the past 20 seconds","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3156445245"]}}}
+{"ref":"#% maximum Player Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3376488707"]}}}
+{"ref":"#% more Attack Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_412462523"]}}}
+{"ref":"#% more maximum Physical Attack Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3029185248"]}}}
+{"ref":"#% more Monster Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_95249895"]}}}
+{"ref":"#% more Recovery if used while on Low Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_886931978"]}}}
+{"ref":"#% more Recovery if used while on Low Mana","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3276224428"]}}}
+{"ref":"#% of Armour applies to Elemental Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3362812763"]}}}
+{"ref":"#% of Cold Damage Converted to Lightning Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1686824704"]}}}
+{"ref":"#% of Damage is taken from Mana before Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_458438597"]}}}
+{"ref":"#% of Damage taken bypasses Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2448633171"]}}}
+{"ref":"#% of Damage taken Recouped as Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1444556985"]}}}
+{"ref":"#% of Damage taken Recouped as Mana","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_472520716"]}}}
+{"ref":"#% of Elemental Damage Converted to Chaos Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2295988214"]}}}
+{"ref":"#% of Elemental Damage Converted to Cold Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_210092264"]}}}
+{"ref":"#% of Elemental Damage Converted to Fire Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_40154188"]}}}
+{"ref":"#% of Elemental Damage Converted to Lightning Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_289540902"]}}}
+{"ref":"#% of Fire Damage Converted to Cold Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3503160529"]}}}
+{"ref":"#% of Fire Damage from Hits taken as Physical Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3205239847"]}}}
+{"ref":"#% of Flask Recovery applied Instantly","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_462041840"]}}}
+{"ref":"#% of Life Regenerated per second per Fragile Regrowth","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3175722882"]}}}
+{"ref":"#% of Lightning Damage Converted to Cold Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3627052716"]}}}
+{"ref":"#% of Maximum Life Converted to Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2458962764"]}}}
+{"ref":"#% of Melee Physical Damage taken reflected to Attacker","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1092987622"]}}}
+{"ref":"#% of Physical Damage prevented Recouped as Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1374654984"]}}}
+{"ref":"#% of Physical Damage taken as Fire Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1004468512"]}}}
+{"ref":"#% of Recovery applied Instantly","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2503377690"]}}}
+{"ref":"#% of Skill Mana Costs Converted to Life Costs","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2480498143"]}}}
+{"ref":"#% of Spell Damage Leeched as Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_782941180"]}}}
+{"ref":"#% of Spell Mana Cost Converted to Life Cost","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3544050945"]}}}
+{"ref":"#% of your Life Regeneration is granted to Allies in your Presence","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4287671144"]}}}
+{"ref":"#% reduced Charm Charges used","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1570770415"],"implicit":["implicit.stat_1570770415"]}}}
+{"ref":"#% reduced Chill Duration on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1874553720"]}}}
+{"ref":"#% reduced Effect of Chill on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1478653032"]}}}
+{"ref":"#% reduced effect of Ignite on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1269971728"]}}}
+{"ref":"#% reduced effect of Shock on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3801067695"]}}}
+{"ref":"#% reduced Enemy Stun Threshold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1443060084"]}}}
+{"ref":"#% reduced Flask Charges used","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_644456512"],"implicit":["implicit.stat_644456512"]}}}
+{"ref":"#% reduced Freeze Duration on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2160282525"]}}}
+{"ref":"#% reduced Ignite Duration on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_986397080"]}}}
+{"ref":"#% reduced Mana Cost of Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_474294393"]}}}
+{"ref":"#% reduced Shock duration on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_99927264"]}}}
+{"ref":"#% Resolve Mitigation from Enemy Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% to all Elemental Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2901986750"],"implicit":["implicit.stat_2901986750"]}}}
+{"ref":"#% to all Elemental Resistances per socketed Grand Spectrum","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_242161915"]}}}
+{"ref":"#% to all Maximum Elemental Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1978899297"],"implicit":["implicit.stat_1978899297"]}}}
+{"ref":"#% to All Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% to Block chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1702195217"],"implicit":["implicit.stat_1702195217"]}}}
+{"ref":"#% to Chaos Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2923486259"],"implicit":["implicit.stat_2923486259"]}}}
+{"ref":"#% to Cold Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4220027924"],"implicit":["implicit.stat_4220027924"]}}}
+{"ref":"#% to Critical Damage Bonus","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2694482655"],"implicit":["implicit.stat_2694482655"]}}}
+{"ref":"#% to Critical Damage Bonus per Power Charge","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4164870816"]}}}
+{"ref":"#% to Critical Hit Chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_518292764"]}}}
+{"ref":"#% to Fire Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3372524247"],"implicit":["implicit.stat_3372524247"]}}}
+{"ref":"#% to Fire Resistance while on Low Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_38301299"]}}}
+{"ref":"#% to Honour Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% to Lightning Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1671376347"],"implicit":["implicit.stat_1671376347"]}}}
+{"ref":"#% to maximum Block chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_480796730"]}}}
+{"ref":"#% to Maximum Chaos Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1301765461"]}}}
+{"ref":"#% to Maximum Cold Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3676141501"]}}}
+{"ref":"#% to Maximum Fire Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4095671657"]}}}
+{"ref":"#% to Maximum Honour Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"#% to Maximum Lightning Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1011760251"]}}}
+{"ref":"#% to Monster Critical Damage Bonus","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_57326096"]}}}
+{"ref":"#% to Thorns Critical Hit Chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2715190555"]}}}
+{"ref":"+# to Spirit per Socketed Rune or Soul Core","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4163415912"]}}}
+{"ref":"+#% Monster Elemental Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1054098949"]}}}
+{"ref":"+#% to all Elemental Resistances per Socketed Rune or Soul Core","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2593651571"]}}}
+{"ref":"1% increased Movement Speed per # Evasion Rating\nOther Modifiers to Movement Speed do not apply","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3881997959"]}}}
+{"ref":"Accuracy Rating is Doubled","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2161347476"]}}}
+{"ref":"Adds # to # Chaos Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Adds # to # Chaos Damage to Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_674553446"]}}}
+{"ref":"Adds # to # Cold Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1037193709"]}}}
+{"ref":"Adds # to # Cold damage to Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4067062424"]}}}
+{"ref":"Adds # to # Fire Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_709508406"]}}}
+{"ref":"Adds # to # Fire damage to Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1573130764"],"implicit":["implicit.stat_1573130764"]}}}
+{"ref":"Adds # to # Lightning Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3336890334"]}}}
+{"ref":"Adds # to # Lightning damage to Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1754445556"]}}}
+{"ref":"Adds # to # Lightning Damage to Attacks per 10 Intelligence","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3168149399"]}}}
+{"ref":"Adds # to # Physical Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1940865751"]}}}
+{"ref":"Adds # to # Physical Damage to Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3032590688"],"implicit":["implicit.stat_3032590688"]}}}
+{"ref":"Aggravate Bleeding on Enemies when they Enter your Presence","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_874646180"]}}}
+{"ref":"All Damage from Hits Contributes to Poison Magnitude","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4012215578"]}}}
+{"ref":"All Damage from Hits with this Weapon Contributes to Freeze Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3761294489"]}}}
+{"ref":"All damage with this Weapon causes Electrocution buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1910743684"]}}}
+{"ref":"Allies in your Presence deal # to # additional Attack Cold Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2347036682"]}}}
+{"ref":"Allies in your Presence deal # to # additional Attack Fire Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_849987426"]}}}
+{"ref":"Allies in your Presence deal # to # additional Attack Lightning Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2854751904"]}}}
+{"ref":"Allies in your Presence deal # to # additional Attack Physical Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1574590649"]}}}
+{"ref":"Allies in your Presence deal #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1798257884"]}}}
+{"ref":"Allies in your Presence have # to Accuracy Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3169585282"]}}}
+{"ref":"Allies in your Presence have #% increased Attack Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1998951374"]}}}
+{"ref":"Allies in your Presence have #% increased Cast Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_289128254"]}}}
+{"ref":"Allies in your Presence have #% increased Critical Damage Bonus","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3057012405"]}}}
+{"ref":"Allies in your Presence have #% increased Critical Hit Chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1250712710"]}}}
+{"ref":"Allies in your Presence have #% to all Elemental Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3850614073"]}}}
+{"ref":"Allies in your Presence have Block Chance equal to yours","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1361645249"]}}}
+{"ref":"Allies in your Presence Regenerate # Life per second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4010677958"]}}}
+{"ref":"Allocates #","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Alternating every 5 seconds:\nTake #% more Damage from Hits\nTake #% more Damage over time","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_258955603"]}}}
+{"ref":"Always deals Critical Hits against Heavy Stunned Enemies","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2214130968"]}}}
+{"ref":"An additional Room is revealed on the Trial Map","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Apply Fire Exposure when fully breaking enemy Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3439162551"]}}}
+{"ref":"Area contains # additional Chest Marker","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_4160330571"]}}}
+{"ref":"Area contains # additional packs of Beasts","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3757259819"]}}}
+{"ref":"Area contains # additional packs of Bramble Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3309089125"]}}}
+{"ref":"Area contains # additional packs of Ezomyte Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1436812886"]}}}
+{"ref":"Area contains # additional packs of Faridun Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4130878258"]}}}
+{"ref":"Area contains # additional packs of Iron Guards","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2949706590"]}}}
+{"ref":"Area contains # additional packs of Plagued Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3592067990"]}}}
+{"ref":"Area contains # additional packs of Transcended Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1689473577"]}}}
+{"ref":"Area contains # additional packs of Undead","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_240445958"]}}}
+{"ref":"Area contains # additional packs of Vaal Monsters","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4181857719"]}}}
+{"ref":"Area contains #% increased number of Monster Markers","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1915989164"]}}}
+{"ref":"Area contains #% increased number of Remnants","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_2991413918"]}}}
+{"ref":"Area contains #% increased number of Runic Monster Markers","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1640965354"],"implicit":["implicit.stat_1640965354"]}}}
+{"ref":"Area contains an additional Essence","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_395808938"]}}}
+{"ref":"Area contains an additional Shrine","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1468737867"]}}}
+{"ref":"Area contains an additional Strongbox","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3240183538"]}}}
+{"ref":"Area contains an additional Underground Area","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1160596338"]}}}
+{"ref":"Area has patches of Burning Ground","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_133340941"]}}}
+{"ref":"Area has patches of Chilled Ground","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_349586058"]}}}
+{"ref":"Area has patches of Shocked Ground","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3477720557"]}}}
+{"ref":"Armour also applies to Lightning damage taken from Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2134207902"]}}}
+{"ref":"Armour is increased by Overcapped Fire Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2129352930"]}}}
+{"ref":"Attacks Chain an additional time","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3868118796"]}}}
+{"ref":"Attacks Gain #% of Damage as Extra Cold Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1484500028"]}}}
+{"ref":"Attacks Gain #% of Damage as Extra Fire Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1049080093"]}}}
+{"ref":"Attacks Gain #% of Physical Damage as extra Chaos Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_261503687"]}}}
+{"ref":"Attacks have #% chance to cause Bleeding","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_2055966527"]}}}
+{"ref":"Attacks with this Weapon Penetrate #% Elemental Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Aureus Coins are converted to Experience upon defeating the Herald of the Scourge","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Aureus Coins are converted to Relics upon defeating the Herald of the Scourge","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Aureus Coins are converted to Tainted Currency upon defeating the Herald of the Scourge","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Base Critical Hit Chance for Attacks with Weapons is #%","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2635559734"]}}}
+{"ref":"Bleeding you inflict is Aggravated","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_841429130"]}}}
+{"ref":"Blind Chilled enemies on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3450276548"]}}}
+{"ref":"Block chance is Lucky","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1469179771"]}}}
+{"ref":"Blocking Damage Poisons the Enemy as though dealing # Base Chaos Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4195198267"]}}}
+{"ref":"Blood Magic","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2801937280"]}}}
+{"ref":"Bosses deal #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Bosses take #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Bow Attacks fire # additional Arrows","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3885405204"],"implicit":["implicit.stat_3885405204"]}}}
+{"ref":"Breaches have #% increased Monster density","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1210760818"]}}}
+{"ref":"Breaches in Area contain # additional Clasped Hand","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2224050171"]}}}
+{"ref":"Breaches open and close #% faster","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2504358770"]}}}
+{"ref":"Break #% increased Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1776411443"]}}}
+{"ref":"Can Block damage from all Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3902042119"]}}}
+{"ref":"Can't use other Rings","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_64726306"]}}}
+{"ref":"Cannot be Blinded","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Cannot be Ignited","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_331731406"]}}}
+{"ref":"Cannot be Poisoned","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3835551335"]}}}
+{"ref":"Cannot be Shocked","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_491899612"]}}}
+{"ref":"Cannot be used with Trials below level #","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Cannot have Boons","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Cannot have Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_410952253"]}}}
+{"ref":"Cannot restore Honour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Cannot use Shield Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_65135897"]}}}
+{"ref":"Causes #% increased Stun Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_791928121"],"implicit":["implicit.stat_791928121"]}}}
+{"ref":"Causes Bleeding on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2091621414"]}}}
+{"ref":"Causes Daze buildup equal to #% of Damage dealt","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1559935218"],"implicit":["implicit.stat_1559935218"]}}}
+{"ref":"Causes Double Stun Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_769129523"]}}}
+{"ref":"Causes Enemies to Explode on Critical kill, for #% of their Life as Physical Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1541903247"]}}}
+{"ref":"Chance to Ignite is doubled","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1540254896"]}}}
+{"ref":"Chaos Damage from Hits also Contributes to Electrocute Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2315177528"]}}}
+{"ref":"Chaos Damage from Hits also Contributes to Freeze Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2973498992"]}}}
+{"ref":"Chaos Resistance is Zero","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2439129490"]}}}
+{"ref":"Charms gain # charges per Second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_185580205"]}}}
+{"ref":"Cold Damage from Hits Contributes to Ignite Chance and Magnitude instead of Chill Magnitude","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1261612903"]}}}
+{"ref":"Cold Resistance is unaffected by Area Penalties","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4207433208"]}}}
+{"ref":"Convert #% of Requirements to Dexterity","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Convert #% of Requirements to Intelligence","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Convert #% of Requirements to Strength","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Corpses in your Presence Explode when you Warcry,\ndealing #% of their Life as Physical Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3934599992"]}}}
+{"ref":"Corrupted Blood cannot be inflicted on you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Critical Hits do not deal extra Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1508661598"]}}}
+{"ref":"Critical Hits ignore Enemy Monster Elemental Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1094937621"]}}}
+{"ref":"Critical Hits Ignore Enemy Monster Lightning Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1289045485"]}}}
+{"ref":"Critical Hits Poison the enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_62849030"]}}}
+{"ref":"Culling Strike","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2524254339"]}}}
+{"ref":"Culling Strike against Frozen Enemies","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1158324489"]}}}
+{"ref":"Curses have no Activation Delay","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3751072557"]}}}
+{"ref":"Curses you inflict are reflected back to you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4275855121"]}}}
+{"ref":"Damage Blocked is Recouped as Mana","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2875218423"]}}}
+{"ref":"Damage over Time bypasses your Energy Shield\nWhile not on Full Life, Sacrifice #% of Mana per Second to Recover that much Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2894895028"]}}}
+{"ref":"Damage Penetrates #% Cold Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3417711605"]}}}
+{"ref":"Damage Penetrates #% Fire Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2653955271"]}}}
+{"ref":"Damage Penetrates #% Lightning Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_818778753"]}}}
+{"ref":"Damaging Ailments deal damage #% faster","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_538241406"]}}}
+{"ref":"Deal #% increased Damage with Hits to Rare or Unique Enemies for each second they've ever been in your Presence, up to a maximum of 200%","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4258409981"]}}}
+{"ref":"Deal #% of Overkill damage to enemies within 2 metres of the enemy killed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2301852600"]}}}
+{"ref":"Debuffs on you expire #% faster","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1238227257"]}}}
+{"ref":"Debuffs you inflict have #% increased Slow Magnitude","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Decimating Strike","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3872034802"]}}}
+{"ref":"Dodge Roll avoids all Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3518087336"]}}}
+{"ref":"Dodge Roll passes through Enemies","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1298316550"]}}}
+{"ref":"Double Stun Threshold while Shield is Raised","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3686997387"]}}}
+{"ref":"Drop Ignited Ground while moving, which lasts 8 seconds and Ignites as though dealing Fire Damage equal to #% of your maximum Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2356156926"]}}}
+{"ref":"Drop Shocked Ground while moving, lasting 8 seconds","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_65133983"]}}}
+{"ref":"Duplicates up to # random Offer Reward upon defeating the Herald of the Scourge","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Eldritch Battery","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2262736444"]}}}
+{"ref":"Elemental Ailment Threshold is increased by Overcapped Chaos Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_83828836"]}}}
+{"ref":"Empowered Attacks deal #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1569101201"]}}}
+{"ref":"Enemies are Culled on Block","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_381470861"]}}}
+{"ref":"Enemies Chilled by your Hits can be Shattered as though Frozen","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3119292058"]}}}
+{"ref":"Enemies Chilled by your Hits increase damage taken by Chill Magnitude","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1816894864"]}}}
+{"ref":"Enemies Frozen by you take #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_849085925"]}}}
+{"ref":"Enemies Ignited by you take Chaos Damage instead of Fire Damage from Ignite","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2714810050"]}}}
+{"ref":"Enemies Immobilised by you take #% less Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1613322341"]}}}
+{"ref":"Enemies in your Presence are Blinded","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1464727508"]}}}
+{"ref":"Enemies in your Presence are Ignited as though dealt # Base Fire Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1433051415"]}}}
+{"ref":"Enemies in your Presence gain Critical Weakness every second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3587857709"]}}}
+{"ref":"Enemies in your Presence have Fire Exposure","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1069772386"]}}}
+{"ref":"Enemies in your Presence have Lightning Resistance equal to yours","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1546580830"]}}}
+{"ref":"Enemies killed by anyone in your Presence count as being killed by you instead","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1576794517"]}}}
+{"ref":"Energy Generation is doubled","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_793801176"]}}}
+{"ref":"Energy Shield is increased by Overcapped Cold Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3377256514"]}}}
+{"ref":"Energy Shield Recharge is not interrupted by Damage if Recharge began Recently","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1419390131"]}}}
+{"ref":"Energy Shield Recharge starts when you use a Mana Flask","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2402413437"]}}}
+{"ref":"Equipment and Skill Gems have #% increased Attribute Requirements","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_752930724"]}}}
+{"ref":"Evasion Rating is increased by Overcapped Lightning Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3924187855"]}}}
+{"ref":"Every 3 seconds, Consume a nearby Corpse to Recover #% of Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3764198549"]}}}
+{"ref":"Every 4 seconds, Recover 1 Life for every # Life Recovery per second from Regeneration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1457411584"]}}}
+{"ref":"Every Rage also grants #% increased Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2995914769"]}}}
+{"ref":"Every Rage also grants #% increased Stun Threshold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_352044736"]}}}
+{"ref":"Excavated Chests have a #% chance to contain twice as many Items","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_3239978999"]}}}
+{"ref":"Excess Life Recovery from Leech is applied to Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_999436592"]}}}
+{"ref":"Expeditions in Area have # Remnants","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3753446846"]}}}
+{"ref":"Fire Damage from Hits Contributes to Shock Chance instead of Ignite Chance and Magnitude","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2949096603"]}}}
+{"ref":"Fire Resistance is unaffected by Area Penalties","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3247805335"]}}}
+{"ref":"Flasks gain # charges per Second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_731781020"]}}}
+{"ref":"Fountains have #% chance to grant double Sacred Water","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Freeze as though dealing Cold damage equal to #% of your maximum Mana when Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2006107135"]}}}
+{"ref":"Freezes Enemies that are on Full Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2260055669"]}}}
+{"ref":"Gain # Fragile Regrowth each second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3841984913"]}}}
+{"ref":"Gain # Guard during Effect","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2676834156"]}}}
+{"ref":"Gain # Life per Enemy Hit with Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2797971005"],"implicit":["implicit.stat_2797971005"]}}}
+{"ref":"Gain # Life per Enemy Killed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3695891184"]}}}
+{"ref":"Gain # Mana per Enemy Hit with Attacks","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_820939409"]}}}
+{"ref":"Gain # Mana per Enemy Killed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1368271171"]}}}
+{"ref":"Gain # Rage on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Gain # Rage on Melee Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2709367754"]}}}
+{"ref":"Gain # Rage when Critically Hit by an Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1466716929"]}}}
+{"ref":"Gain # Rage when Hit by an Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3292710273"]}}}
+{"ref":"Gain # Sacred Water at the start of the Trial","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Gain # Sacred Water when you complete a Room","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Gain #% of Damage as Chaos Damage per Undead Minion","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_997343726"]}}}
+{"ref":"Gain #% of Damage as Extra Chaos Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3398787959"]}}}
+{"ref":"Gain #% of Damage as Extra Cold Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2505884597"]}}}
+{"ref":"Gain #% of Damage as Extra Fire Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3015669065"]}}}
+{"ref":"Gain #% of Damage as Extra Lightning Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3278136794"]}}}
+{"ref":"Gain #% of maximum Energy Shield as additional Stun Threshold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_416040624"]}}}
+{"ref":"Gain #% of Maximum Life as Extra Maximum Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1228337241"]}}}
+{"ref":"Gain #% of Maximum Mana as Extra Maximum Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3027830452"]}}}
+{"ref":"Gain 0% to #% increased Movement Speed at random when Hit, until Hit again","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_796381300"]}}}
+{"ref":"Gains # Charges per Second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1873752457"]}}}
+{"ref":"Giant's Blood","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1875158664"]}}}
+{"ref":"Grants # Life per Enemy Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_821021828"]}}}
+{"ref":"Grants #% of Life Recovery to Minions","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2416869319"]}}}
+{"ref":"Grants 1 additional Skill Slot","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_958696139"]}}}
+{"ref":"Grants Skill: Level # Bone Blast","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Cast on Block","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Chaos Bolt","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Decompose","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Discipline","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Ember Fusillade","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Firebolt","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Freezing Shards","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Lightning Bolt","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Living Bomb","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Malice","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Mana Drain","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Power Siphon","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Purity of Fire","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Purity of Ice","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Purity of Lightning","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Raise Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Sigil of Power","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Skeletal Warrior Minion","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Spark","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grants Skill: Level # Volatile Dead","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Grenade Skills Fire an additional Projectile","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1980802737"]}}}
+{"ref":"Has ","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Adrenaline Vial","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Ahkeli's Guard","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has All-Seeing Eye","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Assassin's Blade","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Balbala's Gift","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Black Pearl","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Black Smoke","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Blunt Sword","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Branded Balbalakh","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Chains of Binding","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Chipped Dice","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Chiselled Stone","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Corrosive Concoction","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Costly Aid","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Crystal Shard","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Dark Pit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Deadly Snare","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Death Toll","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Deceptive Mirror","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Dekhara's Necklace","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Dishonoured Tattoo","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Diverted River","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Earned Honour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Enchanted Urn","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Exhausted Wells","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Fiendish Wings","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Flooding Rivers","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Forgotten Traditions","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Fountain of Youth","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Fright Mask","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Garukhan's Favour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Gate Toll","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Ghastly Scythe","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Glass Shard","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Glowing Orb","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Golden Smoke","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Haemorrhage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Hare Foot","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Holy Water","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Honed Claws","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Honoured Challenger","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Hungry Fangs","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Imperial Seal","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Iron Manacles","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Leaking Waterskin","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Low Rivers","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Lustrous Lacquer","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Lustrous Pearl","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Mirror of Fortune","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Moment's Peace","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Myriad Aspersions","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Orb of Negation","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Orbala Statuette","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Orbala's Leathers","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Ornate Dagger","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Pledge to the Afflicted","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Pledge to the Deserted","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Pledge to the Guileful","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Pledge to the Powerful","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Purple Smoke","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Raincaller","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Rapid Quicksand","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Red Smoke","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Reparations","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Rusted Mallet","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Sacred Mirror","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Sanguine Vial","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Scrying Crystal","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Season of Famine","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Sekhema's Cloak","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Sharpened Arrowhead","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Shattered Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Silver Chalice","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Silver Tongue","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Spiked Exit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Spiked Shell","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Suspected Sympathiser","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Tattered Blindfold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Trade Tariff","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Tradition's Demand","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Unassuming Brick","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Unquenched Thirst","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Untouchable","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has UNUSED","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Upward Path","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Veiled Sight","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Viscous Ichor","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Weakened Flesh","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Winter Drought","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Wooden Effigy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Has Worn Sandals","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Herald Skills deal #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_21071013"]}}}
+{"ref":"Hits against you have #% reduced Critical Damage Bonus","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3855016469"]}}}
+{"ref":"Hits against you have #% reduced Critical Damage Bonus","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Hits Break # Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_289086688"]}}}
+{"ref":"Ignites you inflict spread to other Enemies that stay within 1.5 metres for 2 seconds","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3314057862"]}}}
+{"ref":"Immobilise enemies at #% buildup instead of 100%","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4238331303"]}}}
+{"ref":"Immune to Maim","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Increases and Reductions to Minion Attack Speed also affect you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2293111154"]}}}
+{"ref":"Increases and Reductions to Minion Damage also affect you","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1631928082"]}}}
+{"ref":"Inflict Cold Exposure on Igniting an Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3314536008"]}}}
+{"ref":"Inflict Fire Exposure on Shocking an Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1538879632"]}}}
+{"ref":"Inflict Lightning Exposure on Critical Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2665488635"]}}}
+{"ref":"Instant Recovery","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1526933524"]}}}
+{"ref":"Intelligence provides no inherent bonus to Maximum Mana","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2546599258"]}}}
+{"ref":"Iron Grip","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_573347393"]}}}
+{"ref":"Iron Reflexes","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_326965591"]}}}
+{"ref":"Iron Will","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4092697134"]}}}
+{"ref":"Leech #% of Physical Attack Damage as Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2557965901"]}}}
+{"ref":"Leech #% of Physical Attack Damage as Mana","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_707457662"]}}}
+{"ref":"Leech from Critical Hits is instant","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3389184522"]}}}
+{"ref":"Leeches #% of maximum Life when you Cast a Spell","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_335699483"]}}}
+{"ref":"Leeches #% of Physical Damage as Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_55876295"]}}}
+{"ref":"Leeches #% of Physical Damage as Mana","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_669069897"]}}}
+{"ref":"Left ring slot: Projectiles from Spells cannot Chain","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3647242059"]}}}
+{"ref":"Left ring slot: Projectiles from Spells Fork","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2437476305"]}}}
+{"ref":"Life Flasks do not recover Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_265717301"]}}}
+{"ref":"Life Flasks gain # charges per Second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1102738251"]}}}
+{"ref":"Life Flasks used while on Low Life apply Recovery Instantly","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1200347828"]}}}
+{"ref":"Life Leech can Overflow Maximum Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2714890129"]}}}
+{"ref":"Life Recharges","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3971919056"]}}}
+{"ref":"Life Recovery from Flasks also applies to Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2812872407"]}}}
+{"ref":"Life Recovery from Flasks is instant","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_720388959"]}}}
+{"ref":"Life Recovery from Regeneration is not applied","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3947672598"]}}}
+{"ref":"Life Regeneration is applied to Energy Shield instead","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_632761194"]}}}
+{"ref":"Lightning damage from Hits Contributes to Electrocution Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1017648537"]}}}
+{"ref":"Lightning Damage from Hits Contributes to Freeze Buildup instead of Shock Chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1011772129"]}}}
+{"ref":"Lightning Damage of Enemies Hitting you is Lucky","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4224965099"]}}}
+{"ref":"Lightning Resistance does not affect Lightning damage taken","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3999959974"]}}}
+{"ref":"Lightning Resistance is unaffected by Area Penalties","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3631920880"]}}}
+{"ref":"Loads an additional bolt","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1039380318"],"implicit":["implicit.stat_1039380318"]}}}
+{"ref":"Lose # Life when you use a Skill","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1902409192"]}}}
+{"ref":"Lose all Fragile Regrowth when Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1306791873"]}}}
+{"ref":"Lose all Power Charges on reaching maximum Power Charges","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2135899247"]}}}
+{"ref":"Maim on Critical Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2895144208"]}}}
+{"ref":"Mana Flasks gain # charges per Second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2200293569"]}}}
+{"ref":"Mana Flasks used while on Low Mana apply Recovery Instantly","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1839832419"]}}}
+{"ref":"Map has # additional random Modifier","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_588512487"]}}}
+{"ref":"Mark Skills have #% increased Cast Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4189061307"]}}}
+{"ref":"Mark Skills have #% increased Skill Effect Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2594634307"]}}}
+{"ref":"Maximum # Fragile Regrowth","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1173537953"]}}}
+{"ref":"Maximum Honour is 1","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Maximum Quality is #%","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_275498888"]}}}
+{"ref":"Meta Skills gain #% increased Energy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4236566306"]}}}
+{"ref":"Minions deal #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1589917703"]}}}
+{"ref":"Minions gain #% of their Maximum Life as Extra Maximum Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_943702197"]}}}
+{"ref":"Minions have #% additional Physical Damage Reduction","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3119612865"]}}}
+{"ref":"Minions have #% increased Area of Effect","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3811191316"]}}}
+{"ref":"Minions have #% increased Attack and Cast Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3091578504"]}}}
+{"ref":"Minions have #% increased Critical Damage Bonus","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1854213750"]}}}
+{"ref":"Minions have #% increased Critical Hit Chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_491450213"]}}}
+{"ref":"Minions have #% increased maximum Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_770672621"]}}}
+{"ref":"Minions have #% to all Elemental Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1423639565"]}}}
+{"ref":"Minions have #% to Chaos Resistance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3837707023"]}}}
+{"ref":"Minions Revive #% faster","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2639966148"]}}}
+{"ref":"Minions' Resistances are equal to yours","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3045072899"]}}}
+{"ref":"Modifiers to Maximum Block Chance instead apply to Maximum Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3679696791"]}}}
+{"ref":"Monster Damage Penetrates #% Elemental Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1898978455"]}}}
+{"ref":"Monsters are Armoured","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2539290279"]}}}
+{"ref":"Monsters are Evasive","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2570249991"]}}}
+{"ref":"Monsters Break Armour equal to #% of Physical Damage dealt","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1879340377"]}}}
+{"ref":"Monsters deal #% of Damage as Extra Chaos","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2200661314"]}}}
+{"ref":"Monsters deal #% of Damage as Extra Cold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_211727"]}}}
+{"ref":"Monsters deal #% of Damage as Extra Fire","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_92381065"]}}}
+{"ref":"Monsters deal #% of Damage as Extra Lightning","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_512071314"]}}}
+{"ref":"Monsters fire # additional Projectiles","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1309819744"]}}}
+{"ref":"Monsters gain #% of Maximum Life as Extra Maximum Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2887760183"]}}}
+{"ref":"Monsters have #% chance to Bleed on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2506820610"]}}}
+{"ref":"Monsters have #% chance to drop double Sacred Water","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Monsters have #% chance to Poison on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_95221307"]}}}
+{"ref":"Monsters have #% chance to steal Power, Frenzy and Endurance charges on Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3222482040"]}}}
+{"ref":"Monsters have #% increased Accuracy Rating","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1588049749"]}}}
+{"ref":"Monsters have #% increased Ailment Threshold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1994551050"]}}}
+{"ref":"Monsters have #% increased Area of Effect","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1708461270"]}}}
+{"ref":"Monsters have #% increased Attack, Cast and Movement Speed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Monsters have #% increased Critical Hit Chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2753083623"]}}}
+{"ref":"Monsters have #% increased Freeze Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3998863698"]}}}
+{"ref":"Monsters have #% increased Ignite Chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2508044078"]}}}
+{"ref":"Monsters have #% increased Shock Chance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1984618452"]}}}
+{"ref":"Monsters have #% increased Stun Buildup","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_115425161"]}}}
+{"ref":"Monsters have #% increased Stun Threshold","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4101943684"]}}}
+{"ref":"Monsters Sacrificed at Ritual Altars in Area grant #% increased Tribute","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_159726667"]}}}
+{"ref":"Monsters take #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Monsters take #% reduced Extra Damage from Critical Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_337935900"]}}}
+{"ref":"Moving while Bleeding doesn't cause you to take extra damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4112450013"]}}}
+{"ref":"No Chance to Block","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1023752508"]}}}
+{"ref":"No Movement Speed Penalty while Shield is Raised","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_585231074"]}}}
+{"ref":"Offering Skills have #% increased Duration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2957407601"]}}}
+{"ref":"Offerings have #% increased Maximum Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3787460122"]}}}
+{"ref":"On Hitting an enemy, gains maximum added Lightning damage equal to\nthe enemy's Power for 6 seconds, up to a total of #","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1630111277"]}}}
+{"ref":"On-Kill Effects happen twice","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_259470957"]}}}
+{"ref":"Only affects Passives in Very Small Ring","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3642528642"]}}}
+{"ref":"Onslaught","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1520059289"]}}}
+{"ref":"Pain Attunement","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_98977150"]}}}
+{"ref":"Passives in Radius can be Allocated without being connected to your tree","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4077035099"]}}}
+{"ref":"Passives in Radius of # can be Allocated\nwithout being connected to your tree","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2422708892"]}}}
+{"ref":"Permanently Intimidate enemies on Block","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2930706364"]}}}
+{"ref":"Physical Damage is Pinning","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2041668411"]}}}
+{"ref":"Players are Cursed with Elemental Weakness","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_558910024"]}}}
+{"ref":"Players are Cursed with Enfeeble","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4103440490"]}}}
+{"ref":"Players are Cursed with Temporal Chains","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2326202293"]}}}
+{"ref":"Players gain #% reduced Flask Charges","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2549889921"]}}}
+{"ref":"Players have #% less Recovery Rate of Life and Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4181072906"]}}}
+{"ref":"Players have #% more Cooldown Recovery Rate","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_941368244"]}}}
+{"ref":"Players in Area are #% Delirious","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Presence Radius is doubled","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1810907437"]}}}
+{"ref":"Projectiles from Spells cannot Pierce","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3826125995"]}}}
+{"ref":"Projectiles have #% chance for an additional Projectile when Forking","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3003542304"]}}}
+{"ref":"Projectiles have #% chance to Chain an additional time from terrain","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4081947835"]}}}
+{"ref":"Projectiles Pierce all Ignited enemies","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2214228141"]}}}
+{"ref":"Projectiles Split towards # targets","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3464380325"]}}}
+{"ref":"Rare Monsters deal #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Rare Monsters have # additional Modifier","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2550456553"]}}}
+{"ref":"Rare Monsters have a #% chance to have an additional Modifier","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3732878551"]}}}
+{"ref":"Rare Monsters take #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Recover # Life when Used","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2365392475"]}}}
+{"ref":"Recover # Mana when Used","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1120862500"]}}}
+{"ref":"Recover #% of Life for each Endurance Charge consumed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_939832726"]}}}
+{"ref":"Recover #% of Life on Kill","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2023107756"]}}}
+{"ref":"Recover #% of Life when you Block","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2442647190"]}}}
+{"ref":"Recover #% of Mana on Kill","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1604736568"]}}}
+{"ref":"Recover #% of Mana on Kill","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1030153674"]}}}
+{"ref":"Recover #% of Missing Life before being Hit by an Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1990472846"]}}}
+{"ref":"Reflects your other Ring","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_746505085"]}}}
+{"ref":"Regenerate # Life per second per Maximum Energy Shield","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3276271783"]}}}
+{"ref":"Regenerate #% of Life per second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_836936635"],"implicit":["implicit.stat_836936635"]}}}
+{"ref":"Regenerate #% of Life per second while on Low Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3942946753"]}}}
+{"ref":"Remnants have #% chance to have an additional Suffix Modifier","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1871805225"]}}}
+{"ref":"Removes #% of Life Recovered from Mana when used","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_648019518"]}}}
+{"ref":"Removes #% of Mana Recovered from Life when used","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_959641748"]}}}
+{"ref":"Resolve Aegis Recovers #% faster while not losing Resolve","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Resolve Mitigation from Enemy Hits is based on #% of Armour","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Restore # Honour on killing a Boss","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Restore # Honour on picking up a Key","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Restore # Honour on room completion","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Restore # Honour on venerating a Maraketh Shrine","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Right ring slot: Projectiles from Spells cannot Fork","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2933024469"]}}}
+{"ref":"Right ring slot: Projectiles from Spells Chain +# times","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1555918911"]}}}
+{"ref":"Ritual Altars in Area allow rerolling Favours an additional time","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_120737942"]}}}
+{"ref":"Rooms are unknown on the Trial Map","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Sacrifice #% of Life to gain that much Energy Shield when you Cast a Spell","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_613752285"]}}}
+{"ref":"Share Charges with Allies in your Presence","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2535267021"]}}}
+{"ref":"Shocks you when you reach maximum Power Charges","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4256314560"]}}}
+{"ref":"Skills gain #% of Damage as Chaos Damage per 3 Life Cost","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4117005593"]}}}
+{"ref":"Skills gain a Base Life Cost equal to #% of Base Mana Cost","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3605834869"]}}}
+{"ref":"Skills have +# to Limit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2942704390"]}}}
+{"ref":"Skills have a #% longer Perfect Timing window","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1373370443"]}}}
+{"ref":"Skills reserve 50% less Spirit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2838161567"]}}}
+{"ref":"Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2230687504"]}}}
+{"ref":"Strikes deal Splash damage to targets within 1.8 metres","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_3675300253"]}}}
+{"ref":"Take # Fire Damage when you Ignite an Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2518598473"]}}}
+{"ref":"Take no Extra Damage from Critical Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4294267596"]}}}
+{"ref":"Targets can be affected by # of your Poisons at the same time","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1755296234"]}}}
+{"ref":"The Effect of Chill on you is reversed","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2955966707"]}}}
+{"ref":"The Herald of the Scourge drops an additional Invocation","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"The Merchant has an additional Choice","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"This item is destroyed when applied to a Trial","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"This Weapon's Critical Hit Chance is #%","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3384885789"]}}}
+{"ref":"Thorns damage is triggered by all Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3414243317"]}}}
+{"ref":"Traps deal #% increased Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Trigger Decompose Skill on Step","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4036087867"]}}}
+{"ref":"Trigger Ember Fusillade Skill on casting a Spell","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_826162720"]}}}
+{"ref":"Trigger Lightning Bolt Skill on Critical Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_704919631"]}}}
+{"ref":"Trigger Spark Skill on killing a Shocked Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_811217923"]}}}
+{"ref":"Triggered Spells deal #% increased Spell Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3067892458"]}}}
+{"ref":"Undead Minions have #% reduced Reservation","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1176947534"]}}}
+{"ref":"Unwavering Stance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1683578560"]}}}
+{"ref":"Upgrades Radius to Medium","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3891355829"]}}}
+{"ref":"Used when you are affected by a Slow","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_2778646494"]}}}
+{"ref":"Used when you become Frozen","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1691862754"]}}}
+{"ref":"Used when you become Ignited","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_585126960"]}}}
+{"ref":"Used when you become Poisoned","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1412682799"]}}}
+{"ref":"Used when you become Shocked","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_3699444296"]}}}
+{"ref":"Used when you become Stunned","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_1810482573"]}}}
+{"ref":"Used when you Kill a Rare or Unique Enemy","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_4010341289"]}}}
+{"ref":"Used when you start Bleeding","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_3676540188"]}}}
+{"ref":"Used when you take Chaos damage from a Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_3310778564"]}}}
+{"ref":"Used when you take Cold damage from a Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_2994271459"]}}}
+{"ref":"Used when you take Fire damage from a Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_3854901951"]}}}
+{"ref":"Used when you take Lightning damage from a Hit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"implicit":["implicit.stat_2016937536"]}}}
+{"ref":"Warcry Skills have #% increased Area of Effect","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2567751411"]}}}
+{"ref":"When a Party Member in your Presence Casts a Spell, you\nSacrifice #% of Mana and they Leech that Mana","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_603021645"]}}}
+{"ref":"When you gain a Key #% chance to gain another","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"When you Kill a Rare monster, you gain its Modifiers for 20 seconds","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2913235441"]}}}
+{"ref":"When you Leech Life from a Hit, Allies in your Presence also Leech the same amount of Life","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3605721598"]}}}
+{"ref":"You can apply # additional Curses","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_30642521"]}}}
+{"ref":"You can only Socket Emerald Jewels in this item","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3598729471"]}}}
+{"ref":"You can only Socket Ruby Jewels in this item","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4031148736"]}}}
+{"ref":"You can only Socket Sapphire Jewels in this item","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_21302430"]}}}
+{"ref":"You can use two copies of the same Support Gem in different Skills","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_898131228"]}}}
+{"ref":"You cannot be Chilled for # second after being Chilled","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2306924373"]}}}
+{"ref":"You cannot be Chilled or Frozen","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2996245527"]}}}
+{"ref":"You cannot be Frozen for # second after being Frozen","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3612464552"]}}}
+{"ref":"You cannot be Hindered","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"You cannot be Ignited for # second after being Ignited","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_947072590"]}}}
+{"ref":"You cannot be Shocked for # second after being Shocked","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_215346464"]}}}
+{"ref":"You cannot Block","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3162258068"]}}}
+{"ref":"You count as on Full Mana while at #% of maximum Mana or above","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_423304126"]}}}
+{"ref":"You count as on Low Life while at #% of maximum Life or below","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_356835700"]}}}
+{"ref":"You count as on Low Life while at #% of maximum Mana or below","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3154256486"]}}}
+{"ref":"You count as on Low Mana while at #% of maximum Life or below","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1143240184"]}}}
+{"ref":"You gain Onslaught for # seconds on Kill","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1195849808"]}}}
+{"ref":"You have a Smoke Cloud around you while stationary","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2592455368"]}}}
+{"ref":"You have no Accuracy Penalty at Distance","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_3070990531"]}}}
+{"ref":"You have no Defences","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"You have no Elemental Resistances","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_1776968075"]}}}
+{"ref":"You have no Life Regeneration","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_854225133"]}}}
+{"ref":"You have no Spirit","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4091659555"]}}}
+{"ref":"You lose #% of Energy Shield per second","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2350411833"]}}}
+{"ref":"You take #% of damage from Blocked Hits","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2905515354"]}}}
+{"ref":"You take Fire Damage instead of Physical Damage from Bleeding","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_2022332470"]}}}
+{"ref":"Your Critical Damage Bonus is 300%","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_824024007"]}}}
+{"ref":"Your Critical Hits do not deal extra Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_4058681894"]}}}
+{"ref":"Your speed is unaffected by Slows","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{"explicit":["explicit.stat_50721145"]}}}
+{"ref":"Zarokh, the Eternal deals #% more Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Zarokh, the Eternal drops Against the Darkness","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Zarokh, the Eternal drops an additional Barya","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Zarokh, the Eternal drops Blessed Bonds","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Zarokh, the Eternal drops Sandstorm Visage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Zarokh, the Eternal drops Sekhema's Resolve","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Zarokh, the Eternal drops Temporalis","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}
+{"ref":"Zarokh, the Eternal takes #% more Damage","better":0,"matchers":[{"string":"StatMatcher"}],"trade":{"ids":{}}}

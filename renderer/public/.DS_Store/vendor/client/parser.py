@@ -261,8 +261,8 @@ def parse_items():
             "namespace": "ITEM",
             "class": class_key,
             "dropLevel": item.get("DropLevel"),
-            "w": item.get("Width"),
-            "h": item.get("Height"),
+            "width": item.get("Width"),
+            "height": item.get("Height"),
         }
         
         if class_key > 0:
@@ -350,12 +350,14 @@ def write_to_file():
         craftable = item.get("craftable", None)
         gem = item.get("gem", None)
         armour = item.get("armour", None)
+        width = item.get("width", None)
+        height = item.get("height", None)
         
         out = {
             "name": name,
             "refName": name,
             "namespace": namespace, 
-            "icon": "%NOT_FOUND%"
+            "icon": "%NOT_FOUND%",
         }
         
         if craftable:
@@ -366,6 +368,16 @@ def write_to_file():
         if armour:
             out.update({
                 "armour": armour
+            })
+            
+        if width:
+            out.update({
+                "w": width
+            })
+            
+        if height:
+            out.update({
+                "h": height
             })
             
         if gem:
