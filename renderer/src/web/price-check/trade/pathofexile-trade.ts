@@ -1,4 +1,4 @@
-import { ItemInfluence, ItemCategory, ParsedItem, ItemRarity } from '@/parser'
+import { ItemCategory, ParsedItem, ItemRarity } from '@/parser'
 import {
   ItemFilters,
   StatFilter,
