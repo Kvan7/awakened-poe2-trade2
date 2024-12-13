@@ -108,21 +108,22 @@ export interface Config {
   overlayBackgroundClose: boolean;
   restoreClipboard: boolean;
   commands: Array<{
-    text: string;
-    hotkey: string | null;
-    send: boolean;
-  }>;
-  clientLog: string | null;
-  gameConfig: string | null;
-  windowTitle: string;
-  logKeys: boolean;
-  accountName: string;
-  stashScroll: boolean;
-  language: "en" | "ru" | "cmn-Hant" | "ko";
-  realm: "pc-ggg" | "pc-garena";
-  widgets: widget.Widget[];
-  fontSize: number;
-  showAttachNotification: boolean;
+    text: string
+    hotkey: string | null
+    send: boolean
+  }>
+  clientLog: string | null
+  gameConfig: string | null
+  windowTitle: string
+  logKeys: boolean
+  accountName: string
+  stashScroll: boolean
+  language: 'en' | 'ru' | 'cmn-Hant' | 'ko'
+  realm: 'pc-ggg' | 'pc-garena'
+  widgets: widget.Widget[]
+  fontSize: number
+  showAttachNotification: boolean
+  overlayAlwaysClose: boolean
 }
 
 export const defaultConfig = (): Config => ({
@@ -130,6 +131,7 @@ export const defaultConfig = (): Config => ({
   overlayKey: "Shift + Space",
   overlayBackground: "rgba(129, 139, 149, 0.15)",
   overlayBackgroundClose: true,
+  overlayAlwaysClose: false,
   restoreClipboard: false,
   showAttachNotification: true,
   commands: [

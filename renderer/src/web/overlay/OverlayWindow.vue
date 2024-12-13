@@ -325,11 +325,13 @@ export default defineComponent({
       setFlag,
     });
 
-    function handleBackgroundClick() {
-      if (!Host.isElectron) {
-        const widget = topmostOrExclusiveWidget.value;
-        if (widget.wmZorder === "exclusive") {
-          hide(widget.wmId);
+    function handleBackgroundClick () {
+      if (AppConfig().overlayAlwaysClose) {
+        Host.sendEvent({ name: 'OVERLAY->MAIN::focus-game', payload: undefined })
+      } else if (!Host.isElectron) {
+        const widget = topmostOrExclusiveWidget.value
+        if (widget.wmZorder === 'exclusive') {
+          hide(widget.wmId)
         }
       } else if (AppConfig().overlayBackgroundClose) {
         Host.sendEvent({
