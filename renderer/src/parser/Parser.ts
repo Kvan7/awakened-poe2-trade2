@@ -567,11 +567,6 @@ function parseArmour(section: string[], item: ParsedItem) {
       isParsed = "SECTION_PARSED";
       continue;
     }
-    if (line.startsWith(_$.TAG_WARD)) {
-      item.armourWARD = parseInt(line.slice(_$.TAG_WARD.length), 10);
-      isParsed = "SECTION_PARSED";
-      continue;
-    }
     if (line.startsWith(_$.BLOCK_CHANCE)) {
       item.armourBLOCK = parseInt(line.slice(_$.BLOCK_CHANCE.length), 10);
       isParsed = "SECTION_PARSED";
@@ -1039,7 +1034,7 @@ function calcBasePercentile(item: ParsedItem) {
   if (!info) return;
 
   // Base percentile is the same for all defences.
-  // Using `AR/EV -> ES -> WARD` order to improve accuracy
+  // Using `AR/EV -> ES` order to improve accuracy
   // of calculation (larger rolls = more precise).
   if (item.armourAR && info.ar) {
     item.basePercentile = calcPropPercentile(
@@ -1060,13 +1055,6 @@ function calcBasePercentile(item: ParsedItem) {
       item.armourES,
       info.es,
       QUALITY_STATS.ENERGY_SHIELD,
-      item,
-    );
-  } else if (item.armourWARD && info.ward) {
-    item.basePercentile = calcPropPercentile(
-      item.armourWARD,
-      info.ward,
-      QUALITY_STATS.WARD,
       item,
     );
   }
