@@ -295,6 +295,7 @@
     "overlay_bg": "Background when the Overlay is clickable",
     "overlay_bg_none": "Transparent",
     "overlay_bg_focus_game": "Clicking on the background focuses the game",
+    "overlay_always_close": "Always fully close the overlay instead of hiding it",
     "poe_log_file": "PoE log file",
     "poe_cfg_file": "PoE config file",
     "restore_clipboard": "Restore clipboard",

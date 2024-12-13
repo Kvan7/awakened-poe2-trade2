@@ -47,6 +47,8 @@
       v-model="overlayBackgroundClose">{{ t(':overlay_bg_focus_game') }}</ui-checkbox>
     <ui-checkbox class="mb-4"
       v-model="showAttachNotification">{{ t(':show_overlay_ready') }}</ui-checkbox>
+    <ui-checkbox class="mb-4"
+      v-model="overlayAlwaysClose">{{ t(':overlay_always_close') }}</ui-checkbox>
     <div class="mb-4">
       <div class="flex-1 mb-1">{{ t(':window_title') }} <span class="bg-gray-200 text-gray-900 rounded px-1">{{ t('Restart required') }}</span></div>
       <input v-model="windowTitle" class="rounded bg-gray-900 px-1 block w-full mb-1 font-poe" />
@@ -89,6 +91,7 @@ export default defineComponent({
       realm: configModelValue(() => props.config, 'realm'),
       restoreClipboard: configModelValue(() => props.config, 'restoreClipboard'),
       showAttachNotification: configModelValue(() => props.config, 'showAttachNotification'),
+      overlayAlwaysClose: configModelValue(() => props.config, 'overlayAlwaysClose'),
       windowTitle: configModelValue(() => props.config, 'windowTitle')
     }
   }
