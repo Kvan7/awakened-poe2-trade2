@@ -174,7 +174,6 @@ export default defineComponent({
         "item.armour",
         "item.evasion_rating",
         "item.energy_shield",
-        "item.ward",
         "item.total_dps",
         "item.physical_dps",
       ].includes(props.filter.tradeId[0]);

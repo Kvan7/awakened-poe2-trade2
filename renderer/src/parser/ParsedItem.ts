@@ -25,7 +25,6 @@ export interface ParsedItem {
   armourAR?: number;
   armourEV?: number;
   armourES?: number;
-  armourWARD?: number;
   armourBLOCK?: number;
   basePercentile?: number;
   weaponCRIT?: number;

@@ -78,7 +78,6 @@ export interface BaseType {
     ar?: [min: number, max: number];
     ev?: [min: number, max: number];
     es?: [min: number, max: number];
-    ward?: [min: number, max: number];
   };
 }
 
@@ -108,7 +107,6 @@ export interface TranslationDict {
   ARMOUR: string;
   EVASION: string;
   ENERGY_SHIELD: string;
-  TAG_WARD: string;
   BLOCK_CHANCE: string;
   CORRUPTED: string;
   UNIDENTIFIED: string;

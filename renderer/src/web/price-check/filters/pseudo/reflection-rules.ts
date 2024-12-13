@@ -8,21 +8,21 @@ interface FilterRule {
 }
 
 const RULES: FilterRule[] = [
-  { ref: stat("Reflection of the Breachlord (Difficulty #)") },
-  { ref: stat("Reflection of Delirium (Difficulty #)"), difficulty: "any" },
-  { ref: stat("Reflection of Tyranny (Difficulty #)") },
-  { ref: stat("Reflection of the Trove (Difficulty #)") },
-  { ref: stat("Reflection of Thralldom (Difficulty #)") },
-  { ref: stat("Reflection of Phaaryl (Difficulty #)") },
-  { ref: stat("Reflection of Perverted Faith (Difficulty #)") },
-  { ref: stat("Reflection of Kalandra (Difficulty #)"), disabled: false },
-  { ref: stat("Reflection of Experimentation (Difficulty #)") },
-  { ref: stat("Reflection of the Sun (Difficulty #)"), disabled: false },
-  { ref: stat("Reflection of the Monolith (Difficulty #)") },
-  { ref: stat("Reflection of the Nightmare (Difficulty #)") },
-  { ref: stat("Reflection of Azurite (Difficulty #)") },
-  { ref: stat("Reflection of Paradise (Difficulty #)"), disabled: false },
-  { ref: stat("Reflection of Angling (Difficulty #)"), disabled: false },
+  // { ref: stat("Reflection of the Breachlord (Difficulty #)") },
+  // { ref: stat("Reflection of Delirium (Difficulty #)"), difficulty: "any" },
+  // { ref: stat("Reflection of Tyranny (Difficulty #)") },
+  // { ref: stat("Reflection of the Trove (Difficulty #)") },
+  // { ref: stat("Reflection of Thralldom (Difficulty #)") },
+  // { ref: stat("Reflection of Phaaryl (Difficulty #)") },
+  // { ref: stat("Reflection of Perverted Faith (Difficulty #)") },
+  // { ref: stat("Reflection of Kalandra (Difficulty #)"), disabled: false },
+  // { ref: stat("Reflection of Experimentation (Difficulty #)") },
+  // { ref: stat("Reflection of the Sun (Difficulty #)"), disabled: false },
+  // { ref: stat("Reflection of the Monolith (Difficulty #)") },
+  // { ref: stat("Reflection of the Nightmare (Difficulty #)") },
+  // { ref: stat("Reflection of Azurite (Difficulty #)") },
+  // { ref: stat("Reflection of Paradise (Difficulty #)"), disabled: false },
+  // { ref: stat("Reflection of Angling (Difficulty #)"), disabled: false },
 ];
 
 export function applyRules(filters: StatFilter[]) {

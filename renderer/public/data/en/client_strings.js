@@ -26,7 +26,6 @@ export default {
   ARMOUR: 'Armour: ',
   EVASION: 'Evasion Rating: ',
   ENERGY_SHIELD: 'Energy Shield: ',
-  TAG_WARD: 'Ward: ',
   BLOCK_CHANCE: 'Chance to Block: ',
   CORRUPTED: 'Corrupted',
   UNIDENTIFIED: 'Unidentified',

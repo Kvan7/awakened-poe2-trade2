@@ -6,55 +6,55 @@ import {
 } from "../create-stat-filters";
 import type { StatFilter } from "../interfaces";
 
-const RESISTANCES_INFO = [
-  {
-    ref: stat("+#% to All Resistances"),
-    elements: ["fire", "cold", "lightning"],
-    chaos: true,
-  },
-  {
-    ref: stat("+#% to all Elemental Resistances"),
-    elements: ["fire", "cold", "lightning"],
-  },
-  { ref: stat("+#% to Fire Resistance"), elements: ["fire"] },
-  { ref: stat("+#% to Cold Resistance"), elements: ["cold"] },
-  { ref: stat("+#% to Lightning Resistance"), elements: ["lightning"] },
-  {
-    ref: stat("+#% to Fire and Lightning Resistances"),
-    elements: ["fire", "lightning"],
-  },
-  { ref: stat("+#% to Fire and Cold Resistances"), elements: ["fire", "cold"] },
-  {
-    ref: stat("+#% to Cold and Lightning Resistances"),
-    elements: ["cold", "lightning"],
-  },
-  { ref: stat("+#% to Chaos Resistance"), elements: [], chaos: true },
-  {
-    ref: stat("+#% to Fire and Chaos Resistances"),
-    elements: ["fire"],
-    chaos: true,
-  },
-  {
-    ref: stat("+#% to Cold and Chaos Resistances"),
-    elements: ["cold"],
-    chaos: true,
-  },
-  {
-    ref: stat("+#% to Lightning and Chaos Resistances"),
-    elements: ["lightning"],
-    chaos: true,
-  },
-];
+// const RESISTANCES_INFO = [
+//   {
+//     ref: stat("+#% to All Resistances"),
+//     elements: ["fire", "cold", "lightning"],
+//     chaos: true,
+//   },
+//   {
+//     ref: stat("+#% to all Elemental Resistances"),
+//     elements: ["fire", "cold", "lightning"],
+//   },
+//   { ref: stat("+#% to Fire Resistance"), elements: ["fire"] },
+//   { ref: stat("+#% to Cold Resistance"), elements: ["cold"] },
+//   { ref: stat("+#% to Lightning Resistance"), elements: ["lightning"] },
+//   {
+//     ref: stat("+#% to Fire and Lightning Resistances"),
+//     elements: ["fire", "lightning"],
+//   },
+//   { ref: stat("+#% to Fire and Cold Resistances"), elements: ["fire", "cold"] },
+//   {
+//     ref: stat("+#% to Cold and Lightning Resistances"),
+//     elements: ["cold", "lightning"],
+//   },
+//   { ref: stat("+#% to Chaos Resistance"), elements: [], chaos: true },
+// {
+//   ref: stat("+#% to Fire and Chaos Resistances"),
+//   elements: ["fire"],
+//   chaos: true,
+// },
+// {
+//   ref: stat("+#% to Cold and Chaos Resistances"),
+//   elements: ["cold"],
+//   chaos: true,
+// },
+// {
+//   ref: stat("+#% to Lightning and Chaos Resistances"),
+//   elements: ["lightning"],
+//   chaos: true,
+// },
+// ];
 
-const ATTRIBUTES_INFO = [
-  { ref: stat("+# to all Attributes"), attributes: ["str", "dex", "int"] },
-  { ref: stat("+# to Strength"), attributes: ["str"] },
-  { ref: stat("+# to Dexterity"), attributes: ["dex"] },
-  { ref: stat("+# to Intelligence"), attributes: ["int"] },
-  { ref: stat("+# to Strength and Intelligence"), attributes: ["str", "int"] },
-  { ref: stat("+# to Strength and Dexterity"), attributes: ["str", "dex"] },
-  { ref: stat("+# to Dexterity and Intelligence"), attributes: ["dex", "int"] },
-];
+// const ATTRIBUTES_INFO = [
+//   { ref: stat("+# to all Attributes"), attributes: ["str", "dex", "int"] },
+//   { ref: stat("+# to Strength"), attributes: ["str"] },
+//   { ref: stat("+# to Dexterity"), attributes: ["dex"] },
+//   { ref: stat("+# to Intelligence"), attributes: ["int"] },
+//   { ref: stat("+# to Strength and Intelligence"), attributes: ["str", "int"] },
+//   { ref: stat("+# to Strength and Dexterity"), attributes: ["str", "dex"] },
+//   { ref: stat("+# to Dexterity and Intelligence"), attributes: ["dex", "int"] },
+// ];
 
 interface PseudoRule {
   group?: string;
@@ -70,150 +70,150 @@ interface PseudoRule {
 }
 
 const PSEUDO_RULES: PseudoRule[] = [
-  {
-    pseudo: stat("+#% total Elemental Resistance"),
-    disabled: false,
-    stats: RESISTANCES_INFO.filter((info) => info.elements.length).map(
-      (info) => ({ ref: info.ref, multiplier: info.elements.length }),
-    ),
-  },
-  {
-    pseudo: stat("+#% total to Fire Resistance"),
-    group: "to_x_ele_res",
-    stats: RESISTANCES_INFO.filter((info) =>
-      info.elements.includes("fire"),
-    ).map((info) => ({ ref: info.ref })),
-  },
-  {
-    pseudo: stat("+#% total to Cold Resistance"),
-    group: "to_x_ele_res",
-    stats: RESISTANCES_INFO.filter((info) =>
-      info.elements.includes("cold"),
-    ).map((info) => ({ ref: info.ref })),
-  },
-  {
-    pseudo: stat("+#% total to Lightning Resistance"),
-    group: "to_x_ele_res",
-    stats: RESISTANCES_INFO.filter((info) =>
-      info.elements.includes("lightning"),
-    ).map((info) => ({ ref: info.ref })),
-  },
-  {
-    pseudo: stat("+#% total to Chaos Resistance"),
-    stats: RESISTANCES_INFO.filter((info) => info.chaos === true).map(
-      (info) => ({ ref: info.ref }),
-    ),
-    mutate(filter) {
-      if (
-        filter.sources.length === 1 &&
-        filter.sources[0].modifier.info.type === ModifierType.Crafted
-      ) {
-        filter.hidden = "filters.hide_crafted_chaos";
-      } else {
-        filter.disabled = false;
-      }
-    },
-  },
-  {
-    pseudo: stat("+# total to all Attributes"),
-    group: "to_all_attrs",
-    stats: [
-      { ref: stat("+# to all Attributes") },
-      // NOTE: not including other sources from `ATTRIBUTES_INFO`
-    ],
-  },
-  {
-    pseudo: stat("+# total to Strength"),
-    group: "to_x_attr",
-    stats: ATTRIBUTES_INFO.filter((info) =>
-      info.attributes.includes("str"),
-    ).map((info) => ({ ref: info.ref })),
-  },
-  {
-    pseudo: stat("+# total to Dexterity"),
-    group: "to_x_attr",
-    stats: ATTRIBUTES_INFO.filter((info) =>
-      info.attributes.includes("dex"),
-    ).map((info) => ({ ref: info.ref })),
-  },
-  {
-    pseudo: stat("+# total to Intelligence"),
-    group: "to_x_attr",
-    stats: ATTRIBUTES_INFO.filter((info) =>
-      info.attributes.includes("int"),
-    ).map((info) => ({ ref: info.ref })),
-  },
-  {
-    pseudo: stat("+# total maximum Life"),
-    disabled: false,
-    stats: [
-      { ref: stat("+# to maximum Life"), required: true },
-      ...ATTRIBUTES_INFO.filter((info) => info.attributes.includes("str")).map(
-        (info) => ({ ref: info.ref, multiplier: 5 / 10 }),
-      ),
-    ],
-  },
-  {
-    pseudo: stat("+# total maximum Mana"),
-    stats: [
-      { ref: stat("+# to maximum Mana"), required: true },
-      ...ATTRIBUTES_INFO.filter((info) => info.attributes.includes("int")).map(
-        (info) => ({ ref: info.ref, multiplier: 5 / 10 }),
-      ),
-    ],
-  },
-  {
-    pseudo: stat("#% total increased maximum Energy Shield"),
-    stats: [{ ref: stat("#% increased maximum Energy Shield") }],
-  },
-  {
-    pseudo: stat("+# total maximum Energy Shield"),
-    stats: [
-      { ref: stat("+# to maximum Energy Shield") }, // global
-    ],
-  },
-  {
-    pseudo: stat("+#% total Attack Speed"),
-    stats: [
-      { ref: stat("#% increased Attack Speed") }, // global
-      // { ref: stat('#% increased Attack and Cast Speed') }
-    ],
-  },
-  {
-    pseudo: stat("+#% total Cast Speed"),
-    stats: [
-      { ref: stat("#% increased Cast Speed") },
-      // { ref: stat('#% increased Attack and Cast Speed') }
-    ],
-  },
+  // {
+  //   pseudo: stat("+#% total Elemental Resistance"),
+  //   disabled: false,
+  //   stats: RESISTANCES_INFO.filter((info) => info.elements.length).map(
+  //     (info) => ({ ref: info.ref, multiplier: info.elements.length }),
+  //   ),
+  // },
+  // {
+  //   pseudo: stat("+#% total to Fire Resistance"),
+  //   group: "to_x_ele_res",
+  //   stats: RESISTANCES_INFO.filter((info) =>
+  //     info.elements.includes("fire"),
+  //   ).map((info) => ({ ref: info.ref })),
+  // },
+  // {
+  //   pseudo: stat("+#% total to Cold Resistance"),
+  //   group: "to_x_ele_res",
+  //   stats: RESISTANCES_INFO.filter((info) =>
+  //     info.elements.includes("cold"),
+  //   ).map((info) => ({ ref: info.ref })),
+  // },
+  // {
+  //   pseudo: stat("+#% total to Lightning Resistance"),
+  //   group: "to_x_ele_res",
+  //   stats: RESISTANCES_INFO.filter((info) =>
+  //     info.elements.includes("lightning"),
+  //   ).map((info) => ({ ref: info.ref })),
+  // },
+  // {
+  //   pseudo: stat("+#% total to Chaos Resistance"),
+  //   stats: RESISTANCES_INFO.filter((info) => info.chaos === true).map(
+  //     (info) => ({ ref: info.ref }),
+  //   ),
+  //   mutate(filter) {
+  //     if (
+  //       filter.sources.length === 1 &&
+  //       filter.sources[0].modifier.info.type === ModifierType.Crafted
+  //     ) {
+  //       filter.hidden = "filters.hide_crafted_chaos";
+  //     } else {
+  //       filter.disabled = false;
+  //     }
+  //   },
+  // },
+  // {
+  //   pseudo: stat("+# total to all Attributes"),
+  //   group: "to_all_attrs",
+  //   stats: [
+  //     { ref: stat("+# to all Attributes") },
+  //     // NOTE: not including other sources from `ATTRIBUTES_INFO`
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("+# total to Strength"),
+  //   group: "to_x_attr",
+  //   stats: ATTRIBUTES_INFO.filter((info) =>
+  //     info.attributes.includes("str"),
+  //   ).map((info) => ({ ref: info.ref })),
+  // },
+  // {
+  //   pseudo: stat("+# total to Dexterity"),
+  //   group: "to_x_attr",
+  //   stats: ATTRIBUTES_INFO.filter((info) =>
+  //     info.attributes.includes("dex"),
+  //   ).map((info) => ({ ref: info.ref })),
+  // },
+  // {
+  //   pseudo: stat("+# total to Intelligence"),
+  //   group: "to_x_attr",
+  //   stats: ATTRIBUTES_INFO.filter((info) =>
+  //     info.attributes.includes("int"),
+  //   ).map((info) => ({ ref: info.ref })),
+  // },
+  // {
+  //   pseudo: stat("+# total maximum Life"),
+  //   disabled: false,
+  //   stats: [
+  //     { ref: stat("+# to maximum Life"), required: true },
+  //     ...ATTRIBUTES_INFO.filter((info) => info.attributes.includes("str")).map(
+  //       (info) => ({ ref: info.ref, multiplier: 5 / 10 }),
+  //     ),
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("+# total maximum Mana"),
+  //   stats: [
+  //     { ref: stat("+# to maximum Mana"), required: true },
+  //     ...ATTRIBUTES_INFO.filter((info) => info.attributes.includes("int")).map(
+  //       (info) => ({ ref: info.ref, multiplier: 5 / 10 }),
+  //     ),
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("#% total increased maximum Energy Shield"),
+  //   stats: [{ ref: stat("#% increased maximum Energy Shield") }],
+  // },
+  // {
+  //   pseudo: stat("+# total maximum Energy Shield"),
+  //   stats: [
+  //     { ref: stat("+# to maximum Energy Shield") }, // global
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("+#% total Attack Speed"),
+  //   stats: [
+  //     { ref: stat("#% increased Attack Speed") }, // global
+  //     // { ref: stat('#% increased Attack and Cast Speed') }
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("+#% total Cast Speed"),
+  //   stats: [
+  //     { ref: stat("#% increased Cast Speed") },
+  //     // { ref: stat('#% increased Attack and Cast Speed') }
+  //   ],
+  // },
   {
     pseudo: stat("#% increased Movement Speed"),
     stats: [{ ref: stat("#% increased Movement Speed") }],
   },
-  {
-    pseudo: stat("#% total increased Physical Damage"),
-    stats: [{ ref: stat("#% increased Global Physical Damage") }],
-  },
-  {
-    pseudo: stat("+#% Global Critical Strike Chance"),
-    group: "global_crit_chance",
-    stats: [{ ref: stat("#% increased Global Critical Strike Chance") }],
-  },
-  {
-    pseudo: stat("+#% total Critical Strike Chance for Spells"),
-    replaces: "global_crit_chance",
-    stats: [
-      {
-        ref: stat("#% increased Spell Critical Strike Chance"),
-        required: true,
-      },
-      { ref: stat("#% increased Global Critical Strike Chance") },
-    ],
-  },
-  {
-    pseudo: stat("+#% Global Critical Strike Multiplier"),
-    stats: [{ ref: stat("+#% to Global Critical Strike Multiplier") }],
-  },
+  // {
+  //   pseudo: stat("#% total increased Physical Damage"),
+  //   stats: [{ ref: stat("#% increased Global Physical Damage") }],
+  // },
+  // {
+  //   pseudo: stat("+#% Global Critical Strike Chance"),
+  //   group: "global_crit_chance",
+  //   stats: [{ ref: stat("#% increased Global Critical Strike Chance") }],
+  // },
+  // {
+  //   pseudo: stat("+#% total Critical Strike Chance for Spells"),
+  //   replaces: "global_crit_chance",
+  //   stats: [
+  //     {
+  //       ref: stat("#% increased Spell Critical Strike Chance"),
+  //       required: true,
+  //     },
+  //     { ref: stat("#% increased Global Critical Strike Chance") },
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("+#% Global Critical Strike Multiplier"),
+  //   stats: [{ ref: stat("+#% to Global Critical Strike Multiplier") }],
+  // },
   {
     pseudo: stat("#% increased Elemental Damage"),
     group: "incr_ele_dmg",
@@ -249,41 +249,41 @@ const PSEUDO_RULES: PseudoRule[] = [
     group: "incr_spell_dmg",
     stats: [{ ref: stat("#% increased Spell Damage") }],
   },
-  {
-    pseudo: stat("#% increased Lightning Spell Damage"),
-    replaces: "incr_spell_dmg",
-    stats: [
-      { ref: stat("#% increased Lightning Spell Damage"), required: true },
-      { ref: stat("#% increased Spell Damage") },
-    ],
-  },
-  {
-    pseudo: stat("#% increased Cold Spell Damage"),
-    replaces: "incr_spell_dmg",
-    stats: [
-      { ref: stat("#% increased Cold Spell Damage"), required: true },
-      { ref: stat("#% increased Spell Damage") },
-    ],
-  },
-  {
-    pseudo: stat("#% increased Fire Spell Damage"),
-    replaces: "incr_spell_dmg",
-    stats: [
-      { ref: stat("#% increased Fire Spell Damage"), required: true },
-      { ref: stat("#% increased Spell Damage") },
-    ],
-  },
-  {
-    pseudo: stat("#% increased Elemental Damage with Attack Skills"),
-    replaces: "incr_ele_dmg",
-    stats: [
-      {
-        ref: stat("#% increased Elemental Damage with Attack Skills"),
-        required: true,
-      },
-      { ref: stat("#% increased Elemental Damage") },
-    ],
-  },
+  // {
+  //   pseudo: stat("#% increased Lightning Spell Damage"),
+  //   replaces: "incr_spell_dmg",
+  //   stats: [
+  //     { ref: stat("#% increased Lightning Spell Damage"), required: true },
+  //     { ref: stat("#% increased Spell Damage") },
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("#% increased Cold Spell Damage"),
+  //   replaces: "incr_spell_dmg",
+  //   stats: [
+  //     { ref: stat("#% increased Cold Spell Damage"), required: true },
+  //     { ref: stat("#% increased Spell Damage") },
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("#% increased Fire Spell Damage"),
+  //   replaces: "incr_spell_dmg",
+  //   stats: [
+  //     { ref: stat("#% increased Fire Spell Damage"), required: true },
+  //     { ref: stat("#% increased Spell Damage") },
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("#% increased Elemental Damage with Attack Skills"),
+  //   replaces: "incr_ele_dmg",
+  //   stats: [
+  //     {
+  //       ref: stat("#% increased Elemental Damage with Attack Skills"),
+  //       required: true,
+  //     },
+  //     { ref: stat("#% increased Elemental Damage") },
+  //   ],
+  // },
   {
     pseudo: stat("#% increased Burning Damage"),
     replaces: "incr_fire_dmg",
@@ -293,22 +293,22 @@ const PSEUDO_RULES: PseudoRule[] = [
       { ref: stat("#% increased Elemental Damage") },
     ],
   },
-  {
-    pseudo: stat("# Life Regenerated per Second"),
-    stats: [{ ref: stat("Regenerate # Life per second") }],
-  },
-  {
-    pseudo: stat("#% of Life Regenerated per Second"),
-    stats: [{ ref: stat("Regenerate #% of Life per second") }],
-  },
-  {
-    pseudo: stat("#% of Physical Attack Damage Leeched as Life"),
-    stats: [{ ref: stat("#% of Physical Attack Damage Leeched as Life") }],
-  },
-  {
-    pseudo: stat("#% of Physical Attack Damage Leeched as Mana"),
-    stats: [{ ref: stat("#% of Physical Attack Damage Leeched as Mana") }],
-  },
+  // {
+  //   pseudo: stat("# Life Regenerated per Second"),
+  //   stats: [{ ref: stat("Regenerate # Life per second") }],
+  // },
+  // {
+  //   pseudo: stat("#% of Life Regenerated per Second"),
+  //   stats: [{ ref: stat("Regenerate #% of Life per second") }],
+  // },
+  // {
+  //   pseudo: stat("#% of Physical Attack Damage Leeched as Life"),
+  //   stats: [{ ref: stat("#% of Physical Attack Damage Leeched as Life") }],
+  // },
+  // {
+  //   pseudo: stat("#% of Physical Attack Damage Leeched as Mana"),
+  //   stats: [{ ref: stat("#% of Physical Attack Damage Leeched as Mana") }],
+  // },
   {
     pseudo: stat("#% increased Mana Regeneration Rate"),
     stats: [{ ref: stat("#% increased Mana Regeneration Rate") }],

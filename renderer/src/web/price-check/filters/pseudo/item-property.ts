@@ -43,11 +43,9 @@ export const ARMOUR_STATS = new Set<string>([
   ...QUALITY_STATS.ARMOUR.flat,
   ...QUALITY_STATS.EVASION.flat,
   ...QUALITY_STATS.ENERGY_SHIELD.flat,
-  ...QUALITY_STATS.WARD.flat,
   ...QUALITY_STATS.ARMOUR.incr,
   ...QUALITY_STATS.EVASION.incr,
   ...QUALITY_STATS.ENERGY_SHIELD.incr,
-  ...QUALITY_STATS.WARD.incr,
   stat("+#% Chance to Block"),
 ]);
 
@@ -113,23 +111,6 @@ function armourProps(ctx: FiltersCreationContext) {
     );
   }
 
-  if (item.armourWARD) {
-    const totalQ20 = propAt20Quality(item.armourWARD, QUALITY_STATS.WARD, item);
-
-    ctx.filters.push(
-      propToFilter(
-        {
-          ref: "Ward: #",
-          tradeId: "item.ward",
-          roll: totalQ20.roll,
-          sources: totalQ20.sources,
-          disabled: !isSingleAttrArmour(item),
-        },
-        ctx,
-      ),
-    );
-  }
-
   if (item.armourBLOCK) {
     const block = calcPropBounds(
       item.armourBLOCK,
@@ -151,13 +132,7 @@ function armourProps(ctx: FiltersCreationContext) {
     );
   }
 
-  if (
-    item.armourAR ||
-    item.armourEV ||
-    item.armourES ||
-    item.armourWARD ||
-    item.armourBLOCK
-  ) {
+  if (item.armourAR || item.armourEV || item.armourES || item.armourBLOCK) {
     removeUsedStats(ctx, ARMOUR_STATS);
   }
 }
@@ -166,7 +141,7 @@ export const WEAPON_STATS = new Set<string>([
   ...QUALITY_STATS.PHYSICAL_DAMAGE.flat,
   ...QUALITY_STATS.PHYSICAL_DAMAGE.incr,
   stat("#% increased Attack Speed"),
-  stat("#% increased Critical Strike Chance"),
+  // stat("#% increased Critical Strike Chance"),
 
   // stat('Adds # to # Chaos Damage'),
   stat("Adds # to # Lightning Damage"),
@@ -318,7 +293,7 @@ function removeUsedStats(ctx: FiltersCreationContext, stats: Set<string>) {
 
 function isSingleAttrArmour(item: ParsedItem) {
   return (
-    [item.armourAR, item.armourEV, item.armourES, item.armourWARD].filter(
+    [item.armourAR, item.armourEV, item.armourES].filter(
       (value) => value != null,
     ).length === 1
   );
