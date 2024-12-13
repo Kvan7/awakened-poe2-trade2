@@ -1,0 +1,22 @@
+{
+    "physical_local_damage_+%": {
+        "ref": "#% increased Physical Damage",
+        "better": 1,
+        "id": "physical_local_damage_+%",
+        "matchers": [
+            {
+                "string": "#% increased Physical Damage"
+            }
+        ],
+        "trade": {
+            "ids": {
+                "explicit": [
+                    "explicit.stat_419810844"
+                ],
+                "fractured": [
+                    "fractured.stat_419810844"
+                ]
+            }
+        }
+    }
+}
