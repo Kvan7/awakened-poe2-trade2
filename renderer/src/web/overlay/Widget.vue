@@ -166,8 +166,8 @@ export default defineComponent({
     const moverPosition = computed(() => {
       const { anchor, wmZorder } = props.config;
       return {
-        top: `max(0%, min(calc(${anchor.y}% - (1rem/2)), calc(100% - 1rem)))`,
-        left: `max(0%, min(calc(${anchor.x}% - (1rem/2)), calc(100% - 1rem)))`,
+        "top": `max(0%, min(calc(${anchor.y}% - (1rem/2)), calc(100% - 1rem)))`,
+        "left": `max(0%, min(calc(${anchor.x}% - (1rem/2)), calc(100% - 1rem)))`,
         "z-index": typeof wmZorder === "number" ? wmZorder : undefined,
       };
     });
@@ -211,11 +211,11 @@ export default defineComponent({
       }
 
       return {
-        top: `${anchor.y}%`,
-        left: `${anchor.x}%`,
+        "top": `${anchor.y}%`,
+        "left": `${anchor.x}%`,
         "max-width": `${max.w}%`,
         "max-height": `${max.h}%`,
-        transform: translate,
+        "transform": translate,
         "z-index": typeof wmZorder === "number" ? wmZorder : undefined,
       };
     });
