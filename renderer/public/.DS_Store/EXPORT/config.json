@@ -1,0 +1,92 @@
+{
+    "patch": "4.1.0.8.2",
+    "translations": [
+        "English"
+    ],
+    "tables": [
+        {
+            "name": "BaseItemTypes",
+            "columns": [
+                "Id",
+                "Name",
+                "IsCorrupted",
+                "Width",
+                "Height",
+                "DropLevel",
+                "ItemVisualIdentity",
+                "Implicit_ModsKeys",
+                "ItemClassesKey",
+                "SiteVisibility",
+                "TagsKeys"
+            ]
+        },
+        {
+            "name": "ItemClasses",
+            "columns": [
+                "Id",
+                "Name"
+            ]
+        },
+        {
+            "name": "ArmourTypes",
+            "columns": [
+                "BaseItemTypesKey",
+                "ArmourMin",
+                "ArmourMax",
+                "EvasionMin",
+                "EvasionMax",
+                "EnergyShieldMin",
+                "EnergyShieldMax"
+            ]
+        },
+        {
+            "name": "Tags",
+            "columns": [
+                "Id",
+                "DisplayString"
+            ]
+        },
+        {
+            "name": "UniqueStashLayout",
+            "columns": [
+                "WordsKey",
+                "ItemVisualIdentityKey",
+                "UniqueStashTypesKey",
+                "RenamedVersion",
+                "ShowIfEmptyChallengeLeague"
+            ]
+        },
+        {
+            "name": "Words",
+            "columns": [
+                "Wordlist",
+                "Text",
+                "Text2",
+                "SpawnWeight_Tags",
+                "SpawnWeight_Values"
+            ]
+        },
+        {
+            "name": "ItemVisualIdentity",
+            "columns": [
+                "Id",
+                "DDSFile",
+                "AOFile"
+            ]
+        },
+        {
+            "name": "Stats",
+            "columns": [
+                "Id",
+                "IsLocal",
+                "IsWeaponLocal",
+                "Semantics",
+                "Text",
+                "IsVirtual",
+                "HASH32",
+                "BelongsActiveSkillsKey",
+                "IsScalable"
+            ]
+        }
+    ]
+}
