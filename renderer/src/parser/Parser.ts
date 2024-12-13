@@ -92,7 +92,10 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
 
 export function parseClipboard(clipboard: string): Result<ParsedItem, string> {
   try {
+    console.log(clipboard);
     let sections = itemTextToSections(clipboard);
+
+    console.log(sections);
 
     if (sections[0][2] === _$.CANNOT_USE_ITEM) {
       sections[0].pop(); // remove CANNOT_USE_ITEM line
@@ -100,6 +103,7 @@ export function parseClipboard(clipboard: string): Result<ParsedItem, string> {
       sections.shift(); // remove first section where CANNOT_USE_ITEM line was
     }
     const parsed = parseNamePlate(sections[0]);
+    console.log(parsed);
     if (!parsed.isOk()) return parsed;
 
     sections.shift();
