@@ -158,7 +158,7 @@ export function makeGenerator2Bases() {
                 assert.ok(ITEM_CLASS_BLACKLIST.has(itemClass), itemClass)
                 return false
             }
-            return (
+            return !((
                 row.Name !== 'Albino Rhoa Feather' &&
                 row.Name !== 'Fishing Rod' &&
                 row.Name !== 'Two-Stone Ring' &&
@@ -169,7 +169,7 @@ export function makeGenerator2Bases() {
                     (itemClass === 'ItemisedSanctum' && row.TagsKeys.length < 2) ||
                     row.SiteVisibility !== 1
                 )
-            ) ? false : true
+            ))
         })
         .map(row => ({
             ...row,
@@ -223,7 +223,7 @@ export function makeGenerator4Uniques() {
         ...makeGenerator2Bases()('en')
     ]
 
-    const WordList_Unique = 6
+    const WORDLIST_UNIQUE = 6
     const Words = Tables.Words()
 
     const UNIQUE_ICONS = API_ITEM_ICONS().filter(i => i.unique)
@@ -243,7 +243,7 @@ export function makeGenerator4Uniques() {
     //   true)
 
     const extraUniqueItems = Words
-        .filter(row => (row.Wordlist === WordList_Unique) && (
+        .filter(row => (row.Wordlist === WORDLIST_UNIQUE) && (
             // Unique Pieces
             row.Text2.startsWith('First Piece of ') ||
             row.Text2.startsWith('Second Piece of ') ||
