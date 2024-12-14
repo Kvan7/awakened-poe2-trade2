@@ -119,7 +119,9 @@
       class="mb-4 text-center bg-teal-800 rounded-xl"
       :class="presets.length > 1 ? 'mt-1' : 'mt-4'"
     >
-      Not all stats may load (WIP)
+      Pseudo mods not supported by trade site
+      <br />
+      Items may appear to be more valuable than they actually are
     </div>
     <!-- Handled parse error -->
     <div
