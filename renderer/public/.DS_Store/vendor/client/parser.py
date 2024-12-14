@@ -16,6 +16,7 @@ import os
 import json
 import re
 import requests
+import urllib.parse
 
 def get_script_dir():
     """Returns the directory where the script is located."""
@@ -41,6 +42,7 @@ translation_files       = os.listdir(f"{cwd}/descriptions")
 mods_file               = load_file("Mods")
 trade_stats             = json.loads(open(f"{cwd}/../json-api/stats.json").read()) # content of https://www.pathofexile.com/api/trade2/data/stats
 trade_items             = json.loads(open(f"{cwd}/../json-api/items.json").read()) # content of https://www.pathofexile.com/api/trade2/data/items
+trade_exchange_items    = json.loads(open(f"{cwd}/../json-api/static.json").read()) # content of https://www.pathofexile.com/api/trade2/data/static
 
 items = {}
 unique_items = []
@@ -50,6 +52,9 @@ stats = {}
 stats_trade_ids = {}
 mod_translations = {}
 mods = {}
+
+def make_poe_cdn_url(path):
+    return urllib.parse.urljoin('https://web.poecdn.com/', path)
 
 def convert_stat_name(stat):
     stat = stat.strip()
@@ -325,6 +330,22 @@ def parse_items():
                 "armour": armour
             })
 
+def parse_trade_exchange_items():
+    items_ids = {}
+    for id, item in items.items():
+        items_ids[item.get("name")] = id
+
+    for category in trade_exchange_items["result"]:
+        for entry in category.get("entries"):
+            item_name = entry.get("text")
+
+            if not item_name in items_ids:
+                continue
+
+            items[items_ids[item_name]].update({
+                "tradeTag": entry.get("id"),
+                "icon": make_poe_cdn_url(entry.get("image"))
+            })
 def resolve_item_classes():
     for item_class in item_classes:
         id = item_class.get("_index")
@@ -351,13 +372,20 @@ def write_to_file():
         armour = item.get("armour", None)
         width = item.get("width", None)
         height = item.get("height", None)
+        tradeTag = item.get("tradeTag", None)
+        icon = item.get("icon", "%NOT_FOUND%")
         
         out = {
             "name": name,
             "refName": name,
             "namespace": namespace, 
-            "icon": "%NOT_FOUND%",
+            "icon": icon,
         }
+
+        if tradeTag:
+             out.update({
+                "tradeTag": tradeTag
+            })
         
         if craftable:
             out.update({
@@ -420,5 +448,6 @@ if __name__ == "__main__":
     parse_categories()
     parse_items()
     resolve_item_classes()
+    parse_trade_exchange_items()
     write_to_file()
 
