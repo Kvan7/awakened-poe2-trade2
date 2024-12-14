@@ -22,9 +22,9 @@ import {
 } from "./ParsedItem";
 import { magicBasetype } from "./magic-name";
 import {
-  isModInfoLine,
-  groupLinesByMod,
-  parseModInfoLine,
+  // isModInfoLine,
+  // groupLinesByMod,
+  // parseModInfoLine,
   parseModType,
   ModifierInfo,
   ParsedModifier,
@@ -58,6 +58,7 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
   { virtual: findInDatabase },
   // -----------
   parseItemLevel,
+  parseRequirements,
   parseTalismanTier,
   parseGem,
   parseArmour,
@@ -79,10 +80,10 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
   parseLogbookArea,
   parseLogbookArea,
   parseLogbookArea,
-  parseModifiers, // enchant
-  parseModifiers, // scourge
-  parseModifiers, // implicit
-  parseModifiers, // explicit
+  parseModifiersPoe2, // enchant
+  parseModifiersPoe2, // scourge
+  parseModifiersPoe2, // implicit
+  parseModifiersPoe2, // explicit
   { virtual: transformToLegacyModifiers },
   { virtual: parseFractured },
   { virtual: parseBlightedMap },
@@ -92,10 +93,7 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
 
 export function parseClipboard(clipboard: string): Result<ParsedItem, string> {
   try {
-    console.log(clipboard);
     let sections = itemTextToSections(clipboard);
-
-    console.log(sections);
 
     if (sections[0][2] === _$.CANNOT_USE_ITEM) {
       sections[0].pop(); // remove CANNOT_USE_ITEM line
@@ -103,7 +101,6 @@ export function parseClipboard(clipboard: string): Result<ParsedItem, string> {
       sections.shift(); // remove first section where CANNOT_USE_ITEM line was
     }
     const parsed = parseNamePlate(sections[0]);
-    console.log(parsed);
     if (!parsed.isOk()) return parsed;
 
     sections.shift();
@@ -116,7 +113,6 @@ export function parseClipboard(clipboard: string): Result<ParsedItem, string> {
         if (error) return error;
         continue;
       }
-
       for (const section of sections) {
         const result = parser(section, parsed.value);
         if (result === "SECTION_PARSED") {
@@ -456,6 +452,13 @@ function parseItemLevel(section: string[], item: ParsedItem) {
   return "SECTION_SKIPPED";
 }
 
+function parseRequirements(section: string[], item: ParsedItem) {
+  if (section[0].startsWith(_$.REQUIREMENTS)) {
+    return "SECTION_PARSED";
+  }
+  return "SECTION_SKIPPED";
+}
+
 function parseTalismanTier(section: string[], item: ParsedItem) {
   if (section[0].startsWith(_$.TALISMAN_TIER)) {
     item.talismanTier = Number(section[0].slice(_$.TALISMAN_TIER.length));
@@ -684,8 +687,106 @@ function parseLogbookArea(section: string[], item: ParsedItem) {
 
   return "SECTION_PARSED";
 }
+/**
+ * 
+ *
+ * 
+ * 
+ * Item Class: Gloves
+Rarity: Rare
+Golem Grasp
+Precursor Gauntlets
+--------
+Quality: +20% (augmented)
+Armour: 1030 (augmented)
+--------
+Requirements:
+Level: 78
+Str: 155
+Dex: 68
+Int: 27
+--------
+Sockets: R-R-R-R 
+--------
+Item Level: 86
+--------
++5% chance to Suppress Spell Damage (implicit)
+8% increased Attack Speed (implicit)
+--------
++32 to Strength
++101 to Armour
+89% increased Armour
++98 to maximum Life
++48% to Fire Resistance
++29% to Lightning Resistance
+Searing Exarch Item
+Eater of Worlds Item
 
-function parseModifiers(section: string[], item: ParsedItem) {
+ * 
+ * 
+ * Item Class: Gloves
+Rarity: Rare
+Golem Grasp
+Precursor Gauntlets
+--------
+Quality: +20% (augmented)
+Armour: 1030 (augmented)
+--------
+Requirements:
+Level: 78
+Str: 155
+Dex: 68
+Int: 27
+--------
+Sockets: R-R-R-R 
+--------
+Item Level: 86
+--------
+{ Searing Exarch Implicit Modifier (Lesser) — Attack, Speed }
+8% increased Attack Speed (implicit)
+{ Eater of Worlds Implicit Modifier (Lesser) }
++5% chance to Suppress Spell Damage (implicit)
+(50% of Damage from Suppressed Hits and Ailments they inflict is prevented) (implicit)
+--------
+{ Prefix Modifier "Plated" (Tier: 3) — Defences, Armour }
++101(83-101) to Armour
+{ Prefix Modifier "Girded" (Tier: 2) — Defences, Armour }
+89(80-91)% increased Armour
+{ Prefix Modifier "Rotund" (Tier: 3) — Life }
++98(85-99) to maximum Life
+{ Suffix Modifier "of the Thunderhead" (Tier: 5) — Elemental, Lightning, Resistance }
++29(24-29)% to Lightning Resistance
+{ Suffix Modifier "of Tzteosh" (Tier: 1) — Elemental, Fire, Resistance }
++48(46-48)% to Fire Resistance
+{ Suffix Modifier "of the Gorilla" (Tier: 5) — Attribute }
++32(28-32) to Strength
+Searing Exarch Item
+Eater of Worlds Item
+
+ * 
+ * 
+ * Item Class: Rings
+Rarity: Rare
+Morbid Whorl
+Ruby Ring
+--------
+Requirements:
+Level: 23
+--------
+Item Level: 39
+--------
++27% to Fire Resistance (implicit)
+--------
++33 to Accuracy Rating
++35 to Evasion Rating
++13% to Lightning Resistance
+38% increased Mana Regeneration Rate
+
+
+ * 
+ */
+
+function parseModifiersPoe2(section: string[], item: ParsedItem) {
   if (
     item.rarity !== ItemRarity.Normal &&
     item.rarity !== ItemRarity.Magic &&
@@ -695,40 +796,83 @@ function parseModifiers(section: string[], item: ParsedItem) {
     return "PARSER_SKIPPED";
   }
 
-  const recognizedLine = section.find(
-    (line) =>
-      line.endsWith(ENCHANT_LINE) ||
-      line.endsWith(SCOURGE_LINE) ||
-      isModInfoLine(line),
+  let foundAnyMods = false;
+
+  const enchantOrScourge = section.find(
+    (line) => line.endsWith(ENCHANT_LINE) || line.endsWith(SCOURGE_LINE),
   );
 
-  if (!recognizedLine) {
-    return "SECTION_SKIPPED";
-  }
-
-  if (isModInfoLine(recognizedLine)) {
-    for (const { modLine, statLines } of groupLinesByMod(section)) {
-      const { modType, lines } = parseModType(statLines);
-      const modInfo = parseModInfoLine(modLine, modType);
-      parseStatsFromMod(lines, item, { info: modInfo, stats: [] });
+  if (enchantOrScourge) {
+    const { lines } = parseModType(section);
+    const modInfo: ModifierInfo = {
+      type: enchantOrScourge.endsWith(ENCHANT_LINE)
+        ? ModifierType.Enchant
+        : ModifierType.Scourge,
+      tags: [],
+    };
+    foundAnyMods = parseStatsFromMod(lines, item, { info: modInfo, stats: [] });
+  } else {
+    for (const statLines of section) {
+      const { modType, lines } = parseModType([statLines]);
+      // const modInfo = parseModInfoLine(modLine, modType);
+      foundAnyMods =
+        parseStatsFromMod(lines, item, {
+          info: { type: modType, tags: [] },
+          stats: [],
+        }) || foundAnyMods;
 
       if (modType === ModifierType.Veiled) {
         item.isVeiled = true;
       }
     }
-  } else {
-    const { lines } = parseModType(section);
-    const modInfo: ModifierInfo = {
-      type: recognizedLine.endsWith(ENCHANT_LINE)
-        ? ModifierType.Enchant
-        : ModifierType.Scourge,
-      tags: [],
-    };
-    parseStatsFromMod(lines, item, { info: modInfo, stats: [] });
   }
 
-  return "SECTION_PARSED";
+  return foundAnyMods ? "SECTION_PARSED" : "SECTION_SKIPPED";
 }
+// function parseModifiers(section: string[], item: ParsedItem) {
+//   if (
+//     item.rarity !== ItemRarity.Normal &&
+//     item.rarity !== ItemRarity.Magic &&
+//     item.rarity !== ItemRarity.Rare &&
+//     item.rarity !== ItemRarity.Unique
+//   ) {
+//     return "PARSER_SKIPPED";
+//   }
+
+//   const recognizedLine = section.find(
+//     (line) =>
+//       line.endsWith(ENCHANT_LINE) ||
+//       line.endsWith(SCOURGE_LINE) ||
+//       isModInfoLine(line),
+//   );
+
+//   if (!recognizedLine) {
+//     return "SECTION_SKIPPED";
+//   }
+
+//   if (isModInfoLine(recognizedLine)) {
+//     for (const { modLine, statLines } of groupLinesByMod(section)) {
+//       const { modType, lines } = parseModType(statLines);
+//       const modInfo = parseModInfoLine(modLine, modType);
+//       parseStatsFromMod(lines, item, { info: modInfo, stats: [] });
+
+//       if (modType === ModifierType.Veiled) {
+//         item.isVeiled = true;
+//       }
+//     }
+//   } else {
+//     const { lines } = parseModType(section);
+//     const modInfo: ModifierInfo = {
+//       type: recognizedLine.endsWith(ENCHANT_LINE)
+//         ? ModifierType.Enchant
+//         : ModifierType.Scourge,
+//       tags: [],
+//     };
+//     parseStatsFromMod(lines, item, { info: modInfo, stats: [] });
+//   }
+
+//   return "SECTION_PARSED";
+// }
 
 function parseMirrored(section: string[], item: ParsedItem) {
   if (section.length === 1) {
@@ -985,7 +1129,7 @@ function parseStatsFromMod(
   lines: string[],
   item: ParsedItem,
   modifier: ParsedModifier,
-) {
+): boolean {
   item.newMods.push(modifier);
 
   if (modifier.info.type === ModifierType.Veiled) {
@@ -1001,7 +1145,7 @@ function parseStatsFromMod(
         type: modifier.info.type,
       });
     }
-    return;
+    return true;
   }
 
   const statIterator = linesToStatStrings(lines);
@@ -1022,6 +1166,8 @@ function parseStatsFromMod(
       type: modifier.info.type,
     })),
   );
+  console.log(item);
+  return true;
 }
 
 /**
