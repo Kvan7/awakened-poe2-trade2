@@ -2963,6 +2963,7 @@
 {"name": "Snakebite", "refName": "Snakebite", "namespace": "UNIQUE", "unique": {"base": "Spined Bracers"}}
 {"name": "Solus Ipse", "refName": "Solus Ipse", "namespace": "UNIQUE", "unique": {"base": "Grand Visage"}}
 {"name": "Svalinn", "refName": "Svalinn", "namespace": "UNIQUE", "unique": {"base": "Crucible Tower Shield"}}
+{"name": "Temporalis", "refName": "Temporalis", "namespace": "UNIQUE", "unique": {"base": "Silk Robe"}}
 {"name": "Tetzlapokal's Desire", "refName": "Tetzlapokal's Desire", "namespace": "UNIQUE", "unique": {"base": "Votive Raiment"}}
 {"name": "The Barrow Dweller", "refName": "The Barrow Dweller", "namespace": "UNIQUE", "unique": {"base": "Rogue Armour"}}
 {"name": "The Black Doubt", "refName": "The Black Doubt", "namespace": "UNIQUE", "unique": {"base": "Hexer's Robe"}}
@@ -3004,8 +3005,9 @@
 {"name": "Controlled Metamorphosis", "refName": "Controlled Metamorphosis", "namespace": "UNIQUE", "unique": {"base": "Diamond"}}
 {"name": "From Nothing", "refName": "From Nothing", "namespace": "UNIQUE", "unique": {"base": "Diamond"}}
 {"name": "Grand Spectrum", "refName": "Grand Spectrum", "namespace": "UNIQUE", "unique": {"base": "Emerald"}}
-{"name": "Grand Spectrum", "refName": "Grand Spectrum", "namespace": "UNIQUE", "unique": {"base": "Sapphire"}}
 {"name": "Grand Spectrum", "refName": "Grand Spectrum", "namespace": "UNIQUE", "unique": {"base": "Ruby"}}
+{"name": "Grand Spectrum", "refName": "Grand Spectrum", "namespace": "UNIQUE", "unique": {"base": "Sapphire"}}
+{"name": "Prism of Belief", "refName": "Prism of Belief", "namespace": "UNIQUE", "unique": {"base": "Diamond"}}
 {"name": "The Adorned", "refName": "The Adorned", "namespace": "UNIQUE", "unique": {"base": "Diamond"}}
 {"name": "Brain Rattler", "refName": "Brain Rattler", "namespace": "UNIQUE", "unique": {"base": "Studded Greatclub"}}
 {"name": "Brynhand's Mark", "refName": "Brynhand's Mark", "namespace": "UNIQUE", "unique": {"base": "Wooden Club"}}
@@ -3028,6 +3030,7 @@
 {"name": "Quecholli", "refName": "Quecholli", "namespace": "UNIQUE", "unique": {"base": "Crumbling Maul"}}
 {"name": "Quill Rain", "refName": "Quill Rain", "namespace": "UNIQUE", "unique": {"base": "Shortbow"}}
 {"name": "Rampart Raptor", "refName": "Rampart Raptor", "namespace": "UNIQUE", "unique": {"base": "Tense Crossbow"}}
+{"name": "Sacred Flame", "refName": "Sacred Flame", "namespace": "UNIQUE", "unique": {"base": "Shrine Sceptre"}}
 {"name": "Sanguine Diviner", "refName": "Sanguine Diviner", "namespace": "UNIQUE", "unique": {"base": "Bone Wand"}}
 {"name": "Seeing Stars", "refName": "Seeing Stars", "namespace": "UNIQUE", "unique": {"base": "Plated Mace"}}
 {"name": "Splinterheart", "refName": "Splinterheart", "namespace": "UNIQUE", "unique": {"base": "Recurve Bow"}}
