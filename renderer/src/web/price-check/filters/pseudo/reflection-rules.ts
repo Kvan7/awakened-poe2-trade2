@@ -1,4 +1,4 @@
-import { stat } from "@/assets/data";
+// import { stat } from "@/assets/data";
 import type { StatFilter } from "../interfaces";
 
 interface FilterRule {

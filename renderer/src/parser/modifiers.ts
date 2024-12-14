@@ -142,4 +142,5 @@ export enum ModifierType {
   Necropolis = "necropolis",
   Veiled = "veiled",
   Fractured = "fractured",
+  Rune = "rune",
 }
