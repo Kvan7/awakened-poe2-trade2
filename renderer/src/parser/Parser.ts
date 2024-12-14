@@ -187,6 +187,15 @@ function normalizeName(item: ParserState) {
       item.name = "Metamorph Liver";
     }
   }
+  console.log(
+    item.name,
+    "base",
+    item.baseType,
+    "cat",
+    item.category,
+    "rare: ",
+    item.rarity,
+  );
 }
 
 function findInDatabase(item: ParserState) {
@@ -1166,7 +1175,6 @@ function parseStatsFromMod(
       type: modifier.info.type,
     })),
   );
-  console.log(item);
   return true;
 }
 

@@ -1,4 +1,16 @@
 {
+    "0": {
+        "name": "Blacksmith's Whetstone",
+        "refName": "Blacksmith's Whetstone",
+        "namespace": "ITEM",
+        "class": 30,
+        "dropLevel": 5,
+        "width": 1,
+        "height": 1,
+        "craftable": {
+            "category": "Currency"
+        }
+    },
     "1": {
         "name": "Arcanist's Etcher",
         "refName": "Arcanist's Etcher",
@@ -10,7 +22,10 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": {
+            "name": "LifeFlask",
+            "short": "Flask"
+        }
     },
     "2": {
         "name": "Scroll of Wisdom",
@@ -179,7 +194,7 @@
         },
         "category": {
             "name": "ManaFlask",
-            "short": null
+            "short": "Flask"
         }
     },
     "13": {
@@ -24483,7 +24498,10 @@
         "class": 0,
         "dropLevel": 1,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2222": {
         "name": "Medium Life Flask",
@@ -24492,7 +24510,10 @@
         "class": 0,
         "dropLevel": 4,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2223": {
         "name": "Greater Life Flask",
@@ -24501,7 +24522,10 @@
         "class": 0,
         "dropLevel": 10,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2224": {
         "name": "Grand Life Flask",
@@ -24510,7 +24534,10 @@
         "class": 0,
         "dropLevel": 16,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2225": {
         "name": "Giant Life Flask",
@@ -24519,7 +24546,10 @@
         "class": 0,
         "dropLevel": 23,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2226": {
         "name": "Colossal Life Flask",
@@ -24528,7 +24558,10 @@
         "class": 0,
         "dropLevel": 30,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2227": {
         "name": "Gargantuan Life Flask",
@@ -24537,7 +24570,10 @@
         "class": 0,
         "dropLevel": 40,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2228": {
         "name": "Transcendent Life Flask",
@@ -24546,7 +24582,10 @@
         "class": 0,
         "dropLevel": 50,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2229": {
         "name": "Ultimate Life Flask",
@@ -24555,7 +24594,10 @@
         "class": 0,
         "dropLevel": 60,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2230": {
         "name": "Lesser Mana Flask",
@@ -24564,7 +24606,10 @@
         "class": 1,
         "dropLevel": 1,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2231": {
         "name": "Medium Mana Flask",
@@ -24573,7 +24618,10 @@
         "class": 1,
         "dropLevel": 4,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2232": {
         "name": "Greater Mana Flask",
@@ -24582,7 +24630,10 @@
         "class": 1,
         "dropLevel": 10,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2233": {
         "name": "Grand Mana Flask",
@@ -24591,7 +24642,10 @@
         "class": 1,
         "dropLevel": 16,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2234": {
         "name": "Giant Mana Flask",
@@ -24600,7 +24654,10 @@
         "class": 1,
         "dropLevel": 23,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2235": {
         "name": "Colossal Mana Flask",
@@ -24609,7 +24666,10 @@
         "class": 1,
         "dropLevel": 30,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2236": {
         "name": "Gargantuan Mana Flask",
@@ -24618,7 +24678,10 @@
         "class": 1,
         "dropLevel": 40,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2237": {
         "name": "Transcendent Mana Flask",
@@ -24627,7 +24690,10 @@
         "class": 1,
         "dropLevel": 50,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2238": {
         "name": "Ultimate Mana Flask",
@@ -24636,7 +24702,10 @@
         "class": 1,
         "dropLevel": 60,
         "width": 1,
-        "height": 2
+        "height": 2,
+        "craftable": {
+            "category": "Flask"
+        }
     },
     "2239": {
         "name": "Thawing Charm",

@@ -267,8 +267,6 @@ export default defineComponent({
       },
     );
 
-    console.log(props.item);
-
     const showUnknownMods = computed(
       () =>
         props.item.unknownModifiers.length &&

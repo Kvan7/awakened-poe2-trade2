@@ -204,7 +204,8 @@ def parse_categories():
     # parse item categories
     for cat in item_class_categories:
         id = cat.get("_index")
-        if not id:
+        if id is None:
+            print(id)
             continue
         
         text = cat.get("Id")
@@ -212,7 +213,7 @@ def parse_categories():
 
     for cat in item_classes:
         id = cat.get("_index")
-        if not id:
+        if id is None:
             continue
         
         text = cat.get("Id")
@@ -245,7 +246,7 @@ def parse_items():
     # parse base items
     for item in base_items:
         id = item.get("_index")
-        if not id:
+        if id is None:
             continue
         
         name = item.get("Name")
@@ -265,7 +266,7 @@ def parse_items():
             "height": item.get("Height"),
         }
         
-        if class_key > 0:
+        if class_key is not None:
             class_info = parsed_item_classes.get(class_key).get("short")
             # if class_info in ["Belt", "Ring", "Amulet"]:
             if class_info != None:
@@ -274,7 +275,7 @@ def parse_items():
                         "category": class_info
                     }
                 })
-        
+
     # convert base items into gems
     for gem in skill_gems:
         id = gem.get("BaseItemTypesKey")

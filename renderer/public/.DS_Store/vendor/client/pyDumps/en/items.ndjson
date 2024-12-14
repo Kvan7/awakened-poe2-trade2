@@ -310,6 +310,7 @@
 {"name": "Black Scythe Artifact", "refName": "Black Scythe Artifact", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Blackfire Crossbow", "refName": "Blackfire Crossbow", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Crossbow"}, "w": 2, "h": 4}
 {"name": "Blackguard Personnel Files", "refName": "Blackguard Personnel Files", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
+{"name": "Blacksmith's Whetstone", "refName": "Blacksmith's Whetstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Blacksteel Tower Shield", "refName": "Blacksteel Tower Shield", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ar": [152, 152]}, "w": 2, "h": 4}
 {"name": "Bladed Shoes", "refName": "Bladed Shoes", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ev": [91, 91], "es": [35, 35]}, "w": 2, "h": 2}
 {"name": "Bladed Trap", "refName": "Bladed Trap", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "TrapTool"}, "w": 2, "h": 2}
@@ -564,8 +565,8 @@
 {"name": "Cold Mastery", "refName": "Cold Mastery", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Cold Penetration", "refName": "Cold Penetration", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Cold Snap", "refName": "Cold Snap", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Colossal Life Flask", "refName": "Colossal Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
-{"name": "Colossal Mana Flask", "refName": "Colossal Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
+{"name": "Colossal Life Flask", "refName": "Colossal Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
+{"name": "Colossal Mana Flask", "refName": "Colossal Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Colosseum Plate", "refName": "Colosseum Plate", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ar": [304, 304]}, "w": 2, "h": 3}
 {"name": "Combat Frenzy", "refName": "Combat Frenzy", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Combo Finisher", "refName": "Combo Finisher", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -1236,8 +1237,8 @@
 {"name": "Galvanic Field", "refName": "Galvanic Field", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Galvanic Shards", "refName": "Galvanic Shards", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Galvanic Wand", "refName": "Galvanic Wand", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Wand"}, "w": 1, "h": 3}
-{"name": "Gargantuan Life Flask", "refName": "Gargantuan Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
-{"name": "Gargantuan Mana Flask", "refName": "Gargantuan Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
+{"name": "Gargantuan Life Flask", "refName": "Gargantuan Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
+{"name": "Gargantuan Mana Flask", "refName": "Gargantuan Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Garment", "refName": "Garment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "w": 2, "h": 3}
 {"name": "Gas Arrow", "refName": "Gas Arrow", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Gas Filled Bladder", "refName": "Gas Filled Bladder", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 2, "h": 1}
@@ -1254,8 +1255,8 @@
 {"name": "Geomancer's Incubator", "refName": "Geomancer's Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
 {"name": "Geomancer's Incubator", "refName": "Geomancer's Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
 {"name": "Ghost Dance", "refName": "Ghost Dance", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Giant Life Flask", "refName": "Giant Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
-{"name": "Giant Mana Flask", "refName": "Giant Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
+{"name": "Giant Life Flask", "refName": "Giant Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
+{"name": "Giant Mana Flask", "refName": "Giant Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Giant Maul", "refName": "Giant Maul", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Mace"}, "w": 2, "h": 4}
 {"name": "Gift to the Goddess", "refName": "Gift to the Goddess", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
 {"name": "Gilded Abyss Scarab", "refName": "Gilded Abyss Scarab", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
@@ -1331,8 +1332,8 @@
 {"name": "Grand Eldritch Ember", "refName": "Grand Eldritch Ember", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Grand Eldritch Ichor", "refName": "Grand Eldritch Ichor", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Grand Idol", "refName": "Grand Idol", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 2, "h": 2}
-{"name": "Grand Life Flask", "refName": "Grand Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
-{"name": "Grand Mana Flask", "refName": "Grand Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
+{"name": "Grand Life Flask", "refName": "Grand Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
+{"name": "Grand Mana Flask", "refName": "Grand Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Grand Manchettes", "refName": "Grand Manchettes", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Gloves"}, "armour": {"ar": [44, 44], "ev": [40, 40], "es": [15, 15]}, "w": 2, "h": 2}
 {"name": "Grand Mitts", "refName": "Grand Mitts", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Gloves"}, "armour": {"ar": [122, 122]}, "w": 2, "h": 2}
 {"name": "Grand Regalia", "refName": "Grand Regalia", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ar": [135, 135], "ev": [123, 123], "es": [46, 46]}, "w": 2, "h": 3}
@@ -1357,8 +1358,8 @@
 {"name": "Greater Essence of the Infinite", "refName": "Greater Essence of the Infinite", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Greater Essence of the Mind", "refName": "Greater Essence of the Mind", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Greater Jeweller's Orb", "refName": "Greater Jeweller's Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Life Flask", "refName": "Greater Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
-{"name": "Greater Mana Flask", "refName": "Greater Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
+{"name": "Greater Life Flask", "refName": "Greater Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
+{"name": "Greater Mana Flask", "refName": "Greater Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Greatmace", "refName": "Greatmace", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Mace"}, "w": 2, "h": 4}
 {"name": "Green Mushroom", "refName": "Green Mushroom", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 2}
 {"name": "Grim Feast", "refName": "Grim Feast", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -1561,8 +1562,8 @@
 {"name": "Lesser Eldritch Ember", "refName": "Lesser Eldritch Ember", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Lesser Eldritch Ichor", "refName": "Lesser Eldritch Ichor", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Lesser Jeweller's Orb", "refName": "Lesser Jeweller's Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Lesser Life Flask", "refName": "Lesser Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
-{"name": "Lesser Mana Flask", "refName": "Lesser Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
+{"name": "Lesser Life Flask", "refName": "Lesser Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
+{"name": "Lesser Mana Flask", "refName": "Lesser Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Leverage", "refName": "Leverage", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Life Bounty", "refName": "Life Bounty", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Life Drain", "refName": "Life Drain", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -1692,8 +1693,8 @@
 {"name": "Meat Shield", "refName": "Meat Shield", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Medallion Trap", "refName": "Medallion Trap", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "TrapTool"}, "w": 2, "h": 2}
 {"name": "Meditate", "refName": "Meditate", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Medium Life Flask", "refName": "Medium Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
-{"name": "Medium Mana Flask", "refName": "Medium Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
+{"name": "Medium Life Flask", "refName": "Medium Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
+{"name": "Medium Mana Flask", "refName": "Medium Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Medium Soul Core", "refName": "Medium Soul Core", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "InstanceLocalItem"}, "w": 2, "h": 2}
 {"name": "Medium Soul Core", "refName": "Medium Soul Core", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "InstanceLocalItem"}, "w": 2, "h": 2}
 {"name": "Memory Fragment I", "refName": "Memory Fragment I", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 2, "h": 1}
@@ -2493,8 +2494,8 @@
 {"name": "Tournament Mail", "refName": "Tournament Mail", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ar": [245, 245], "ev": [223, 223]}, "w": 2, "h": 3}
 {"name": "Toxic Growth", "refName": "Toxic Growth", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Toxic Quiver", "refName": "Toxic Quiver", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Quiver"}, "w": 2, "h": 3}
-{"name": "Transcendent Life Flask", "refName": "Transcendent Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
-{"name": "Transcendent Mana Flask", "refName": "Transcendent Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
+{"name": "Transcendent Life Flask", "refName": "Transcendent Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
+{"name": "Transcendent Mana Flask", "refName": "Transcendent Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Transforming Power Core", "refName": "Transforming Power Core", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Transmutation Shard", "refName": "Transmutation Shard", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Trarthan Flashpowder", "refName": "Trarthan Flashpowder", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistEquipmentTool"}, "w": 2, "h": 2}
@@ -2516,8 +2517,8 @@
 {"name": "Twilight Tiara", "refName": "Twilight Tiara", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Helmet"}, "armour": {"es": [77, 77]}, "w": 2, "h": 2}
 {"name": "Twin Flail", "refName": "Twin Flail", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flail"}, "w": 2, "h": 3}
 {"name": "Two-Point Quiver", "refName": "Two-Point Quiver", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Quiver"}, "w": 2, "h": 3}
-{"name": "Ultimate Life Flask", "refName": "Ultimate Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
-{"name": "Ultimate Mana Flask", "refName": "Ultimate Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 2}
+{"name": "Ultimate Life Flask", "refName": "Ultimate Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
+{"name": "Ultimate Mana Flask", "refName": "Ultimate Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Ultimatum Aspect", "refName": "Ultimatum Aspect", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "UniqueFragment"}, "w": 1, "h": 2}
 {"name": "Ultimatum Aspect", "refName": "Ultimatum Aspect", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "UniqueFragment"}, "w": 3, "h": 1}
 {"name": "Ultimatum Aspect", "refName": "Ultimatum Aspect", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "UniqueFragment"}, "w": 1, "h": 2}
