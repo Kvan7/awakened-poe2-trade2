@@ -31,6 +31,7 @@ import {
   ENCHANT_LINE,
   SCOURGE_LINE,
   IMPLICIT_LINE,
+  RUNE_LINE,
 } from "./advanced-mod-desc";
 import { calcPropPercentile, QUALITY_STATS } from "./calc-q20";
 
@@ -92,6 +93,7 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
 ];
 
 export function parseClipboard(clipboard: string): Result<ParsedItem, string> {
+  // print call stack
   try {
     let sections = itemTextToSections(clipboard);
 
@@ -187,15 +189,6 @@ function normalizeName(item: ParserState) {
       item.name = "Metamorph Liver";
     }
   }
-  console.log(
-    item.name,
-    "base",
-    item.baseType,
-    "cat",
-    item.category,
-    "rare: ",
-    item.rarity,
-  );
 }
 
 function findInDatabase(item: ParserState) {
@@ -812,16 +805,21 @@ function parseModifiersPoe2(section: string[], item: ParsedItem) {
 
   let foundAnyMods = false;
 
-  const enchantOrScourge = section.find(
-    (line) => line.endsWith(ENCHANT_LINE) || line.endsWith(SCOURGE_LINE),
+  const enchantOrScourgeOrRune = section.find(
+    (line) =>
+      line.endsWith(ENCHANT_LINE) ||
+      line.endsWith(SCOURGE_LINE) ||
+      line.endsWith(RUNE_LINE),
   );
 
-  if (enchantOrScourge) {
+  if (enchantOrScourgeOrRune) {
     const { lines } = parseModType(section);
     const modInfo: ModifierInfo = {
-      type: enchantOrScourge.endsWith(ENCHANT_LINE)
+      type: enchantOrScourgeOrRune.endsWith(ENCHANT_LINE)
         ? ModifierType.Enchant
-        : ModifierType.Scourge,
+        : enchantOrScourgeOrRune.endsWith(SCOURGE_LINE)
+          ? ModifierType.Scourge
+          : ModifierType.Rune,
       tags: [],
     };
     foundAnyMods = parseStatsFromMod(lines, item, { info: modInfo, stats: [] });
@@ -1147,6 +1145,7 @@ function parseStatsFromMod(
   item.newMods.push(modifier);
 
   if (modifier.info.type === ModifierType.Veiled) {
+    console.log("mod name:", modifier.info.name);
     const found = STAT_BY_MATCH_STR(modifier.info.name!);
     if (found) {
       modifier.stats.push({

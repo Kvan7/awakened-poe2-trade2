@@ -3,12 +3,16 @@
         "name": "Blacksmith's Whetstone",
         "refName": "Blacksmith's Whetstone",
         "namespace": "ITEM",
-        "class": 30,
+        "class": "Life Flasks",
         "dropLevel": 5,
         "width": 1,
         "height": 1,
         "craftable": {
             "category": "Currency"
+        },
+        "category": {
+            "name": "LifeFlask",
+            "short": "Flask"
         }
     },
     "1": {

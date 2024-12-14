@@ -161,7 +161,6 @@ def parse_translation_file(file):
             parse_mod(id, english)
 
 def parse_mods():
-    
     for stat in stats_file:
         id = stat.get("_index")
         name = stat.get("Id")
@@ -205,7 +204,6 @@ def parse_categories():
     for cat in item_class_categories:
         id = cat.get("_index")
         if id is None:
-            print(id)
             continue
         
         text = cat.get("Id")
@@ -330,7 +328,7 @@ def parse_items():
 def resolve_item_classes():
     for item_class in item_classes:
         id = item_class.get("_index")
-        if not id:
+        if id is None:
             continue
         
         name = item_class.get("Name")
@@ -395,7 +393,7 @@ def write_to_file():
     
     # somehow not a thing? - possibly missing some data
     mods["physical_local_damage_+%"] = {
-        "ref": "#% increased Physical Damage", "better": 1, "id": "physical_local_damage_+%", "matchers": [{"string": "#% increased Physical Damage"}], "trade": {"ids": {"explicit": ["explicit.stat_419810844"], "fractured": ["fractured.stat_419810844"]}}
+        "ref": "#% increased Physical Damage", "better": 1, "id": "physical_local_damage_+%", "matchers": [{"string": "#% increased Physical Damage"}], "trade": {"ids": {"explicit": ["explicit.stat_419810844"], "fractured": ["fractured.stat_419810844"], "rune": ["rune.stat_419810844"]}}
     }
     
     seen = set()
