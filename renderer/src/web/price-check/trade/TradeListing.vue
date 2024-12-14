@@ -53,7 +53,7 @@
               <td class="px-2 whitespace-nowrap">
                 <span
                   :class="{
-                    'line-through': result.priceCurrency === 'exalted',
+                    'line-through': result.priceCurrency === 'chaos',
                   }"
                   >{{ result.priceAmount }} {{ result.priceCurrency }}</span
                 >

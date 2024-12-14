@@ -1,4 +1,5 @@
-import { stat, STAT_BY_REF } from "@/assets/data";
+// import { stat, STAT_BY_REF } from "@/assets/data";
+import { STAT_BY_REF } from "@/assets/data";
 import { ModifierType, StatCalculated, StatSource } from "@/parser/modifiers";
 import {
   calculatedStatToFilter,
@@ -186,10 +187,10 @@ const PSEUDO_RULES: PseudoRule[] = [
   //     // { ref: stat('#% increased Attack and Cast Speed') }
   //   ],
   // },
-  {
-    pseudo: stat("#% increased Movement Speed"),
-    stats: [{ ref: stat("#% increased Movement Speed") }],
-  },
+  // {
+  //   pseudo: stat("#% increased Movement Speed"),
+  //   stats: [{ ref: stat("#% increased Movement Speed") }],
+  // },
   // {
   //   pseudo: stat("#% total increased Physical Damage"),
   //   stats: [{ ref: stat("#% increased Global Physical Damage") }],
@@ -214,41 +215,41 @@ const PSEUDO_RULES: PseudoRule[] = [
   //   pseudo: stat("+#% Global Critical Strike Multiplier"),
   //   stats: [{ ref: stat("+#% to Global Critical Strike Multiplier") }],
   // },
-  {
-    pseudo: stat("#% increased Elemental Damage"),
-    group: "incr_ele_dmg",
-    stats: [{ ref: stat("#% increased Elemental Damage") }],
-  },
-  {
-    pseudo: stat("#% increased Lightning Damage"),
-    replaces: "incr_ele_dmg",
-    stats: [
-      { ref: stat("#% increased Lightning Damage"), required: true },
-      { ref: stat("#% increased Elemental Damage") },
-    ],
-  },
-  {
-    pseudo: stat("#% increased Cold Damage"),
-    replaces: "incr_ele_dmg",
-    stats: [
-      { ref: stat("#% increased Cold Damage"), required: true },
-      { ref: stat("#% increased Elemental Damage") },
-    ],
-  },
-  {
-    pseudo: stat("#% increased Fire Damage"),
-    group: "incr_fire_dmg",
-    replaces: "incr_ele_dmg",
-    stats: [
-      { ref: stat("#% increased Fire Damage"), required: true },
-      { ref: stat("#% increased Elemental Damage") },
-    ],
-  },
-  {
-    pseudo: stat("#% increased Spell Damage"),
-    group: "incr_spell_dmg",
-    stats: [{ ref: stat("#% increased Spell Damage") }],
-  },
+  // {
+  //   pseudo: stat("#% increased Elemental Damage"),
+  //   group: "incr_ele_dmg",
+  //   stats: [{ ref: stat("#% increased Elemental Damage") }],
+  // },
+  // {
+  //   pseudo: stat("#% increased Lightning Damage"),
+  //   replaces: "incr_ele_dmg",
+  //   stats: [
+  //     { ref: stat("#% increased Lightning Damage"), required: true },
+  //     { ref: stat("#% increased Elemental Damage") },
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("#% increased Cold Damage"),
+  //   replaces: "incr_ele_dmg",
+  //   stats: [
+  //     { ref: stat("#% increased Cold Damage"), required: true },
+  //     { ref: stat("#% increased Elemental Damage") },
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("#% increased Fire Damage"),
+  //   group: "incr_fire_dmg",
+  //   replaces: "incr_ele_dmg",
+  //   stats: [
+  //     { ref: stat("#% increased Fire Damage"), required: true },
+  //     { ref: stat("#% increased Elemental Damage") },
+  //   ],
+  // },
+  // {
+  //   pseudo: stat("#% increased Spell Damage"),
+  //   group: "incr_spell_dmg",
+  //   stats: [{ ref: stat("#% increased Spell Damage") }],
+  // },
   // {
   //   pseudo: stat("#% increased Lightning Spell Damage"),
   //   replaces: "incr_spell_dmg",
@@ -284,15 +285,15 @@ const PSEUDO_RULES: PseudoRule[] = [
   //     { ref: stat("#% increased Elemental Damage") },
   //   ],
   // },
-  {
-    pseudo: stat("#% increased Burning Damage"),
-    replaces: "incr_fire_dmg",
-    stats: [
-      { ref: stat("#% increased Burning Damage"), required: true },
-      { ref: stat("#% increased Fire Damage") },
-      { ref: stat("#% increased Elemental Damage") },
-    ],
-  },
+  // {
+  //   pseudo: stat("#% increased Burning Damage"),
+  //   replaces: "incr_fire_dmg",
+  //   stats: [
+  //     { ref: stat("#% increased Burning Damage"), required: true },
+  //     { ref: stat("#% increased Fire Damage") },
+  //     { ref: stat("#% increased Elemental Damage") },
+  //   ],
+  // },
   // {
   //   pseudo: stat("# Life Regenerated per Second"),
   //   stats: [{ ref: stat("Regenerate # Life per second") }],
@@ -309,10 +310,10 @@ const PSEUDO_RULES: PseudoRule[] = [
   //   pseudo: stat("#% of Physical Attack Damage Leeched as Mana"),
   //   stats: [{ ref: stat("#% of Physical Attack Damage Leeched as Mana") }],
   // },
-  {
-    pseudo: stat("#% increased Mana Regeneration Rate"),
-    stats: [{ ref: stat("#% increased Mana Regeneration Rate") }],
-  },
+  // {
+  //   pseudo: stat("#% increased Mana Regeneration Rate"),
+  //   stats: [{ ref: stat("#% increased Mana Regeneration Rate") }],
+  // },
 ];
 
 export function filterPseudo(ctx: FiltersCreationContext) {

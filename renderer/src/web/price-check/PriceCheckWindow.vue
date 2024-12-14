@@ -299,11 +299,14 @@ export default defineComponent({
       }
     });
 
-    function closePriceCheck () {
+    function closePriceCheck() {
       if (AppConfig().overlayAlwaysClose) {
-        Host.sendEvent({ name: 'OVERLAY->MAIN::focus-game', payload: undefined })
+        Host.sendEvent({
+          name: "OVERLAY->MAIN::focus-game",
+          payload: undefined,
+        });
       } else if (isBrowserShown.value || !Host.isElectron) {
-        wm.hide(props.config.wmId)
+        wm.hide(props.config.wmId);
       } else {
         Host.sendEvent({
           name: "OVERLAY->MAIN::focus-game",

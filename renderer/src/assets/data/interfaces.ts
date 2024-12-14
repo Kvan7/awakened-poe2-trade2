@@ -174,6 +174,7 @@ export interface TranslationDict {
   INCURSION_MODS: string[];
   FOIL_UNIQUE: string;
   UNMODIFIABLE: string;
+  REQUIREMENTS: string;
   // ---
   CHAT_SYSTEM: RegExp;
   CHAT_TRADE: RegExp;

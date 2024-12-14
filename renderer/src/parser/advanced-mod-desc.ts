@@ -4,6 +4,7 @@ import { ModifierType } from "./modifiers";
 import { removeLinesEnding } from "./Parser";
 
 export const SCOURGE_LINE = " (scourge)";
+export const RUNE_LINE = " (rune)";
 export const ENCHANT_LINE = " (enchant)";
 export const IMPLICIT_LINE = " (implicit)";
 const CRAFTED_LINE = " (crafted)";
@@ -161,6 +162,9 @@ export function parseModType(lines: string[]): {
   } else if (lines.some((line) => line.endsWith(CRAFTED_LINE))) {
     modType = ModifierType.Crafted;
     lines = removeLinesEnding(lines, CRAFTED_LINE);
+  } else if (lines.some((line) => line.endsWith(RUNE_LINE))) {
+    modType = ModifierType.Rune;
+    lines = removeLinesEnding(lines, RUNE_LINE);
   } else {
     modType = ModifierType.Explicit;
   }
