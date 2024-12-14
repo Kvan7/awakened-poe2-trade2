@@ -13,7 +13,9 @@
         "category": {
             "name": "LifeFlask",
             "short": "Flask"
-        }
+        },
+        "tradeTag": "whetstone",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/18715ea7be/CurrencyWeaponQuality.png"
     },
     "1": {
         "name": "Arcanist's Etcher",
@@ -29,7 +31,9 @@
         "category": {
             "name": "LifeFlask",
             "short": "Flask"
-        }
+        },
+        "tradeTag": "etcher",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25NYWdpY1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/516e8f1131/CurrencyWeaponMagicQuality.png"
     },
     "2": {
         "name": "Scroll of Wisdom",
@@ -42,7 +46,9 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": null,
+        "tradeTag": "wisdom",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJZGVudGlmaWNhdGlvbiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/884f7bc58b/CurrencyIdentification.png"
     },
     "3": {
         "name": "Chaos Orb",
@@ -58,7 +64,9 @@
         "category": {
             "name": "Claw",
             "short": "Claw"
-        }
+        },
+        "tradeTag": "chaos",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png"
     },
     "4": {
         "name": "Veiled Chaos Orb",
@@ -90,7 +98,9 @@
         "category": {
             "name": "Wand",
             "short": "Wand"
-        }
+        },
+        "tradeTag": "scrap",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBcm1vdXJRdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d5868f596d/CurrencyArmourQuality.png"
     },
     "6": {
         "name": "Mirror of Kalandra",
@@ -106,7 +116,9 @@
         "category": {
             "name": "One Hand Sword",
             "short": "One Hand Sword"
-        }
+        },
+        "tradeTag": "mirror",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lEdXBsaWNhdGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/26bc31680e/CurrencyDuplicate.png"
     },
     "7": {
         "name": "Orb of Alchemy",
@@ -122,7 +134,9 @@
         "category": {
             "name": "Currency",
             "short": "Currency"
-        }
+        },
+        "tradeTag": "alch",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9b80b44821/CurrencyUpgradeToRare.png"
     },
     "8": {
         "name": "Orb of Chance",
@@ -138,7 +152,9 @@
         "category": {
             "name": "DONOTUSE6",
             "short": null
-        }
+        },
+        "tradeTag": "chance",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/93c6cc8d5b/CurrencyUpgradeToUnique.png"
     },
     "9": {
         "name": "Orb of Regret",
@@ -183,7 +199,9 @@
         "category": {
             "name": "One Hand Axe",
             "short": "One Hand Axe"
-        }
+        },
+        "tradeTag": "transmute",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png"
     },
     "12": {
         "name": "Orb of Alteration",
@@ -231,7 +249,9 @@
         "category": {
             "name": "Amulet",
             "short": "Amulet"
-        }
+        },
+        "tradeTag": "exalted",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png"
     },
     "15": {
         "name": "Regal Orb",
@@ -247,7 +267,9 @@
         "category": {
             "name": "Bow",
             "short": "Bow"
-        }
+        },
+        "tradeTag": "regal",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png"
     },
     "16": {
         "name": "Orb of Augmentation",
@@ -263,7 +285,9 @@
         "category": {
             "name": "Staff",
             "short": "Staff"
-        }
+        },
+        "tradeTag": "aug",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png"
     },
     "17": {
         "name": "Portal Scroll",
@@ -295,7 +319,9 @@
         "category": {
             "name": "Two Hand Axe",
             "short": "Two Hand Axe"
-        }
+        },
+        "tradeTag": "bauble",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1cec279e01/CurrencyFlaskQuality.png"
     },
     "19": {
         "name": "Gemcutter's Prism",
@@ -311,7 +337,9 @@
         "category": {
             "name": "Two Hand Mace",
             "short": "Two Hand Mace"
-        }
+        },
+        "tradeTag": "gcp",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lHZW1RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f4bace18d7/CurrencyGemQuality.png"
     },
     "20": {
         "name": "Chromatic Orb",
@@ -407,7 +435,9 @@
         "category": {
             "name": "Boots",
             "short": "Boots"
-        }
+        },
+        "tradeTag": "artificers",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRFcXVpcG1lbnRTb2NrZXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5131fd4774/CurrencyAddEquipmentSocket.png"
     },
     "26": {
         "name": "Divine Orb",
@@ -423,7 +453,9 @@
         "category": {
             "name": "Body Armour",
             "short": "Body Armour"
-        }
+        },
+        "tradeTag": "divine",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png"
     },
     "27": {
         "name": "Blessed Orb",
@@ -494,7 +526,9 @@
         "category": {
             "name": "Helmet",
             "short": "Helmet"
-        }
+        },
+        "tradeTag": "transmutation-shard",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpY1NoYXJkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e67bca229b/CurrencyUpgradeToMagicShard.png"
     },
     "32": {
         "name": "Alteration Shard",
@@ -603,7 +637,9 @@
         "category": {
             "name": "MediumRelic",
             "short": null
-        }
+        },
+        "tradeTag": "vaal",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lWYWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/72bc84396c/CurrencyVaal.png"
     },
     "39": {
         "name": "Corrupt",
@@ -828,7 +864,9 @@
         "category": {
             "name": "Microtransaction",
             "short": null
-        }
+        },
+        "tradeTag": "essence-of-the-body",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/638d6c4cbe/LifeEssence.png"
     },
     "54": {
         "name": "Essence of the Mind",
@@ -841,7 +879,9 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": null,
+        "tradeTag": "essence-of-the-mind",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c881e6273c/ManaEssence.png"
     },
     "55": {
         "name": "Essence of Enhancement",
@@ -854,7 +894,9 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": null,
+        "tradeTag": "essence-of-enhancement",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e1e5c1ccb8/DefencesEssence.png"
     },
     "56": {
         "name": "Essence of Torment",
@@ -867,7 +909,9 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": null,
+        "tradeTag": "essence-of-torment",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e52cd05eeb/PhysicalEssence.png"
     },
     "57": {
         "name": "Essence of Flames",
@@ -883,7 +927,9 @@
         "category": {
             "name": "Ring",
             "short": "Ring"
-        }
+        },
+        "tradeTag": "essence-of-flames",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/add6c12f64/FireEssence.png"
     },
     "58": {
         "name": "Essence of Ice",
@@ -899,7 +945,9 @@
         "category": {
             "name": "HideoutDoodad",
             "short": null
-        }
+        },
+        "tradeTag": "essence-of-ice",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/73d9fd8619/ColdEssence.png"
     },
     "59": {
         "name": "Essence of Electricity",
@@ -915,7 +963,9 @@
         "category": {
             "name": "Jewel",
             "short": "Jewel"
-        }
+        },
+        "tradeTag": "essence-of-electricity",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2c3725fdad/LightningEssence.png"
     },
     "60": {
         "name": "Essence of Ruin",
@@ -928,7 +978,9 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": null,
+        "tradeTag": "essence-of-ruin",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5f0d3c7014/ChaosEssence.png"
     },
     "61": {
         "name": "Essence of Battle",
@@ -941,7 +993,9 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": null,
+        "tradeTag": "essence-of-battle",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3cece29e19/AttackEssence.png"
     },
     "62": {
         "name": "Essence of Sorcery",
@@ -954,7 +1008,9 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": null,
+        "tradeTag": "essence-of-sorcery",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6bb099115a/CasterEssence.png"
     },
     "63": {
         "name": "Essence of Haste",
@@ -967,7 +1023,9 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": null,
+        "tradeTag": "essence-of-haste",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/affda36f07/SpeedEssence.png"
     },
     "64": {
         "name": "Essence of the Infinite",
@@ -980,7 +1038,9 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": null,
+        "tradeTag": "essence-of-the-infinite",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRyaWJ1dGVFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/58f9516082/AttributeEssence.png"
     },
     "65": {
         "name": "Greater Essence of the Body",
@@ -996,7 +1056,9 @@
         "category": {
             "name": "DivinationCard",
             "short": "DivinationCard"
-        }
+        },
+        "tradeTag": "greater-essence-of-the-body",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlmZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8906b401fe/GreaterLifeEssence.png"
     },
     "66": {
         "name": "Greater Essence of the Mind",
@@ -1012,7 +1074,9 @@
         "category": {
             "name": "DONOTUSE8",
             "short": null
-        }
+        },
+        "tradeTag": "greater-essence-of-the-mind",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTWFuYUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f9e17e6d47/GreaterManaEssence.png"
     },
     "67": {
         "name": "Greater Essence of Enhancement",
@@ -1028,7 +1092,9 @@
         "category": {
             "name": "DONOTUSE9",
             "short": null
-        }
+        },
+        "tradeTag": "greater-essence-of-enhancement",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRGVmZW5jZXNFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a0ed2df82c/GreaterDefencesEssence.png"
     },
     "68": {
         "name": "Greater Essence of Torment",
@@ -1044,7 +1110,9 @@
         "category": {
             "name": "DONOTUSE10",
             "short": null
-        }
+        },
+        "tradeTag": "greater-essence-of-torment",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUGh5c2ljYWxFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a28c932def/GreaterPhysicalEssence.png"
     },
     "69": {
         "name": "Greater Essence of Flames",
@@ -1060,7 +1128,9 @@
         "category": {
             "name": "MiscMapItem",
             "short": "MiscMapItem"
-        }
+        },
+        "tradeTag": "greater-essence-of-flames",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9b8d6e7b4e/GreaterFireEssence.png"
     },
     "70": {
         "name": "Greater Essence of Ice",
@@ -1076,7 +1146,9 @@
         "category": {
             "name": "Leaguestone",
             "short": "Leaguestone"
-        }
+        },
+        "tradeTag": "greater-essence-of-ice",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ29sZEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e5224bace0/GreaterColdEssence.png"
     },
     "71": {
         "name": "Greater Essence of Electricity",
@@ -1092,7 +1164,9 @@
         "category": {
             "name": "PantheonSoul",
             "short": "PantheonSoul"
-        }
+        },
+        "tradeTag": "greater-essence-of-electricity",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlnaHRuaW5nRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c6df464bb9/GreaterLightningEssence.png"
     },
     "72": {
         "name": "Greater Essence of Ruin",
@@ -1108,7 +1182,9 @@
         "category": {
             "name": "UniqueFragment",
             "short": "UniqueFragment"
-        }
+        },
+        "tradeTag": "greater-essence-of-ruin",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2hhb3NFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5c71ec7418/GreaterChaosEssence.png"
     },
     "73": {
         "name": "Greater Essence of Battle",
@@ -1124,7 +1200,9 @@
         "category": {
             "name": "AbyssJewel",
             "short": "AbyssJewel"
-        }
+        },
+        "tradeTag": "greater-essence-of-battle",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQXR0YWNrRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e2bb5332b8/GreaterAttackEssence.png"
     },
     "74": {
         "name": "Greater Essence of Sorcery",
@@ -1140,7 +1218,9 @@
         "category": {
             "name": "Microtransaction",
             "short": null
-        }
+        },
+        "tradeTag": "greater-essence-of-sorcery",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2FzdGVyRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14b7e4c8ef/GreaterCasterEssence.png"
     },
     "75": {
         "name": "Greater Essence of Haste",
@@ -1153,7 +1233,9 @@
         "craftable": {
             "category": "Currency"
         },
-        "category": null
+        "category": null,
+        "tradeTag": "greater-essence-of-haste",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyU3BlZWRFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5a72f95c24/GreaterSpeedEssence.png"
     },
     "76": {
         "name": "Greater Essence of the Infinite",
@@ -1169,7 +1251,9 @@
         "category": {
             "name": "DONOTUSE3",
             "short": null
-        }
+        },
+        "tradeTag": "greater-essence-of-the-infinite",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQXR0cmlidXRlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8a8cb823af/GreaterAttributeEssence.png"
     },
     "77": {
         "name": "Simple Sextant",
@@ -1313,7 +1397,9 @@
         "category": {
             "name": "Incubator",
             "short": "Incubator"
-        }
+        },
+        "tradeTag": "breach-splinter",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaHN0b25lU3BsaW50ZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4abb17ea8e/BreachstoneSplinter.png"
     },
     "86": {
         "name": "Splinter of Xoph",
@@ -1545,7 +1631,9 @@
         "category": {
             "name": "HeistContract",
             "short": "HeistContract"
-        }
+        },
+        "tradeTag": "simulacrum-splinter",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bVNwbGludGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/296e6ffc57/DeliriumSplinter.png"
     },
     "102": {
         "name": "Orb of Annulment",
@@ -1561,7 +1649,9 @@
         "category": {
             "name": "HeistContract",
             "short": "HeistContract"
-        }
+        },
+        "tradeTag": "annul",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5udWxsT3JiIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2daba8ccca/AnnullOrb.png"
     },
     "103": {
         "name": "Orb of Binding",
@@ -1779,7 +1869,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "regal-shard",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmVTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e4128abe92/CurrencyUpgradeMagicToRareShard.png"
     },
     "120": {
         "name": "Fracturing Shard",
@@ -1803,7 +1895,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "artificers-shard",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRFcXVpcG1lbnRTb2NrZXRTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cdcdd8bf3f/CurrencyAddEquipmentSocketShard.png"
     },
     "122": {
         "name": "Simple Rope Net",
@@ -2547,7 +2641,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "flesh-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0TGlmZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/06ec489870/BreachCatalystLife.png"
     },
     "184": {
         "name": "Neural Catalyst",
@@ -2559,7 +2655,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "neural-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0TWFuYSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/61d3a7a832/BreachCatalystMana.png"
     },
     "185": {
         "name": "Carapace Catalyst",
@@ -2571,7 +2669,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "carapace-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0RGVmZW5jZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/568ca70b04/BreachCatalystDefences.png"
     },
     "186": {
         "name": "Uul-Netol's Catalyst",
@@ -2583,7 +2683,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "uul-netols-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0UGh5c2ljYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bc9406c106/BreachCatalystPhysical.png"
     },
     "187": {
         "name": "Xoph's Catalyst",
@@ -2595,7 +2697,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "xophs-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0RmlyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/05b1999374/BreachCatalystFire.png"
     },
     "188": {
         "name": "Tul's Catalyst",
@@ -2607,7 +2711,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "tuls-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0Q29sZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c3bc9abf43/BreachCatalystCold.png"
     },
     "189": {
         "name": "Esh's Catalyst",
@@ -2619,7 +2725,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "eshs-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0TGlnaHRuaW5nIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/299e62fc33/BreachCatalystLightning.png"
     },
     "190": {
         "name": "Chayula's Catalyst",
@@ -2631,7 +2739,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "chayulas-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0Q2hhb3MiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c80d8d7b1b/BreachCatalystChaos.png"
     },
     "191": {
         "name": "Reaver Catalyst",
@@ -2643,7 +2753,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "reaver-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0QXR0YWNrIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ccc363f502/BreachCatalystAttack.png"
     },
     "192": {
         "name": "Sibilant Catalyst",
@@ -2655,7 +2767,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "sibilant-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0Q2FzdGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51dc6bc317/BreachCatalystCaster.png"
     },
     "193": {
         "name": "Skittering Catalyst",
@@ -2667,7 +2781,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "skittering-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0U3BlZWQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/14b5db3c3c/BreachCatalystSpeed.png"
     },
     "194": {
         "name": "Adaptive Catalyst",
@@ -2679,7 +2795,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "adaptive-catalyst",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0QXR0cmlidXRlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/015f6c9ac8/BreachCatalystAttribute.png"
     },
     "195": {
         "name": "Time-light Scroll",
@@ -6568,7 +6686,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "desert-rune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/eeabf0e7a0/FireRune.png"
     },
     "492": {
         "name": "Glacial Rune",
@@ -6580,7 +6700,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "glacial-rune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png"
     },
     "493": {
         "name": "Storm Rune",
@@ -6592,7 +6714,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "storm-rune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/98319b3998/LightningRune.png"
     },
     "494": {
         "name": "Iron Rune",
@@ -6604,7 +6728,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "iron-rune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cfeb426ee0/EnhanceRune.png"
     },
     "495": {
         "name": "Body Rune",
@@ -6616,7 +6742,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "body-rune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a09dcb651b/LifeRune.png"
     },
     "496": {
         "name": "Mind Rune",
@@ -6628,7 +6756,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "mind-rune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4be6331480/ManaRune.png"
     },
     "497": {
         "name": "Rebirth Rune",
@@ -6640,7 +6770,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "rebirth-rune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJlY292ZXJ5UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/bbbb060773/LifeRecoveryRune.png"
     },
     "498": {
         "name": "Inspiration Rune",
@@ -6652,7 +6784,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "inspiration-rune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5154db8cf8/ManaRecoveryRune.png"
     },
     "499": {
         "name": "Stone Rune",
@@ -6664,7 +6798,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "stone-rune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3R1blJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f7830fb594/StunRune.png"
     },
     "500": {
         "name": "Vision Rune",
@@ -6676,7 +6812,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "vision-rune",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQWNjdXJhY3lSdW5lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8e7841f0ef/AccuracyRune.png"
     },
     "501": {
         "name": "Soul Core of Tacati",
@@ -6688,7 +6826,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-tacati",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNoYW9zIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cd9c4fb0a7/GreaterSoulCoreChaos.png"
     },
     "502": {
         "name": "Soul Core of Opiloti",
@@ -6700,7 +6840,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-opiloti",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVBoeXNpY2FsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/366f87b8f2/GreaterSoulCorePhysical.png"
     },
     "503": {
         "name": "Soul Core of Jiquani",
@@ -6712,7 +6854,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-jiquani",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUxpZmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bb83a9f337/GreaterSoulCoreLife.png"
     },
     "504": {
         "name": "Soul Core of Zalatl",
@@ -6724,7 +6868,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-zalatl",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZU1hbmEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1437190de2/GreaterSoulCoreMana.png"
     },
     "505": {
         "name": "Soul Core of Citaqualotl",
@@ -6736,7 +6882,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-citaqualotl",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1NvdWxDb3JlUGh5c2ljYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f48f9f0c62/SoulCorePhysical.png"
     },
     "506": {
         "name": "Soul Core of Puhuarte",
@@ -6748,7 +6896,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-puhuarte",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUZpcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6390ebeaa6/GreaterSoulCoreFire.png"
     },
     "507": {
         "name": "Soul Core of Tzamoto",
@@ -6760,7 +6910,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-tzamoto",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNvbGQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d437c04d5e/GreaterSoulCoreCold.png"
     },
     "508": {
         "name": "Soul Core of Xopec",
@@ -6772,7 +6924,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-xopec",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUxpZ2h0bmluZyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3dffadfa9a/GreaterSoulCoreLightning.png"
     },
     "509": {
         "name": "Soul Core of Azcapa",
@@ -6784,7 +6938,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-azcapa",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVdlYWx0aFJhcml0eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6a69033a04/GreaterSoulCoreWealthRarity.png"
     },
     "510": {
         "name": "Soul Core of Topotante",
@@ -6796,7 +6952,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-topotante",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVRyaUVsZW1lbnQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ae7a949b3a/GreaterSoulCoreTriElement.png"
     },
     "511": {
         "name": "Soul Core of Quipolatl",
@@ -6808,7 +6966,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-quipolatl",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVNwZWVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d4967ad0f1/GreaterSoulCoreSpeed.png"
     },
     "512": {
         "name": "Soul Core of Ticaba",
@@ -6820,7 +6980,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-ticaba",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png"
     },
     "513": {
         "name": "Soul Core of Atmohua",
@@ -6832,7 +6994,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-atmohua",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png"
     },
     "514": {
         "name": "Soul Core of Cholotl",
@@ -6844,7 +7008,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-cholotl",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png"
     },
     "515": {
         "name": "Soul Core of Zantipi",
@@ -6856,7 +7022,9 @@
         "height": 1,
         "craftable": {
             "category": "SoulCore"
-        }
+        },
+        "tradeTag": "soul-core-of-zantipi",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png"
     },
     "516": {
         "name": "Waystone (Tier 1)",
@@ -6868,7 +7036,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-1",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/bb4c55989d/EndgameMap1.png"
     },
     "517": {
         "name": "Waystone (Tier 2)",
@@ -6880,7 +7050,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-2",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b4ffda8e35/EndgameMap2.png"
     },
     "518": {
         "name": "Waystone (Tier 3)",
@@ -6892,7 +7064,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-3",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7940d0ad1a/EndgameMap3.png"
     },
     "519": {
         "name": "Waystone (Tier 4)",
@@ -6904,7 +7078,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-4",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwNCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e405b6783b/EndgameMap4.png"
     },
     "520": {
         "name": "Waystone (Tier 5)",
@@ -6916,7 +7092,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-5",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwNSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/22247ac187/EndgameMap5.png"
     },
     "521": {
         "name": "Waystone (Tier 6)",
@@ -6928,7 +7106,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-6",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwNiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f64d3b6889/EndgameMap6.png"
     },
     "522": {
         "name": "Waystone (Tier 7)",
@@ -6940,7 +7120,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-7",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwNyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7f32b3664e/EndgameMap7.png"
     },
     "523": {
         "name": "Waystone (Tier 8)",
@@ -6952,7 +7134,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-8",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwOCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fb8a8651b5/EndgameMap8.png"
     },
     "524": {
         "name": "Waystone (Tier 9)",
@@ -6964,7 +7148,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-9",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwOSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/420f1c6412/EndgameMap9.png"
     },
     "525": {
         "name": "Waystone (Tier 10)",
@@ -6976,7 +7162,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-10",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTAiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4a1266867a/EndgameMap10.png"
     },
     "526": {
         "name": "Waystone (Tier 11)",
@@ -6988,7 +7176,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-11",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/77da168a75/EndgameMap11.png"
     },
     "527": {
         "name": "Waystone (Tier 12)",
@@ -7000,7 +7190,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-12",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1b37ec5864/EndgameMap12.png"
     },
     "528": {
         "name": "Waystone (Tier 13)",
@@ -7012,7 +7204,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-13",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4877b17436/EndgameMap13.png"
     },
     "529": {
         "name": "Waystone (Tier 14)",
@@ -7024,7 +7218,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-14",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9149454787/EndgameMap14.png"
     },
     "530": {
         "name": "Waystone (Tier 15)",
@@ -7036,7 +7232,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-15",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cea6af97d7/EndgameMap15.png"
     },
     "531": {
         "name": "Waystone (Tier 16)",
@@ -7048,7 +7246,9 @@
         "height": 1,
         "craftable": {
             "category": "Map"
-        }
+        },
+        "tradeTag": "waystone-16",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/098fff71c2/EndgameMap16.png"
     },
     "532": {
         "name": "Sacrifice at Midnight",
@@ -7696,7 +7896,9 @@
         "height": 1,
         "craftable": {
             "category": "Breachstone"
-        }
+        },
+        "tradeTag": "breachstone",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaHN0b25lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d60587d724/Breachstone.png"
     },
     "586": {
         "name": "Xoph's Breachstone",
@@ -8128,7 +8330,9 @@
         "height": 1,
         "craftable": {
             "category": "MapFragment"
-        }
+        },
+        "tradeTag": "simulacrum",
+        "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bUZyYWdtZW50Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cce2c7e1b3/DeliriumFragment.png"
     },
     "622": {
         "name": "Offering to the Goddess",
@@ -8188,7 +8392,9 @@
         "height": 1,
         "craftable": {
             "category": "MapFragment"
-        }
+        },
+        "tradeTag": "an-audience-with-the-king",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUml0dWFsL1Zvb2Rvb0tpbmdFZmZpZ3kiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0b02c113cc/VoodooKingEffigy.png"
     },
     "627": {
         "name": "Ancient Reliquary Key",
@@ -10408,7 +10614,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "distilled-ire",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkSXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cbd99f0eff/DistilledIre.png"
     },
     "812": {
         "name": "Distilled Guilt",
@@ -10420,7 +10628,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "distilled-guilt",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkR3VpbHQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/21cd0fd17b/DistilledGuilt.png"
     },
     "813": {
         "name": "Distilled Greed",
@@ -10432,7 +10642,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "distilled-greed",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkR3JlZWQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5888a4ae61/DistilledGreed.png"
     },
     "814": {
         "name": "Distilled Paranoia",
@@ -10444,7 +10656,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "distilled-paranoia",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkUGFyYW5vaWEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/279e807e8f/DistilledParanoia.png"
     },
     "815": {
         "name": "Distilled Envy",
@@ -10456,7 +10670,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "distilled-envy",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRW52eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/abf219916e/DistilledEnvy.png"
     },
     "816": {
         "name": "Distilled Disgust",
@@ -10468,7 +10684,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "distilled-disgust",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRGlzZ3VzdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f462426de0/DistilledDisgust.png"
     },
     "817": {
         "name": "Distilled Despair",
@@ -10480,7 +10698,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "distilled-despair",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRGVzcGFpciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c676bf7dae/DistilledDespair.png"
     },
     "818": {
         "name": "Distilled Fear",
@@ -10492,7 +10712,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "distilled-fear",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRmVhciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8cffdae445/DistilledFear.png"
     },
     "819": {
         "name": "Distilled Suffering",
@@ -10504,7 +10726,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "distilled-suffering",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkU3VmZmVyaW5nIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/801a53662a/DistilledSuffering.png"
     },
     "820": {
         "name": "Distilled Isolation",
@@ -10516,7 +10740,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "distilled-isolation",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkSXNvbGF0aW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/997a6a442e/DistilledIsolation.png"
     },
     "821": {
         "name": "Ivory Watchstone",
@@ -14416,7 +14642,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "exotic-coinage",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9CYXJ0ZXJSZWZyZXNoQ3VycmVuY3kiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8a4fe1f468/BarterRefreshCurrency.png"
     },
     "1146": {
         "name": "Broken Circle Artifact",
@@ -14428,7 +14656,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "broken-circle-artifact",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/46b487f53f/Rune16.png"
     },
     "1147": {
         "name": "Black Scythe Artifact",
@@ -14440,7 +14670,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "black-scythe-artifact",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lNiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2260f34070/Rune6.png"
     },
     "1148": {
         "name": "Order Artifact",
@@ -14452,7 +14684,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "order-artifact",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/47a41c9782/Rune13.png"
     },
     "1149": {
         "name": "Sun Artifact",
@@ -14464,7 +14698,9 @@
         "height": 1,
         "craftable": {
             "category": "Currency"
-        }
+        },
+        "tradeTag": "sun-artifact",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ca2335fdef/Rune17.png"
     },
     "1150": {
         "name": "Tainted Chromatic Orb",
@@ -36686,7 +36922,9 @@
         "class": 107,
         "dropLevel": 1,
         "width": 1,
-        "height": 1
+        "height": 1,
+        "tradeTag": "ancient-crisis-fragment",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ef329c74d1/PinnacleKey1.png"
     },
     "3005": {
         "name": "Faded Crisis Fragment",
@@ -36695,7 +36933,9 @@
         "class": 107,
         "dropLevel": 1,
         "width": 1,
-        "height": 1
+        "height": 1,
+        "tradeTag": "faded-crisis-fragment",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5709c39ee7/PinnacleKey2.png"
     },
     "3006": {
         "name": "Weathered Crisis Fragment",
@@ -36704,7 +36944,9 @@
         "class": 107,
         "dropLevel": 1,
         "width": 1,
-        "height": 1
+        "height": 1,
+        "tradeTag": "weathered-crisis-fragment",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/32e6544250/PinnacleKey3.png"
     },
     "3007": {
         "name": "Inscribed Ultimatum",
@@ -36740,7 +36982,9 @@
         "height": 1,
         "craftable": {
             "category": "MapFragment"
-        }
+        },
+        "tradeTag": "cowardly-fate",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/661ab60074/TrialmasterKey1.png"
     },
     "3010": {
         "name": "Deadly Fate",
@@ -36752,7 +36996,9 @@
         "height": 1,
         "craftable": {
             "category": "MapFragment"
-        }
+        },
+        "tradeTag": "deadly-fate",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cccae44832/TrialmasterKey2.png"
     },
     "3011": {
         "name": "Victorious Fate",
@@ -36764,7 +37010,9 @@
         "height": 1,
         "craftable": {
             "category": "MapFragment"
-        }
+        },
+        "tradeTag": "victorious-fate",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0270951a73/TrialmasterKey3.png"
     },
     "3012": {
         "name": "[DNT] Sandstorm Swipe",
@@ -38100,7 +38348,9 @@
         "height": 1,
         "craftable": {
             "category": "TowerAugment"
-        }
+        },
+        "tradeTag": "breach-precursor-tablet",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/295c0839d7/PrecursorTabletBreach.png"
     },
     "3096": {
         "name": "Expedition Precursor Tablet",
@@ -38112,7 +38362,9 @@
         "height": 1,
         "craftable": {
             "category": "TowerAugment"
-        }
+        },
+        "tradeTag": "expedition-precursor-tablet",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRFeHBlZGl0aW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4450dac451/PrecursorTabletExpedition.png"
     },
     "3097": {
         "name": "Delirium Precursor Tablet",
@@ -38124,7 +38376,9 @@
         "height": 1,
         "craftable": {
             "category": "TowerAugment"
-        }
+        },
+        "tradeTag": "delirium-precursor-tablet",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXREZWxpcml1bSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/81acb86b9f/PrecursorTabletDelirium.png"
     },
     "3098": {
         "name": "Ritual Precursor Tablet",
@@ -38136,7 +38390,9 @@
         "height": 1,
         "craftable": {
             "category": "TowerAugment"
-        }
+        },
+        "tradeTag": "ritual-precursor-tablet",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRSaXR1YWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7c49d00f07/PrecursorTabletRitual.png"
     },
     "3099": {
         "name": "Precursor Tablet",
@@ -38148,7 +38404,9 @@
         "height": 1,
         "craftable": {
             "category": "TowerAugment"
-        }
+        },
+        "tradeTag": "precursor-tablet",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRHZW5lcmljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5658ce7f2d/PrecursorTabletGeneric.png"
     },
     "3100": {
         "name": "Decompose",
@@ -38608,7 +38866,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-refreshment",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/213474d1d5/VoodooOmens1Blue.png"
     },
     "3129": {
         "name": "Omen of Resurgence",
@@ -38620,7 +38880,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-resurgence",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/044d5086da/VoodooOmens2Blue.png"
     },
     "3130": {
         "name": "Omen of Amelioration",
@@ -38632,7 +38894,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-amelioration",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b5ee965352/VoodooOmens3Blue.png"
     },
     "3131": {
         "name": "Omen of Whittling",
@@ -38644,7 +38908,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-whittling",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2dea0999d5/VoodooOmens1Dark.png"
     },
     "3132": {
         "name": "Omen of Sinistral Erasure",
@@ -38656,7 +38922,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-sinistral-erasure",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0cfa6959be/VoodooOmens2Dark.png"
     },
     "3133": {
         "name": "Omen of Dextral Erasure",
@@ -38668,7 +38936,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-dextral-erasure",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6e2bb52963/VoodooOmens3Dark.png"
     },
     "3134": {
         "name": "Omen of Sinistral Alchemy",
@@ -38680,7 +38950,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-sinistral-alchemy",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxR3JlZW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/11c49d2322/VoodooOmens1Green.png"
     },
     "3135": {
         "name": "Omen of Dextral Alchemy",
@@ -38692,7 +38964,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-dextral-alchemy",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyR3JlZW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0ff0cfbb93/VoodooOmens2Green.png"
     },
     "3136": {
         "name": "Omen of Sinistral Coronation",
@@ -38704,7 +38978,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-sinistral-coronation",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxUmVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b8e2b8ed3f/VoodooOmens1Red.png"
     },
     "3137": {
         "name": "Omen of Dextral Coronation",
@@ -38716,7 +38992,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-dextral-coronation",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUmVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f1bbb78614/VoodooOmens2Red.png"
     },
     "3138": {
         "name": "Omen of Corruption",
@@ -38728,7 +39006,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-corruption",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUmVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9cfdcc9e1a/VoodooOmens3Red.png"
     },
     "3139": {
         "name": "Omen of Greater Exaltation",
@@ -38740,7 +39020,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-greater-exaltation",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/22d9b6478d/VoodooOmens1Yellow.png"
     },
     "3140": {
         "name": "Omen of Sinistral Exaltation",
@@ -38752,7 +39034,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-sinistral-exaltation",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6d316b47ee/VoodooOmens2Yellow.png"
     },
     "3141": {
         "name": "Omen of Dextral Exaltation",
@@ -38764,7 +39048,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-dextral-exaltation",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ed7cf06fa4/VoodooOmens3Yellow.png"
     },
     "3142": {
         "name": "Omen of Greater Annulment",
@@ -38776,7 +39062,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-greater-annulment",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a6848dff1c/VoodooOmens1Purple.png"
     },
     "3143": {
         "name": "Omen of Sinistral Annulment",
@@ -38788,7 +39076,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-sinistral-annulment",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b9eaf38592/VoodooOmens2Purple.png"
     },
     "3144": {
         "name": "Omen of Dextral Annulment",
@@ -38800,7 +39090,9 @@
         "height": 1,
         "craftable": {
             "category": "Omen"
-        }
+        },
+        "tradeTag": "omen-of-dextral-annulment",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d901658529/VoodooOmens3Purple.png"
     },
     "3145": {
         "name": "Blink",

@@ -10,7 +10,7 @@
 {"name": "Abyssal Incubator", "refName": "Abyssal Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
 {"name": "Acceleration", "refName": "Acceleration", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Acrid Wand", "refName": "Acrid Wand", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Wand"}, "w": 1, "h": 3}
-{"name": "Adaptive Catalyst", "refName": "Adaptive Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Adaptive Catalyst", "refName": "Adaptive Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0QXR0cmlidXRlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/015f6c9ac8/BreachCatalystAttribute.png", "tradeTag": "adaptive-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Admiral Darnaw", "refName": "Admiral Darnaw", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
 {"name": "Admiral Darnaw's Papers", "refName": "Admiral Darnaw's Papers", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
 {"name": "Admiral Darnaw's Papers", "refName": "Admiral Darnaw's Papers", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
@@ -206,7 +206,7 @@
 {"name": "Ammo Conservation", "refName": "Ammo Conservation", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Amphora Relic", "refName": "Amphora Relic", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Relic"}, "w": 1, "h": 3}
 {"name": "Amplifying Power Core", "refName": "Amplifying Power Core", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "An Audience with the King", "refName": "An Audience with the King", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
+{"name": "An Audience with the King", "refName": "An Audience with the King", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUml0dWFsL1Zvb2Rvb0tpbmdFZmZpZ3kiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0b02c113cc/VoodooKingEffigy.png", "tradeTag": "an-audience-with-the-king", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
 {"name": "Ancestor Tower Shield", "refName": "Ancestor Tower Shield", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ar": [121, 121]}, "w": 2, "h": 4}
 {"name": "Ancestral Mail", "refName": "Ancestral Mail", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ar": [162, 162], "ev": [146, 146]}, "w": 2, "h": 3}
 {"name": "Ancestral Spirits", "refName": "Ancestral Spirits", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -215,7 +215,7 @@
 {"name": "Ancestral Warrior Totem", "refName": "Ancestral Warrior Totem", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MetaSkillGem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Anchorite Garb", "refName": "Anchorite Garb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ev": [101, 101], "es": [43, 43]}, "w": 2, "h": 3}
 {"name": "Ancient Apex Sentinel", "refName": "Ancient Apex Sentinel", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SentinelDrone"}, "w": 2, "h": 2}
-{"name": "Ancient Crisis Fragment", "refName": "Ancient Crisis Fragment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 1}
+{"name": "Ancient Crisis Fragment", "refName": "Ancient Crisis Fragment", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ef329c74d1/PinnacleKey1.png", "tradeTag": "ancient-crisis-fragment", "w": 1, "h": 1}
 {"name": "Ancient Greatblade", "refName": "Ancient Greatblade", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Sword"}, "w": 2, "h": 4}
 {"name": "Ancient Orb", "refName": "Ancient Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Ancient Pandemonium Sentinel", "refName": "Ancient Pandemonium Sentinel", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SentinelDrone"}, "w": 2, "h": 2}
@@ -237,7 +237,7 @@
 {"name": "Arcane Robe", "refName": "Arcane Robe", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"es": [153, 153]}, "w": 2, "h": 3}
 {"name": "Arcane Surge", "refName": "Arcane Surge", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Arcane Tempo", "refName": "Arcane Tempo", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Arcanist's Etcher", "refName": "Arcanist's Etcher", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Arcanist's Etcher", "refName": "Arcanist's Etcher", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25NYWdpY1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/516e8f1131/CurrencyWeaponMagicQuality.png", "tradeTag": "etcher", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Arced Claw", "refName": "Arced Claw", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Claw"}, "w": 2, "h": 2}
 {"name": "Arced Longsword", "refName": "Arced Longsword", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Sword"}, "w": 2, "h": 4}
 {"name": "Arched Greataxe", "refName": "Arched Greataxe", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Axe"}, "w": 2, "h": 4}
@@ -256,11 +256,11 @@
 {"name": "Armoured Cap", "refName": "Armoured Cap", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Helmet"}, "armour": {"ev": [222, 222]}, "w": 2, "h": 2}
 {"name": "Armoured Claw", "refName": "Armoured Claw", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Claw"}, "w": 2, "h": 2}
 {"name": "Armoured Vest", "refName": "Armoured Vest", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ev": [406, 406]}, "w": 2, "h": 3}
-{"name": "Armourer's Scrap", "refName": "Armourer's Scrap", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Armourer's Scrap", "refName": "Armourer's Scrap", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBcm1vdXJRdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d5868f596d/CurrencyArmourQuality.png", "tradeTag": "scrap", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Aromatic Sceptre", "refName": "Aromatic Sceptre", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Sceptre"}, "w": 2, "h": 3}
 {"name": "Array Buckler", "refName": "Array Buckler", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ev": [119, 119]}, "w": 2, "h": 2}
-{"name": "Artificer's Orb", "refName": "Artificer's Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Artificer's Shard", "refName": "Artificer's Shard", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Artificer's Orb", "refName": "Artificer's Orb", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRFcXVpcG1lbnRTb2NrZXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5131fd4774/CurrencyAddEquipmentSocket.png", "tradeTag": "artificers", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Artificer's Shard", "refName": "Artificer's Shard", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRFcXVpcG1lbnRTb2NrZXRTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cdcdd8bf3f/CurrencyAddEquipmentSocketShard.png", "tradeTag": "artificers-shard", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Artillery Ballista", "refName": "Artillery Ballista", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Artillery Bow", "refName": "Artillery Bow", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Bow"}, "w": 2, "h": 4}
 {"name": "Ascetic Garb", "refName": "Ascetic Garb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ev": [149, 149], "es": [58, 58]}, "w": 2, "h": 3}
@@ -307,10 +307,10 @@
 {"name": "Bind Spectre", "refName": "Bind Spectre", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Binding Shard", "refName": "Binding Shard", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Biting Frost", "refName": "Biting Frost", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Black Scythe Artifact", "refName": "Black Scythe Artifact", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Black Scythe Artifact", "refName": "Black Scythe Artifact", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lNiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2260f34070/Rune6.png", "tradeTag": "black-scythe-artifact", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Blackfire Crossbow", "refName": "Blackfire Crossbow", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Crossbow"}, "w": 2, "h": 4}
 {"name": "Blackguard Personnel Files", "refName": "Blackguard Personnel Files", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
-{"name": "Blacksmith's Whetstone", "refName": "Blacksmith's Whetstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Blacksmith's Whetstone", "refName": "Blacksmith's Whetstone", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/18715ea7be/CurrencyWeaponQuality.png", "tradeTag": "whetstone", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Blacksteel Tower Shield", "refName": "Blacksteel Tower Shield", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ar": [152, 152]}, "w": 2, "h": 4}
 {"name": "Bladed Shoes", "refName": "Bladed Shoes", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ev": [91, 91], "es": [35, 35]}, "w": 2, "h": 2}
 {"name": "Bladed Trap", "refName": "Bladed Trap", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "TrapTool"}, "w": 2, "h": 2}
@@ -354,7 +354,7 @@
 {"name": "Blunt Arrow Quiver Piece", "refName": "Blunt Arrow Quiver Piece", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "UniqueFragment"}, "w": 2, "h": 1}
 {"name": "Blunt Quiver", "refName": "Blunt Quiver", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Quiver"}, "w": 2, "h": 3}
 {"name": "Boarding Hatchet", "refName": "Boarding Hatchet", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "One Hand Axe"}, "w": 2, "h": 3}
-{"name": "Body Rune", "refName": "Body Rune", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Body Rune", "refName": "Body Rune", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a09dcb651b/LifeRune.png", "tradeTag": "body-rune", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Bold Sabatons", "refName": "Bold Sabatons", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [100, 100], "ev": [91, 91]}, "w": 2, "h": 2}
 {"name": "Bolstered Mitts", "refName": "Bolstered Mitts", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Gloves"}, "armour": {"ar": [58, 58]}, "w": 2, "h": 2}
 {"name": "Bombard Crossbow", "refName": "Bombard Crossbow", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Crossbow"}, "w": 2, "h": 4}
@@ -406,10 +406,10 @@
 {"name": "Box of Tripyxis", "refName": "Box of Tripyxis", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistObjective"}, "w": 2, "h": 2}
 {"name": "Braced Sabatons", "refName": "Braced Sabatons", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [33, 33], "ev": [28, 28]}, "w": 2, "h": 2}
 {"name": "Braced Tower Shield", "refName": "Braced Tower Shield", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ar": [41, 41]}, "w": 2, "h": 4}
-{"name": "Breach Precursor Tablet", "refName": "Breach Precursor Tablet", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "TowerAugment"}, "w": 1, "h": 1}
+{"name": "Breach Precursor Tablet", "refName": "Breach Precursor Tablet", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/295c0839d7/PrecursorTabletBreach.png", "tradeTag": "breach-precursor-tablet", "craftable": {"category": "TowerAugment"}, "w": 1, "h": 1}
 {"name": "Breach Ring", "refName": "Breach Ring", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Ring"}, "w": 1, "h": 1}
-{"name": "Breach Splinter", "refName": "Breach Splinter", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Breachstone", "refName": "Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
+{"name": "Breach Splinter", "refName": "Breach Splinter", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaHN0b25lU3BsaW50ZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4abb17ea8e/BreachstoneSplinter.png", "tradeTag": "breach-splinter", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Breachstone", "refName": "Breachstone", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaHN0b25lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d60587d724/Breachstone.png", "tradeTag": "breachstone", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Break Endurance", "refName": "Break Endurance", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Break Posture", "refName": "Break Posture", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Brigand Mace", "refName": "Brigand Mace", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "One Hand Mace"}, "w": 2, "h": 3}
@@ -421,7 +421,7 @@
 {"name": "Broad Spear", "refName": "Broad Spear", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Spear"}, "w": 1, "h": 4}
 {"name": "Broadhead Quiver", "refName": "Broadhead Quiver", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Quiver"}, "w": 2, "h": 3}
 {"name": "Broadsword", "refName": "Broadsword", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "One Hand Sword"}, "w": 2, "h": 3}
-{"name": "Broken Circle Artifact", "refName": "Broken Circle Artifact", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Broken Circle Artifact", "refName": "Broken Circle Artifact", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/46b487f53f/Rune16.png", "tradeTag": "broken-circle-artifact", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Bronze Apex Sentinel", "refName": "Bronze Apex Sentinel", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SentinelDrone"}, "w": 2, "h": 2}
 {"name": "Bronze Greaves", "refName": "Bronze Greaves", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [60, 60]}, "w": 2, "h": 2}
 {"name": "Bronze Key", "refName": "Bronze Key", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
@@ -464,7 +464,7 @@
 {"name": "Captured Soul of The Infernal King", "refName": "Captured Soul of The Infernal King", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "PantheonSoul"}, "w": 1, "h": 1}
 {"name": "Captured Soul of Varhesh, Shimmering Aberration", "refName": "Captured Soul of Varhesh, Shimmering Aberration", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "PantheonSoul"}, "w": 1, "h": 1}
 {"name": "Captured Soul of a Redblade Warlord", "refName": "Captured Soul of a Redblade Warlord", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "PantheonSoul"}, "w": 1, "h": 1}
-{"name": "Carapace Catalyst", "refName": "Carapace Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Carapace Catalyst", "refName": "Carapace Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0RGVmZW5jZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/568ca70b04/BreachCatalystDefences.png", "tradeTag": "carapace-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Cartographer's Chisel", "refName": "Cartographer's Chisel", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Cartographer's Incubator", "refName": "Cartographer's Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
 {"name": "Cartographer's Incubator", "refName": "Cartographer's Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
@@ -504,7 +504,7 @@
 {"name": "Chaos Bolt", "refName": "Chaos Bolt", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Chaos Infusion", "refName": "Chaos Infusion", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Chaos Mastery", "refName": "Chaos Mastery", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Chaos Orb", "refName": "Chaos Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Chaos Orb", "refName": "Chaos Orb", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png", "tradeTag": "chaos", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Chaos Shard", "refName": "Chaos Shard", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Chaotic Freeze", "refName": "Chaotic Freeze", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Charge Infusion", "refName": "Charge Infusion", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -512,7 +512,7 @@
 {"name": "Charged Staff", "refName": "Charged Staff", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Charred Shortsword", "refName": "Charred Shortsword", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "One Hand Sword"}, "w": 2, "h": 3}
 {"name": "Chayula's Breachstone", "refName": "Chayula's Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
-{"name": "Chayula's Catalyst", "refName": "Chayula's Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Chayula's Catalyst", "refName": "Chayula's Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0Q2hhb3MiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c80d8d7b1b/BreachCatalystChaos.png", "tradeTag": "chayulas-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Chayula's Charged Breachstone", "refName": "Chayula's Charged Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Chayula's Enriched Breachstone", "refName": "Chayula's Enriched Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Chayula's Flawless Breachstone", "refName": "Chayula's Flawless Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
@@ -720,7 +720,7 @@
 {"name": "Coursing Current", "refName": "Coursing Current", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Covered Sabatons", "refName": "Covered Sabatons", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [73, 73], "ev": [65, 65]}, "w": 2, "h": 2}
 {"name": "Covert Hood", "refName": "Covert Hood", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Helmet"}, "armour": {"ev": [193, 193]}, "w": 2, "h": 2}
-{"name": "Cowardly Fate", "refName": "Cowardly Fate", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
+{"name": "Cowardly Fate", "refName": "Cowardly Fate", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/661ab60074/TrialmasterKey1.png", "tradeTag": "cowardly-fate", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
 {"name": "Cowled Helm", "refName": "Cowled Helm", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Helmet"}, "armour": {"ar": [62, 62], "ev": [54, 54]}, "w": 2, "h": 2}
 {"name": "Crackling Quarterstaff", "refName": "Crackling Quarterstaff", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Warstaff"}, "w": 2, "h": 4}
 {"name": "Craicic Lure", "refName": "Craicic Lure", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
@@ -780,7 +780,7 @@
 {"name": "Dark Staff", "refName": "Dark Staff", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Staff"}, "w": 1, "h": 4}
 {"name": "Dart Trap", "refName": "Dart Trap", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "TrapTool"}, "w": 1, "h": 3}
 {"name": "Dazing Cry", "refName": "Dazing Cry", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Deadly Fate", "refName": "Deadly Fate", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
+{"name": "Deadly Fate", "refName": "Deadly Fate", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cccae44832/TrialmasterKey2.png", "tradeTag": "deadly-fate", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
 {"name": "Deadly Herald", "refName": "Deadly Herald", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Deadly Poison", "refName": "Deadly Poison", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Death Mask", "refName": "Death Mask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Helmet"}, "armour": {"ev": [122, 122], "es": [46, 46]}, "w": 2, "h": 2}
@@ -801,7 +801,7 @@
 {"name": "Deified Crest Shield", "refName": "Deified Crest Shield", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ar": [84, 84], "es": [29, 29]}, "w": 2, "h": 3}
 {"name": "Dekhara's Resolve", "refName": "Dekhara's Resolve", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistObjective"}, "w": 2, "h": 4}
 {"name": "Delirious Scouting Report", "refName": "Delirious Scouting Report", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Delirium Precursor Tablet", "refName": "Delirium Precursor Tablet", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "TowerAugment"}, "w": 1, "h": 1}
+{"name": "Delirium Precursor Tablet", "refName": "Delirium Precursor Tablet", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXREZWxpcml1bSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/81acb86b9f/PrecursorTabletDelirium.png", "tradeTag": "delirium-precursor-tablet", "craftable": {"category": "TowerAugment"}, "w": 1, "h": 1}
 {"name": "Demolisher", "refName": "Demolisher", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Demon Form", "refName": "Demon Form", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Demon Magus", "refName": "Demon Magus", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MetaSkillGem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -811,7 +811,7 @@
 {"name": "Deranging Book of Knowledge III", "refName": "Deranging Book of Knowledge III", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 2, "h": 2}
 {"name": "Deranging Book of Knowledge IV", "refName": "Deranging Book of Knowledge IV", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 2, "h": 2}
 {"name": "Deregulation Scroll", "refName": "Deregulation Scroll", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Desert Rune", "refName": "Desert Rune", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Desert Rune", "refName": "Desert Rune", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/eeabf0e7a0/FireRune.png", "tradeTag": "desert-rune", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Despair", "refName": "Despair", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Despoiler", "refName": "Despoiler", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Detailed Mitts", "refName": "Detailed Mitts", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Gloves"}, "armour": {"ar": [88, 88]}, "w": 2, "h": 2}
@@ -825,17 +825,17 @@
 {"name": "Diamond", "refName": "Diamond", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Jewel"}, "w": 1, "h": 1}
 {"name": "Discipline", "refName": "Discipline", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Discombobulate", "refName": "Discombobulate", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Distilled Despair", "refName": "Distilled Despair", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Distilled Disgust", "refName": "Distilled Disgust", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Distilled Envy", "refName": "Distilled Envy", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Distilled Fear", "refName": "Distilled Fear", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Distilled Greed", "refName": "Distilled Greed", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Distilled Guilt", "refName": "Distilled Guilt", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Distilled Ire", "refName": "Distilled Ire", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Distilled Isolation", "refName": "Distilled Isolation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Distilled Paranoia", "refName": "Distilled Paranoia", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Distilled Suffering", "refName": "Distilled Suffering", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Divine Orb", "refName": "Divine Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Distilled Despair", "refName": "Distilled Despair", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRGVzcGFpciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c676bf7dae/DistilledDespair.png", "tradeTag": "distilled-despair", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Distilled Disgust", "refName": "Distilled Disgust", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRGlzZ3VzdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f462426de0/DistilledDisgust.png", "tradeTag": "distilled-disgust", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Distilled Envy", "refName": "Distilled Envy", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRW52eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/abf219916e/DistilledEnvy.png", "tradeTag": "distilled-envy", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Distilled Fear", "refName": "Distilled Fear", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRmVhciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8cffdae445/DistilledFear.png", "tradeTag": "distilled-fear", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Distilled Greed", "refName": "Distilled Greed", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkR3JlZWQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5888a4ae61/DistilledGreed.png", "tradeTag": "distilled-greed", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Distilled Guilt", "refName": "Distilled Guilt", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkR3VpbHQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/21cd0fd17b/DistilledGuilt.png", "tradeTag": "distilled-guilt", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Distilled Ire", "refName": "Distilled Ire", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkSXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cbd99f0eff/DistilledIre.png", "tradeTag": "distilled-ire", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Distilled Isolation", "refName": "Distilled Isolation", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkSXNvbGF0aW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/997a6a442e/DistilledIsolation.png", "tradeTag": "distilled-isolation", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Distilled Paranoia", "refName": "Distilled Paranoia", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkUGFyYW5vaWEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/279e807e8f/DistilledParanoia.png", "tradeTag": "distilled-paranoia", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Distilled Suffering", "refName": "Distilled Suffering", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkU3VmZmVyaW5nIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/801a53662a/DistilledSuffering.png", "tradeTag": "distilled-suffering", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Divine Orb", "refName": "Divine Orb", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png", "tradeTag": "divine", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Divine Vessel", "refName": "Divine Vessel", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 2}
 {"name": "Divine Vessel", "refName": "Divine Vessel", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
 {"name": "Diviner Cuffs", "refName": "Diviner Cuffs", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Gloves"}, "armour": {"ar": [48, 48], "es": [17, 17]}, "w": 2, "h": 2}
@@ -932,7 +932,7 @@
 {"name": "Envenom", "refName": "Envenom", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Escape Shot", "refName": "Escape Shot", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Esh's Breachstone", "refName": "Esh's Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
-{"name": "Esh's Catalyst", "refName": "Esh's Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Esh's Catalyst", "refName": "Esh's Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0TGlnaHRuaW5nIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/299e62fc33/BreachCatalystLightning.png", "tradeTag": "eshs-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Esh's Charged Breachstone", "refName": "Esh's Charged Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Esh's Enriched Breachstone", "refName": "Esh's Enriched Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Esh's Flawless Breachstone", "refName": "Esh's Flawless Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
@@ -942,23 +942,23 @@
 {"name": "Essence Burner", "refName": "Essence Burner", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistObjective"}, "w": 2, "h": 4}
 {"name": "Essence Drain", "refName": "Essence Drain", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Essence Harvest", "refName": "Essence Harvest", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Essence of Battle", "refName": "Essence of Battle", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of Electricity", "refName": "Essence of Electricity", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of Enhancement", "refName": "Essence of Enhancement", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of Flames", "refName": "Essence of Flames", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of Haste", "refName": "Essence of Haste", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of Ice", "refName": "Essence of Ice", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of Ruin", "refName": "Essence of Ruin", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of Sorcery", "refName": "Essence of Sorcery", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of Torment", "refName": "Essence of Torment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of the Body", "refName": "Essence of the Body", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of the Infinite", "refName": "Essence of the Infinite", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Essence of the Mind", "refName": "Essence of the Mind", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of Battle", "refName": "Essence of Battle", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3cece29e19/AttackEssence.png", "tradeTag": "essence-of-battle", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of Electricity", "refName": "Essence of Electricity", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2c3725fdad/LightningEssence.png", "tradeTag": "essence-of-electricity", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of Enhancement", "refName": "Essence of Enhancement", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e1e5c1ccb8/DefencesEssence.png", "tradeTag": "essence-of-enhancement", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of Flames", "refName": "Essence of Flames", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/add6c12f64/FireEssence.png", "tradeTag": "essence-of-flames", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of Haste", "refName": "Essence of Haste", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/affda36f07/SpeedEssence.png", "tradeTag": "essence-of-haste", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of Ice", "refName": "Essence of Ice", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/73d9fd8619/ColdEssence.png", "tradeTag": "essence-of-ice", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of Ruin", "refName": "Essence of Ruin", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5f0d3c7014/ChaosEssence.png", "tradeTag": "essence-of-ruin", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of Sorcery", "refName": "Essence of Sorcery", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6bb099115a/CasterEssence.png", "tradeTag": "essence-of-sorcery", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of Torment", "refName": "Essence of Torment", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e52cd05eeb/PhysicalEssence.png", "tradeTag": "essence-of-torment", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of the Body", "refName": "Essence of the Body", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/638d6c4cbe/LifeEssence.png", "tradeTag": "essence-of-the-body", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of the Infinite", "refName": "Essence of the Infinite", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRyaWJ1dGVFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/58f9516082/AttributeEssence.png", "tradeTag": "essence-of-the-infinite", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Essence of the Mind", "refName": "Essence of the Mind", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c881e6273c/ManaEssence.png", "tradeTag": "essence-of-the-mind", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Essential Keyring", "refName": "Essential Keyring", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistEquipmentTool"}, "w": 2, "h": 2}
 {"name": "Eternal Flame", "refName": "Eternal Flame", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Eternal Orb", "refName": "Eternal Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Ethereal Blade", "refName": "Ethereal Blade", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Dagger"}, "w": 1, "h": 3}
-{"name": "Exalted Orb", "refName": "Exalted Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Exalted Orb", "refName": "Exalted Orb", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png", "tradeTag": "exalted", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Exalted Shard", "refName": "Exalted Shard", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Exceptional Eldritch Ember", "refName": "Exceptional Eldritch Ember", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Exceptional Eldritch Ichor", "refName": "Exceptional Eldritch Ichor", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
@@ -968,11 +968,11 @@
 {"name": "Execratus Hammer", "refName": "Execratus Hammer", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "One Hand Mace"}, "w": 2, "h": 3}
 {"name": "Execute", "refName": "Execute", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Executioner Greataxe", "refName": "Executioner Greataxe", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Axe"}, "w": 2, "h": 4}
-{"name": "Exotic Coinage", "refName": "Exotic Coinage", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Exotic Coinage", "refName": "Exotic Coinage", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9CYXJ0ZXJSZWZyZXNoQ3VycmVuY3kiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8a4fe1f468/BarterRefreshCurrency.png", "tradeTag": "exotic-coinage", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Expanding Ground", "refName": "Expanding Ground", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Expanse", "refName": "Expanse", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Expedition Logbook", "refName": "Expedition Logbook", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "ExpeditionLogbook"}, "w": 1, "h": 1}
-{"name": "Expedition Precursor Tablet", "refName": "Expedition Precursor Tablet", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "TowerAugment"}, "w": 1, "h": 1}
+{"name": "Expedition Precursor Tablet", "refName": "Expedition Precursor Tablet", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRFeHBlZGl0aW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4450dac451/PrecursorTabletExpedition.png", "tradeTag": "expedition-precursor-tablet", "craftable": {"category": "TowerAugment"}, "w": 1, "h": 1}
 {"name": "Expert Aged Cuffs", "refName": "Expert Aged Cuffs", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Gloves"}, "armour": {"ar": [74, 74], "es": [25, 25]}, "w": 2, "h": 2}
 {"name": "Expert Altar Robe", "refName": "Expert Altar Robe", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"es": [153, 153]}, "w": 2, "h": 3}
 {"name": "Expert Antler Focus", "refName": "Expert Antler Focus", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Focus"}, "armour": {"es": [52, 52]}, "w": 2, "h": 3}
@@ -1108,7 +1108,7 @@
 {"name": "Face Mask", "refName": "Face Mask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Helmet"}, "armour": {"ev": [26, 26], "es": [15, 15]}, "w": 2, "h": 2}
 {"name": "Faceted Fossil", "refName": "Faceted Fossil", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Facetor's Lens", "refName": "Facetor's Lens", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Faded Crisis Fragment", "refName": "Faded Crisis Fragment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 1}
+{"name": "Faded Crisis Fragment", "refName": "Faded Crisis Fragment", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5709c39ee7/PinnacleKey2.png", "tradeTag": "faded-crisis-fragment", "w": 1, "h": 1}
 {"name": "Falchion", "refName": "Falchion", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "One Hand Sword"}, "w": 2, "h": 3}
 {"name": "Falling Thunder", "refName": "Falling Thunder", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Familial Contract", "refName": "Familial Contract", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistContract"}, "w": 1, "h": 1}
@@ -1160,7 +1160,7 @@
 {"name": "Flask of Welakath", "refName": "Flask of Welakath", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistObjective"}, "w": 2, "h": 2}
 {"name": "Flax Sandals", "refName": "Flax Sandals", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"es": [48, 48]}, "w": 2, "h": 2}
 {"name": "Fleet Orders", "refName": "Fleet Orders", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
-{"name": "Flesh Catalyst", "refName": "Flesh Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Flesh Catalyst", "refName": "Flesh Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0TGlmZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/06ec489870/BreachCatalystLife.png", "tradeTag": "flesh-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Flesh Compass", "refName": "Flesh Compass", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
 {"name": "Flexile Sabatons", "refName": "Flexile Sabatons", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [82, 82], "ev": [74, 74]}, "w": 2, "h": 2}
 {"name": "Flicker Strike", "refName": "Flicker Strike", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -1250,7 +1250,7 @@
 {"name": "Gemcrust Skull", "refName": "Gemcrust Skull", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 2, "h": 2}
 {"name": "Gemcutter's Incubator", "refName": "Gemcutter's Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
 {"name": "Gemcutter's Incubator", "refName": "Gemcutter's Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
-{"name": "Gemcutter's Prism", "refName": "Gemcutter's Prism", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Gemcutter's Prism", "refName": "Gemcutter's Prism", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lHZW1RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f4bace18d7/CurrencyGemQuality.png", "tradeTag": "gcp", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Gemrot Skull", "refName": "Gemrot Skull", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 2, "h": 2}
 {"name": "Geomancer's Incubator", "refName": "Geomancer's Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
 {"name": "Geomancer's Incubator", "refName": "Geomancer's Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
@@ -1280,12 +1280,12 @@
 {"name": "Gilt Leggings", "refName": "Gilt Leggings", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [82, 82], "es": [29, 29]}, "w": 2, "h": 2}
 {"name": "Glacial Bolt", "refName": "Glacial Bolt", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Glacial Cascade", "refName": "Glacial Cascade", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Glacial Rune", "refName": "Glacial Rune", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Glacial Rune", "refName": "Glacial Rune", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png", "tradeTag": "glacial-rune", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Glaciation", "refName": "Glaciation", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Glacier", "refName": "Glacier", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Gladiator Armour", "refName": "Gladiator Armour", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ar": [184, 184], "ev": [167, 167]}, "w": 2, "h": 3}
 {"name": "Glass Shank", "refName": "Glass Shank", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Dagger"}, "w": 1, "h": 3}
-{"name": "Glassblower's Bauble", "refName": "Glassblower's Bauble", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Glassblower's Bauble", "refName": "Glassblower's Bauble", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1cec279e01/CurrencyFlaskQuality.png", "tradeTag": "bauble", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Glorious Idol", "refName": "Glorious Idol", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 2, "h": 2}
 {"name": "Glorious Plate", "refName": "Glorious Plate", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ar": [534, 534]}, "w": 2, "h": 3}
 {"name": "Glyphic Fossil", "refName": "Glyphic Fossil", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
@@ -1345,18 +1345,18 @@
 {"name": "Greatbow", "refName": "Greatbow", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Bow"}, "w": 2, "h": 4}
 {"name": "Greater Eldritch Ember", "refName": "Greater Eldritch Ember", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Greater Eldritch Ichor", "refName": "Greater Eldritch Ichor", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of Battle", "refName": "Greater Essence of Battle", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of Electricity", "refName": "Greater Essence of Electricity", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of Enhancement", "refName": "Greater Essence of Enhancement", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of Flames", "refName": "Greater Essence of Flames", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of Haste", "refName": "Greater Essence of Haste", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of Ice", "refName": "Greater Essence of Ice", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of Ruin", "refName": "Greater Essence of Ruin", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of Sorcery", "refName": "Greater Essence of Sorcery", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of Torment", "refName": "Greater Essence of Torment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of the Body", "refName": "Greater Essence of the Body", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of the Infinite", "refName": "Greater Essence of the Infinite", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Greater Essence of the Mind", "refName": "Greater Essence of the Mind", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of Battle", "refName": "Greater Essence of Battle", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQXR0YWNrRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e2bb5332b8/GreaterAttackEssence.png", "tradeTag": "greater-essence-of-battle", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of Electricity", "refName": "Greater Essence of Electricity", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlnaHRuaW5nRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c6df464bb9/GreaterLightningEssence.png", "tradeTag": "greater-essence-of-electricity", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of Enhancement", "refName": "Greater Essence of Enhancement", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRGVmZW5jZXNFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a0ed2df82c/GreaterDefencesEssence.png", "tradeTag": "greater-essence-of-enhancement", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of Flames", "refName": "Greater Essence of Flames", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9b8d6e7b4e/GreaterFireEssence.png", "tradeTag": "greater-essence-of-flames", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of Haste", "refName": "Greater Essence of Haste", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyU3BlZWRFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5a72f95c24/GreaterSpeedEssence.png", "tradeTag": "greater-essence-of-haste", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of Ice", "refName": "Greater Essence of Ice", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ29sZEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e5224bace0/GreaterColdEssence.png", "tradeTag": "greater-essence-of-ice", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of Ruin", "refName": "Greater Essence of Ruin", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2hhb3NFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5c71ec7418/GreaterChaosEssence.png", "tradeTag": "greater-essence-of-ruin", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of Sorcery", "refName": "Greater Essence of Sorcery", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2FzdGVyRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14b7e4c8ef/GreaterCasterEssence.png", "tradeTag": "greater-essence-of-sorcery", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of Torment", "refName": "Greater Essence of Torment", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUGh5c2ljYWxFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a28c932def/GreaterPhysicalEssence.png", "tradeTag": "greater-essence-of-torment", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of the Body", "refName": "Greater Essence of the Body", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlmZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8906b401fe/GreaterLifeEssence.png", "tradeTag": "greater-essence-of-the-body", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of the Infinite", "refName": "Greater Essence of the Infinite", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQXR0cmlidXRlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8a8cb823af/GreaterAttributeEssence.png", "tradeTag": "greater-essence-of-the-infinite", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Greater Essence of the Mind", "refName": "Greater Essence of the Mind", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTWFuYUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f9e17e6d47/GreaterManaEssence.png", "tradeTag": "greater-essence-of-the-mind", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Greater Jeweller's Orb", "refName": "Greater Jeweller's Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Greater Life Flask", "refName": "Greater Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Greater Mana Flask", "refName": "Greater Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
@@ -1488,7 +1488,7 @@
 {"name": "Inscribed Ultimatum", "refName": "Inscribed Ultimatum", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MiscMapItem"}, "w": 1, "h": 1}
 {"name": "Inscribed Ultimatum", "refName": "Inscribed Ultimatum", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MiscMapItem"}, "w": 1, "h": 1}
 {"name": "Inspiration", "refName": "Inspiration", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Inspiration Rune", "refName": "Inspiration Rune", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Inspiration Rune", "refName": "Inspiration Rune", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5154db8cf8/ManaRecoveryRune.png", "tradeTag": "inspiration-rune", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Instilling Orb", "refName": "Instilling Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Intense Agony", "refName": "Intense Agony", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Into the Breach", "refName": "Into the Breach", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -1504,7 +1504,7 @@
 {"name": "Iron Greatsword", "refName": "Iron Greatsword", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Sword"}, "w": 2, "h": 4}
 {"name": "Iron Greaves", "refName": "Iron Greaves", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [47, 47]}, "w": 2, "h": 2}
 {"name": "Iron Ring", "refName": "Iron Ring", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Ring"}, "w": 1, "h": 1}
-{"name": "Iron Rune", "refName": "Iron Rune", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Iron Rune", "refName": "Iron Rune", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cfeb426ee0/EnhanceRune.png", "tradeTag": "iron-rune", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Ironclad Vestments", "refName": "Ironclad Vestments", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ar": [114, 114], "es": [43, 43]}, "w": 2, "h": 3}
 {"name": "Ironhead Spear", "refName": "Ironhead Spear", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Spear"}, "w": 1, "h": 4}
 {"name": "Ironwood", "refName": "Ironwood", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -1715,12 +1715,12 @@
 {"name": "Merveil's Wedding Dress", "refName": "Merveil's Wedding Dress", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
 {"name": "Messer", "refName": "Messer", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "One Hand Sword"}, "w": 2, "h": 3}
 {"name": "Metallic Fossil", "refName": "Metallic Fossil", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Mind Rune", "refName": "Mind Rune", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Mind Rune", "refName": "Mind Rune", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4be6331480/ManaRune.png", "tradeTag": "mind-rune", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Minion Instability", "refName": "Minion Instability", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Minion Mastery", "refName": "Minion Mastery", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Minion Pact", "refName": "Minion Pact", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Mirror Shard", "refName": "Mirror Shard", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Mirror of Kalandra", "refName": "Mirror of Kalandra", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Mirror of Kalandra", "refName": "Mirror of Kalandra", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lEdXBsaWNhdGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/26bc31680e/CurrencyDuplicate.png", "tradeTag": "mirror", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Mirror of Teklatipitzi", "refName": "Mirror of Teklatipitzi", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistObjective"}, "w": 2, "h": 2}
 {"name": "Mobility", "refName": "Mobility", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Molten Blast", "refName": "Molten Blast", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -1753,7 +1753,7 @@
 {"name": "Naval Contract", "refName": "Naval Contract", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistContract"}, "w": 1, "h": 1}
 {"name": "Necromancy Net", "refName": "Necromancy Net", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Negotiate with the Client", "refName": "Negotiate with the Client", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
-{"name": "Neural Catalyst", "refName": "Neural Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Neural Catalyst", "refName": "Neural Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0TWFuYSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/61d3a7a832/BreachCatalystMana.png", "tradeTag": "neural-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Neural Overload", "refName": "Neural Overload", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Niko's Memory", "refName": "Niko's Memory", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MemoryLine"}, "w": 1, "h": 1}
 {"name": "Nimble Reload", "refName": "Nimble Reload", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -1775,31 +1775,31 @@
 {"name": "Oil Grenade", "refName": "Oil Grenade", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Omen Crest Shield", "refName": "Omen Crest Shield", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ar": [50, 50], "es": [19, 19]}, "w": 2, "h": 3}
 {"name": "Omen Sceptre", "refName": "Omen Sceptre", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Sceptre"}, "w": 2, "h": 3}
-{"name": "Omen of Amelioration", "refName": "Omen of Amelioration", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Corruption", "refName": "Omen of Corruption", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Dextral Alchemy", "refName": "Omen of Dextral Alchemy", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Dextral Annulment", "refName": "Omen of Dextral Annulment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Dextral Coronation", "refName": "Omen of Dextral Coronation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Dextral Erasure", "refName": "Omen of Dextral Erasure", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Dextral Exaltation", "refName": "Omen of Dextral Exaltation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Greater Annulment", "refName": "Omen of Greater Annulment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Greater Exaltation", "refName": "Omen of Greater Exaltation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Refreshment", "refName": "Omen of Refreshment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Resurgence", "refName": "Omen of Resurgence", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Sinistral Alchemy", "refName": "Omen of Sinistral Alchemy", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Sinistral Annulment", "refName": "Omen of Sinistral Annulment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Sinistral Coronation", "refName": "Omen of Sinistral Coronation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Sinistral Erasure", "refName": "Omen of Sinistral Erasure", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Sinistral Exaltation", "refName": "Omen of Sinistral Exaltation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
-{"name": "Omen of Whittling", "refName": "Omen of Whittling", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Amelioration", "refName": "Omen of Amelioration", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b5ee965352/VoodooOmens3Blue.png", "tradeTag": "omen-of-amelioration", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Corruption", "refName": "Omen of Corruption", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUmVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9cfdcc9e1a/VoodooOmens3Red.png", "tradeTag": "omen-of-corruption", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Dextral Alchemy", "refName": "Omen of Dextral Alchemy", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyR3JlZW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0ff0cfbb93/VoodooOmens2Green.png", "tradeTag": "omen-of-dextral-alchemy", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Dextral Annulment", "refName": "Omen of Dextral Annulment", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d901658529/VoodooOmens3Purple.png", "tradeTag": "omen-of-dextral-annulment", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Dextral Coronation", "refName": "Omen of Dextral Coronation", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUmVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f1bbb78614/VoodooOmens2Red.png", "tradeTag": "omen-of-dextral-coronation", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Dextral Erasure", "refName": "Omen of Dextral Erasure", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6e2bb52963/VoodooOmens3Dark.png", "tradeTag": "omen-of-dextral-erasure", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Dextral Exaltation", "refName": "Omen of Dextral Exaltation", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ed7cf06fa4/VoodooOmens3Yellow.png", "tradeTag": "omen-of-dextral-exaltation", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Greater Annulment", "refName": "Omen of Greater Annulment", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a6848dff1c/VoodooOmens1Purple.png", "tradeTag": "omen-of-greater-annulment", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Greater Exaltation", "refName": "Omen of Greater Exaltation", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/22d9b6478d/VoodooOmens1Yellow.png", "tradeTag": "omen-of-greater-exaltation", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Refreshment", "refName": "Omen of Refreshment", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/213474d1d5/VoodooOmens1Blue.png", "tradeTag": "omen-of-refreshment", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Resurgence", "refName": "Omen of Resurgence", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/044d5086da/VoodooOmens2Blue.png", "tradeTag": "omen-of-resurgence", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Sinistral Alchemy", "refName": "Omen of Sinistral Alchemy", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxR3JlZW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/11c49d2322/VoodooOmens1Green.png", "tradeTag": "omen-of-sinistral-alchemy", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Sinistral Annulment", "refName": "Omen of Sinistral Annulment", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b9eaf38592/VoodooOmens2Purple.png", "tradeTag": "omen-of-sinistral-annulment", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Sinistral Coronation", "refName": "Omen of Sinistral Coronation", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxUmVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b8e2b8ed3f/VoodooOmens1Red.png", "tradeTag": "omen-of-sinistral-coronation", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Sinistral Erasure", "refName": "Omen of Sinistral Erasure", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0cfa6959be/VoodooOmens2Dark.png", "tradeTag": "omen-of-sinistral-erasure", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Sinistral Exaltation", "refName": "Omen of Sinistral Exaltation", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6d316b47ee/VoodooOmens2Yellow.png", "tradeTag": "omen-of-sinistral-exaltation", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
+{"name": "Omen of Whittling", "refName": "Omen of Whittling", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2dea0999d5/VoodooOmens1Dark.png", "tradeTag": "omen-of-whittling", "craftable": {"category": "Omen"}, "w": 1, "h": 1}
 {"name": "Omniscient Voidstone", "refName": "Omniscient Voidstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "AtlasUpgradeItem"}, "w": 1, "h": 1}
 {"name": "Operative's Scouting Report", "refName": "Operative's Scouting Report", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Orb of Alchemy", "refName": "Orb of Alchemy", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Orb of Alchemy", "refName": "Orb of Alchemy", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9b80b44821/CurrencyUpgradeToRare.png", "tradeTag": "alch", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Orb of Alteration", "refName": "Orb of Alteration", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Orb of Annulment", "refName": "Orb of Annulment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Orb of Augmentation", "refName": "Orb of Augmentation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Orb of Annulment", "refName": "Orb of Annulment", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5udWxsT3JiIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2daba8ccca/AnnullOrb.png", "tradeTag": "annul", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Orb of Augmentation", "refName": "Orb of Augmentation", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png", "tradeTag": "aug", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Orb of Binding", "refName": "Orb of Binding", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Orb of Chance", "refName": "Orb of Chance", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Orb of Chance", "refName": "Orb of Chance", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/93c6cc8d5b/CurrencyUpgradeToUnique.png", "tradeTag": "chance", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Orb of Conflict", "refName": "Orb of Conflict", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Orb of Dominance", "refName": "Orb of Dominance", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Orb of Fusing", "refName": "Orb of Fusing", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
@@ -1807,10 +1807,10 @@
 {"name": "Orb of Regret", "refName": "Orb of Regret", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Orb of Scouring", "refName": "Orb of Scouring", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Orb of Storms", "refName": "Orb of Storms", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Orb of Transmutation", "refName": "Orb of Transmutation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Orb of Transmutation", "refName": "Orb of Transmutation", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png", "tradeTag": "transmute", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Orb of Unmaking", "refName": "Orb of Unmaking", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Orbala's Fifth Adventure", "refName": "Orbala's Fifth Adventure", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistObjective"}, "w": 2, "h": 4}
-{"name": "Order Artifact", "refName": "Order Artifact", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Order Artifact", "refName": "Order Artifact", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/47a41c9782/Rune13.png", "tradeTag": "order-artifact", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Ornate Belt", "refName": "Ornate Belt", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Belt"}, "w": 2, "h": 1}
 {"name": "Ornate Buckler", "refName": "Ornate Buckler", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ev": [113, 113]}, "w": 2, "h": 2}
 {"name": "Ornate Gauntlets", "refName": "Ornate Gauntlets", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Gloves"}, "armour": {"ar": [67, 67], "ev": [61, 61]}, "w": 2, "h": 2}
@@ -1922,7 +1922,7 @@
 {"name": "Precise Arrowhead", "refName": "Precise Arrowhead", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistEquipmentWeapon"}, "w": 2, "h": 2}
 {"name": "Precise Greathammer", "refName": "Precise Greathammer", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Mace"}, "w": 2, "h": 4}
 {"name": "Precision", "refName": "Precision", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Precursor Tablet", "refName": "Precursor Tablet", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "TowerAugment"}, "w": 1, "h": 1}
+{"name": "Precursor Tablet", "refName": "Precursor Tablet", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRHZW5lcmljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5658ce7f2d/PrecursorTabletGeneric.png", "tradeTag": "precursor-tablet", "craftable": {"category": "TowerAugment"}, "w": 1, "h": 1}
 {"name": "Premeditation", "refName": "Premeditation", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Preventative Contract", "refName": "Preventative Contract", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistContract"}, "w": 1, "h": 1}
 {"name": "Primal Armament", "refName": "Primal Armament", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -2028,16 +2028,16 @@
 {"name": "Reap", "refName": "Reap", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Reaper's Invocation", "refName": "Reaper's Invocation", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MetaSkillGem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Reaping Staff", "refName": "Reaping Staff", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Staff"}, "w": 1, "h": 4}
-{"name": "Reaver Catalyst", "refName": "Reaver Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Reaver Catalyst", "refName": "Reaver Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0QXR0YWNrIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ccc363f502/BreachCatalystAttack.png", "tradeTag": "reaver-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Reaver Glaive", "refName": "Reaver Glaive", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Axe"}, "w": 2, "h": 4}
-{"name": "Rebirth Rune", "refName": "Rebirth Rune", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Rebirth Rune", "refName": "Rebirth Rune", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJlY292ZXJ5UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/bbbb060773/LifeRecoveryRune.png", "tradeTag": "rebirth-rune", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Recurve Bow", "refName": "Recurve Bow", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Bow"}, "w": 2, "h": 4}
 {"name": "Red Mushroom", "refName": "Red Mushroom", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 2}
 {"name": "Redeemer's Exalted Orb", "refName": "Redeemer's Exalted Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Reefsteel Greaves", "refName": "Reefsteel Greaves", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [132, 132]}, "w": 2, "h": 2}
 {"name": "Refined Trap", "refName": "Refined Trap", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "TrapTool"}, "w": 2, "h": 2}
-{"name": "Regal Orb", "refName": "Regal Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Regal Shard", "refName": "Regal Shard", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Regal Orb", "refName": "Regal Orb", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png", "tradeTag": "regal", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Regal Shard", "refName": "Regal Shard", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmVTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e4128abe92/CurrencyUpgradeMagicToRareShard.png", "tradeTag": "regal-shard", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Regalia Longsword", "refName": "Regalia Longsword", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Sword"}, "w": 2, "h": 4}
 {"name": "Regicide Disguise Kit", "refName": "Regicide Disguise Kit", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistEquipmentTool"}, "w": 2, "h": 2}
 {"name": "Reinforced Iron Net", "refName": "Reinforced Iron Net", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
@@ -2059,7 +2059,7 @@
 {"name": "Rippled Greatsword", "refName": "Rippled Greatsword", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Sword"}, "w": 2, "h": 4}
 {"name": "Ripwire Ballista", "refName": "Ripwire Ballista", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Rising Tempest", "refName": "Rising Tempest", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Ritual Precursor Tablet", "refName": "Ritual Precursor Tablet", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "TowerAugment"}, "w": 1, "h": 1}
+{"name": "Ritual Precursor Tablet", "refName": "Ritual Precursor Tablet", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRSaXR1YWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7c49d00f07/PrecursorTabletRitual.png", "tradeTag": "ritual-precursor-tablet", "craftable": {"category": "TowerAugment"}, "w": 1, "h": 1}
 {"name": "Ritual Splinter", "refName": "Ritual Splinter", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Ritual Vessel", "refName": "Ritual Vessel", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Ritualistic Book of Knowledge I", "refName": "Ritualistic Book of Knowledge I", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 2, "h": 2}
@@ -2149,7 +2149,7 @@
 {"name": "Screaming Invitation", "refName": "Screaming Invitation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
 {"name": "Screaming Invitation", "refName": "Screaming Invitation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MiscMapItem"}, "w": 1, "h": 1}
 {"name": "Scroll Fragment", "refName": "Scroll Fragment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Scroll of Wisdom", "refName": "Scroll of Wisdom", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Scroll of Wisdom", "refName": "Scroll of Wisdom", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJZGVudGlmaWNhdGlvbiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/884f7bc58b/CurrencyIdentification.png", "tradeTag": "wisdom", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Seaglass Spear", "refName": "Seaglass Spear", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Spear"}, "w": 1, "h": 4}
 {"name": "Seal Relic", "refName": "Seal Relic", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Relic"}, "w": 2, "h": 1}
 {"name": "Seal of Lunaris", "refName": "Seal of Lunaris", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistObjective"}, "w": 2, "h": 2}
@@ -2208,7 +2208,7 @@
 {"name": "Shroud", "refName": "Shroud", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Shrouded Vest", "refName": "Shrouded Vest", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ev": [102, 102]}, "w": 2, "h": 3}
 {"name": "Shuddering Fossil", "refName": "Shuddering Fossil", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Sibilant Catalyst", "refName": "Sibilant Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Sibilant Catalyst", "refName": "Sibilant Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0Q2FzdGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51dc6bc317/BreachCatalystCaster.png", "tradeTag": "sibilant-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Sickle Sword", "refName": "Sickle Sword", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "One Hand Sword"}, "w": 2, "h": 3}
 {"name": "Siege Cascade", "refName": "Siege Cascade", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Sigil Crest Shield", "refName": "Sigil Crest Shield", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ar": [17, 17], "es": [8, 8]}, "w": 2, "h": 3}
@@ -2229,8 +2229,8 @@
 {"name": "Simple Rope Net", "refName": "Simple Rope Net", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Simple Sextant", "refName": "Simple Sextant", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Simple Steel Net", "refName": "Simple Steel Net", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Simulacrum", "refName": "Simulacrum", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
-{"name": "Simulacrum Splinter", "refName": "Simulacrum Splinter", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Simulacrum", "refName": "Simulacrum", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bUZyYWdtZW50Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cce2c7e1b3/DeliriumFragment.png", "tradeTag": "simulacrum", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
+{"name": "Simulacrum Splinter", "refName": "Simulacrum Splinter", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bVNwbGludGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/296e6ffc57/DeliriumSplinter.png", "tradeTag": "simulacrum-splinter", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Singular Incubator", "refName": "Singular Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
 {"name": "Singular Incubator", "refName": "Singular Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
 {"name": "Singular Scouting Report", "refName": "Singular Scouting Report", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
@@ -2247,7 +2247,7 @@
 {"name": "Skeletal Warrior", "refName": "Skeletal Warrior", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Skeleton Keyring", "refName": "Skeleton Keyring", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistEquipmentTool"}, "w": 2, "h": 2}
 {"name": "Skinning Knife", "refName": "Skinning Knife", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Dagger"}, "w": 1, "h": 3}
-{"name": "Skittering Catalyst", "refName": "Skittering Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Skittering Catalyst", "refName": "Skittering Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0U3BlZWQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/14b5db3c3c/BreachCatalystSpeed.png", "tradeTag": "skittering-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Skittering Incubator", "refName": "Skittering Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
 {"name": "Skittering Incubator", "refName": "Skittering Incubator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Incubator"}, "w": 1, "h": 1}
 {"name": "Slaver's Records", "refName": "Slaver's Records", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 1}
@@ -2272,21 +2272,21 @@
 {"name": "Solid Mask", "refName": "Solid Mask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Helmet"}, "armour": {"ev": [87, 87], "es": [35, 35]}, "w": 2, "h": 2}
 {"name": "Sombre Gloves", "refName": "Sombre Gloves", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Gloves"}, "armour": {"es": [15, 15]}, "w": 2, "h": 2}
 {"name": "Sorcery Ward", "refName": "Sorcery Ward", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Soul Core of Atmohua", "refName": "Soul Core of Atmohua", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Azcapa", "refName": "Soul Core of Azcapa", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Cholotl", "refName": "Soul Core of Cholotl", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Citaqualotl", "refName": "Soul Core of Citaqualotl", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Jiquani", "refName": "Soul Core of Jiquani", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Opiloti", "refName": "Soul Core of Opiloti", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Puhuarte", "refName": "Soul Core of Puhuarte", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Quipolatl", "refName": "Soul Core of Quipolatl", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Tacati", "refName": "Soul Core of Tacati", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Ticaba", "refName": "Soul Core of Ticaba", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Topotante", "refName": "Soul Core of Topotante", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Tzamoto", "refName": "Soul Core of Tzamoto", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Xopec", "refName": "Soul Core of Xopec", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Zalatl", "refName": "Soul Core of Zalatl", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
-{"name": "Soul Core of Zantipi", "refName": "Soul Core of Zantipi", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Atmohua", "refName": "Soul Core of Atmohua", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png", "tradeTag": "soul-core-of-atmohua", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Azcapa", "refName": "Soul Core of Azcapa", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVdlYWx0aFJhcml0eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6a69033a04/GreaterSoulCoreWealthRarity.png", "tradeTag": "soul-core-of-azcapa", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Cholotl", "refName": "Soul Core of Cholotl", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png", "tradeTag": "soul-core-of-cholotl", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Citaqualotl", "refName": "Soul Core of Citaqualotl", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1NvdWxDb3JlUGh5c2ljYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f48f9f0c62/SoulCorePhysical.png", "tradeTag": "soul-core-of-citaqualotl", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Jiquani", "refName": "Soul Core of Jiquani", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUxpZmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bb83a9f337/GreaterSoulCoreLife.png", "tradeTag": "soul-core-of-jiquani", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Opiloti", "refName": "Soul Core of Opiloti", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVBoeXNpY2FsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/366f87b8f2/GreaterSoulCorePhysical.png", "tradeTag": "soul-core-of-opiloti", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Puhuarte", "refName": "Soul Core of Puhuarte", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUZpcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6390ebeaa6/GreaterSoulCoreFire.png", "tradeTag": "soul-core-of-puhuarte", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Quipolatl", "refName": "Soul Core of Quipolatl", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVNwZWVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d4967ad0f1/GreaterSoulCoreSpeed.png", "tradeTag": "soul-core-of-quipolatl", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Tacati", "refName": "Soul Core of Tacati", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNoYW9zIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cd9c4fb0a7/GreaterSoulCoreChaos.png", "tradeTag": "soul-core-of-tacati", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Ticaba", "refName": "Soul Core of Ticaba", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png", "tradeTag": "soul-core-of-ticaba", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Topotante", "refName": "Soul Core of Topotante", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVRyaUVsZW1lbnQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ae7a949b3a/GreaterSoulCoreTriElement.png", "tradeTag": "soul-core-of-topotante", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Tzamoto", "refName": "Soul Core of Tzamoto", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNvbGQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d437c04d5e/GreaterSoulCoreCold.png", "tradeTag": "soul-core-of-tzamoto", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Xopec", "refName": "Soul Core of Xopec", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUxpZ2h0bmluZyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3dffadfa9a/GreaterSoulCoreLightning.png", "tradeTag": "soul-core-of-xopec", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Zalatl", "refName": "Soul Core of Zalatl", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZU1hbmEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1437190de2/GreaterSoulCoreMana.png", "tradeTag": "soul-core-of-zalatl", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Soul Core of Zantipi", "refName": "Soul Core of Zantipi", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png", "tradeTag": "soul-core-of-zantipi", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Soul Drain", "refName": "Soul Drain", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Soul Offering", "refName": "Soul Offering", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Soul Thief", "refName": "Soul Thief", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -2344,10 +2344,10 @@
 {"name": "Stone Flail", "refName": "Stone Flail", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flail"}, "w": 2, "h": 3}
 {"name": "Stone Greatsword", "refName": "Stone Greatsword", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Sword"}, "w": 2, "h": 4}
 {"name": "Stone Greaves", "refName": "Stone Greaves", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [102, 102]}, "w": 2, "h": 2}
-{"name": "Stone Rune", "refName": "Stone Rune", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Stone Rune", "refName": "Stone Rune", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3R1blJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f7830fb594/StunRune.png", "tradeTag": "stone-rune", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Stone Tower Shield", "refName": "Stone Tower Shield", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ar": [91, 91]}, "w": 2, "h": 4}
 {"name": "Stone of Passage", "refName": "Stone of Passage", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "IncursionItem"}, "w": 1, "h": 1}
-{"name": "Storm Rune", "refName": "Storm Rune", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Storm Rune", "refName": "Storm Rune", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/98319b3998/LightningRune.png", "tradeTag": "storm-rune", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Storm Spear", "refName": "Storm Spear", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Storm Surge", "refName": "Storm Surge", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Storm Wave", "refName": "Storm Wave", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -2374,7 +2374,7 @@
 {"name": "Summon Infernal Hound", "refName": "Summon Infernal Hound", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Summon Rhoa Mount", "refName": "Summon Rhoa Mount", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Summon Wolf", "refName": "Summon Wolf", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
-{"name": "Sun Artifact", "refName": "Sun Artifact", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Sun Artifact", "refName": "Sun Artifact", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ca2335fdef/Rune17.png", "tradeTag": "sun-artifact", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Sun Clan Relic", "refName": "Sun Clan Relic", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 1, "h": 2}
 {"name": "Sunder", "refName": "Sunder", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Supercharged Slam", "refName": "Supercharged Slam", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -2497,7 +2497,7 @@
 {"name": "Transcendent Life Flask", "refName": "Transcendent Life Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Transcendent Mana Flask", "refName": "Transcendent Mana Flask", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Flask"}, "w": 1, "h": 2}
 {"name": "Transforming Power Core", "refName": "Transforming Power Core", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Transmutation Shard", "refName": "Transmutation Shard", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Transmutation Shard", "refName": "Transmutation Shard", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpY1NoYXJkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e67bca229b/CurrencyUpgradeToMagicShard.png", "tradeTag": "transmutation-shard", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Trarthan Flashpowder", "refName": "Trarthan Flashpowder", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistEquipmentTool"}, "w": 2, "h": 2}
 {"name": "Treasured Blade", "refName": "Treasured Blade", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "One Hand Sword"}, "w": 2, "h": 3}
 {"name": "Tribal Bow", "refName": "Tribal Bow", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Bow"}, "w": 2, "h": 4}
@@ -2505,7 +2505,7 @@
 {"name": "Tribute to the Goddess", "refName": "Tribute to the Goddess", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
 {"name": "Trimmed Greaves", "refName": "Trimmed Greaves", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [87, 87]}, "w": 2, "h": 2}
 {"name": "Tul's Breachstone", "refName": "Tul's Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
-{"name": "Tul's Catalyst", "refName": "Tul's Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Tul's Catalyst", "refName": "Tul's Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0Q29sZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c3bc9abf43/BreachCatalystCold.png", "tradeTag": "tuls-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Tul's Charged Breachstone", "refName": "Tul's Charged Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Tul's Enriched Breachstone", "refName": "Tul's Enriched Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Tul's Flawless Breachstone", "refName": "Tul's Flawless Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
@@ -2550,13 +2550,13 @@
 {"name": "Utility Belt", "refName": "Utility Belt", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Belt"}, "w": 2, "h": 1}
 {"name": "Utility Wraps", "refName": "Utility Wraps", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Gloves"}, "armour": {"ev": [61, 61], "es": [23, 23]}, "w": 2, "h": 2}
 {"name": "Uul-Netol's Breachstone", "refName": "Uul-Netol's Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
-{"name": "Uul-Netol's Catalyst", "refName": "Uul-Netol's Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Uul-Netol's Catalyst", "refName": "Uul-Netol's Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0UGh5c2ljYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bc9406c106/BreachCatalystPhysical.png", "tradeTag": "uul-netols-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Uul-Netol's Charged Breachstone", "refName": "Uul-Netol's Charged Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Uul-Netol's Enriched Breachstone", "refName": "Uul-Netol's Enriched Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Uul-Netol's Flawless Breachstone", "refName": "Uul-Netol's Flawless Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Uul-Netol's Pure Breachstone", "refName": "Uul-Netol's Pure Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Vaal Cuirass", "refName": "Vaal Cuirass", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ar": [228, 228]}, "w": 2, "h": 3}
-{"name": "Vaal Orb", "refName": "Vaal Orb", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Vaal Orb", "refName": "Vaal Orb", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lWYWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/72bc84396c/CurrencyVaal.png", "tradeTag": "vaal", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Vaal Reliquary Key", "refName": "Vaal Reliquary Key", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "VaultKey"}, "w": 1, "h": 1}
 {"name": "Vaal Scouting Report", "refName": "Vaal Scouting Report", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Vagabond Armour", "refName": "Vagabond Armour", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ar": [67, 67], "ev": [56, 56]}, "w": 2, "h": 3}
@@ -2594,7 +2594,7 @@
 {"name": "Vial of Transcendence", "refName": "Vial of Transcendence", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Vial of the Ghost", "refName": "Vial of the Ghost", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Vial of the Ritual", "refName": "Vial of the Ritual", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Victorious Fate", "refName": "Victorious Fate", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
+{"name": "Victorious Fate", "refName": "Victorious Fate", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0270951a73/TrialmasterKey3.png", "tradeTag": "victorious-fate", "craftable": {"category": "MapFragment"}, "w": 1, "h": 1}
 {"name": "Vigilante Contract", "refName": "Vigilante Contract", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "HeistContract"}, "w": 1, "h": 1}
 {"name": "Vile Greataxe", "refName": "Vile Greataxe", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Two Hand Axe"}, "w": 2, "h": 4}
 {"name": "Vine Arrow", "refName": "Vine Arrow", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -2611,7 +2611,7 @@
 {"name": "Viscera Cauldron", "refName": "Viscera Cauldron", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "QuestItem"}, "w": 2, "h": 2}
 {"name": "Visceral Quiver", "refName": "Visceral Quiver", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Quiver"}, "w": 2, "h": 3}
 {"name": "Visceral Reliquary Key", "refName": "Visceral Reliquary Key", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "VaultKey"}, "w": 1, "h": 1}
-{"name": "Vision Rune", "refName": "Vision Rune", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
+{"name": "Vision Rune", "refName": "Vision Rune", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQWNjdXJhY3lSdW5lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8e7841f0ef/AccuracyRune.png", "tradeTag": "vision-rune", "craftable": {"category": "SoulCore"}, "w": 1, "h": 1}
 {"name": "Visored Helm", "refName": "Visored Helm", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Helmet"}, "armour": {"ar": [44, 44], "ev": [37, 37]}, "w": 2, "h": 2}
 {"name": "Vitality", "refName": "Vitality", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Support Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Vivid Crystallised Lifeforce", "refName": "Vivid Crystallised Lifeforce", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
@@ -2640,25 +2640,25 @@
 {"name": "Wave of Frost", "refName": "Wave of Frost", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Waxed Jacket", "refName": "Waxed Jacket", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ev": [43, 43], "es": [24, 24]}, "w": 2, "h": 3}
 {"name": "Wayfarer Jacket", "refName": "Wayfarer Jacket", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Body Armour"}, "armour": {"ev": [88, 88], "es": [39, 39]}, "w": 2, "h": 3}
-{"name": "Waystone (Tier 1)", "refName": "Waystone (Tier 1)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 10)", "refName": "Waystone (Tier 10)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 11)", "refName": "Waystone (Tier 11)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 12)", "refName": "Waystone (Tier 12)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 13)", "refName": "Waystone (Tier 13)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 14)", "refName": "Waystone (Tier 14)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 15)", "refName": "Waystone (Tier 15)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 16)", "refName": "Waystone (Tier 16)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 2)", "refName": "Waystone (Tier 2)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 3)", "refName": "Waystone (Tier 3)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 4)", "refName": "Waystone (Tier 4)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 5)", "refName": "Waystone (Tier 5)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 6)", "refName": "Waystone (Tier 6)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 7)", "refName": "Waystone (Tier 7)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 8)", "refName": "Waystone (Tier 8)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
-{"name": "Waystone (Tier 9)", "refName": "Waystone (Tier 9)", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 1)", "refName": "Waystone (Tier 1)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/bb4c55989d/EndgameMap1.png", "tradeTag": "waystone-1", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 10)", "refName": "Waystone (Tier 10)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTAiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4a1266867a/EndgameMap10.png", "tradeTag": "waystone-10", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 11)", "refName": "Waystone (Tier 11)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/77da168a75/EndgameMap11.png", "tradeTag": "waystone-11", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 12)", "refName": "Waystone (Tier 12)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1b37ec5864/EndgameMap12.png", "tradeTag": "waystone-12", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 13)", "refName": "Waystone (Tier 13)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4877b17436/EndgameMap13.png", "tradeTag": "waystone-13", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 14)", "refName": "Waystone (Tier 14)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9149454787/EndgameMap14.png", "tradeTag": "waystone-14", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 15)", "refName": "Waystone (Tier 15)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cea6af97d7/EndgameMap15.png", "tradeTag": "waystone-15", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 16)", "refName": "Waystone (Tier 16)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/098fff71c2/EndgameMap16.png", "tradeTag": "waystone-16", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 2)", "refName": "Waystone (Tier 2)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b4ffda8e35/EndgameMap2.png", "tradeTag": "waystone-2", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 3)", "refName": "Waystone (Tier 3)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7940d0ad1a/EndgameMap3.png", "tradeTag": "waystone-3", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 4)", "refName": "Waystone (Tier 4)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwNCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e405b6783b/EndgameMap4.png", "tradeTag": "waystone-4", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 5)", "refName": "Waystone (Tier 5)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwNSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/22247ac187/EndgameMap5.png", "tradeTag": "waystone-5", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 6)", "refName": "Waystone (Tier 6)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwNiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f64d3b6889/EndgameMap6.png", "tradeTag": "waystone-6", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 7)", "refName": "Waystone (Tier 7)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwNyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7f32b3664e/EndgameMap7.png", "tradeTag": "waystone-7", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 8)", "refName": "Waystone (Tier 8)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwOCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fb8a8651b5/EndgameMap8.png", "tradeTag": "waystone-8", "craftable": {"category": "Map"}, "w": 1, "h": 1}
+{"name": "Waystone (Tier 9)", "refName": "Waystone (Tier 9)", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwOSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/420f1c6412/EndgameMap9.png", "tradeTag": "waystone-9", "craftable": {"category": "Map"}, "w": 1, "h": 1}
 {"name": "Wayward Crest Shield", "refName": "Wayward Crest Shield", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Shield"}, "armour": {"ar": [61, 61], "es": [22, 22]}, "w": 2, "h": 3}
 {"name": "Weapon Recombinator", "refName": "Weapon Recombinator", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
-{"name": "Weathered Crisis Fragment", "refName": "Weathered Crisis Fragment", "namespace": "ITEM", "icon": "%NOT_FOUND%", "w": 1, "h": 1}
+{"name": "Weathered Crisis Fragment", "refName": "Weathered Crisis Fragment", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/32e6544250/PinnacleKey3.png", "tradeTag": "weathered-crisis-fragment", "w": 1, "h": 1}
 {"name": "Weaver Leggings", "refName": "Weaver Leggings", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Boots"}, "armour": {"ar": [73, 73], "es": [26, 26]}, "w": 2, "h": 2}
 {"name": "Whirling Assault", "refName": "Whirling Assault", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
 {"name": "Whirling Slash", "refName": "Whirling Slash", "namespace": "GEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Active Skill Gem"}, "w": 1, "h": 1, "gem": {"awakened": false, "transfigured": false}}
@@ -2719,7 +2719,7 @@
 {"name": "Writhing Invitation", "refName": "Writhing Invitation", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "MiscMapItem"}, "w": 1, "h": 1}
 {"name": "Wyrm Quarterstaff", "refName": "Wyrm Quarterstaff", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Warstaff"}, "w": 2, "h": 4}
 {"name": "Xoph's Breachstone", "refName": "Xoph's Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
-{"name": "Xoph's Catalyst", "refName": "Xoph's Catalyst", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
+{"name": "Xoph's Catalyst", "refName": "Xoph's Catalyst", "namespace": "ITEM", "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0RmlyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/05b1999374/BreachCatalystFire.png", "tradeTag": "xophs-catalyst", "craftable": {"category": "Currency"}, "w": 1, "h": 1}
 {"name": "Xoph's Charged Breachstone", "refName": "Xoph's Charged Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Xoph's Enriched Breachstone", "refName": "Xoph's Enriched Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
 {"name": "Xoph's Flawless Breachstone", "refName": "Xoph's Flawless Breachstone", "namespace": "ITEM", "icon": "%NOT_FOUND%", "craftable": {"category": "Breachstone"}, "w": 1, "h": 1}
@@ -2839,6 +2839,7 @@
 {"name": "Ventor's Gamble", "refName": "Ventor's Gamble", "namespace": "UNIQUE", "unique": {"base": "Gold Ring"}}
 {"name": "Whisper of the Brotherhood", "refName": "Whisper of the Brotherhood", "namespace": "UNIQUE", "unique": {"base": "Sapphire Ring"}}
 {"name": "Xoph's Blood", "refName": "Xoph's Blood", "namespace": "UNIQUE", "unique": {"base": "Amber Amulet"}}
+{"name": "Zerphi's Genesis", "refName": "Zerphi's Genesis", "namespace": "UNIQUE", "unique": {"base": "Heavy Belt"}}
 {"name": "Ab Aeterno", "refName": "Ab Aeterno", "namespace": "UNIQUE", "unique": {"base": "Grand Cuisses"}}
 {"name": "Aerisvane's Wings", "refName": "Aerisvane's Wings", "namespace": "UNIQUE", "unique": {"base": "Burnished Gauntlets"}}
 {"name": "Alkem Eira", "refName": "Alkem Eira", "namespace": "UNIQUE", "unique": {"base": "Blazon Crest Shield"}}
@@ -2902,6 +2903,7 @@
 {"name": "Gamblesprint", "refName": "Gamblesprint", "namespace": "UNIQUE", "unique": {"base": "Embossed Boots"}}
 {"name": "Ghostmarch", "refName": "Ghostmarch", "namespace": "UNIQUE", "unique": {"base": "Threaded Shoes"}}
 {"name": "Ghostwrithe", "refName": "Ghostwrithe", "namespace": "UNIQUE", "unique": {"base": "Tattered Robe"}}
+{"name": "Glimpse of Chaos", "refName": "Glimpse of Chaos", "namespace": "UNIQUE", "unique": {"base": "Tribal Mask"}}
 {"name": "Gloomform", "refName": "Gloomform", "namespace": "UNIQUE", "unique": {"base": "Waxed Jacket"}}
 {"name": "Goldrim", "refName": "Goldrim", "namespace": "UNIQUE", "unique": {"base": "Felt Cap"}}
 {"name": "Gravebind", "refName": "Gravebind", "namespace": "UNIQUE", "unique": {"base": "Rope Cuffs"}}
@@ -2909,6 +2911,7 @@
 {"name": "Greymake", "refName": "Greymake", "namespace": "UNIQUE", "unique": {"base": "Brimmed Helm"}}
 {"name": "Grip of Winter", "refName": "Grip of Winter", "namespace": "UNIQUE", "unique": {"base": "Firm Bracers"}}
 {"name": "Hand of Wisdom and Action", "refName": "Hand of Wisdom and Action", "namespace": "UNIQUE", "unique": {"base": "Furtive Wraps"}}
+{"name": "Hateforge", "refName": "Hateforge", "namespace": "UNIQUE", "unique": {"base": "Moulded Mitts"}}
 {"name": "Horns of Bynden", "refName": "Horns of Bynden", "namespace": "UNIQUE", "unique": {"base": "Rusted Greathelm"}}
 {"name": "Husk of Dreams", "refName": "Husk of Dreams", "namespace": "UNIQUE", "unique": {"base": "Shaman Mantle"}}
 {"name": "Icetomb", "refName": "Icetomb", "namespace": "UNIQUE", "unique": {"base": "Mail Vestments"}}
@@ -2927,6 +2930,7 @@
 {"name": "Lochtonial Caress", "refName": "Lochtonial Caress", "namespace": "UNIQUE", "unique": {"base": "Tempered Mitts"}}
 {"name": "Luminous Pace", "refName": "Luminous Pace", "namespace": "UNIQUE", "unique": {"base": "Straw Sandals"}}
 {"name": "Lycosidae", "refName": "Lycosidae", "namespace": "UNIQUE", "unique": {"base": "Rampart Tower Shield"}}
+{"name": "Mahuxotl's Machination", "refName": "Mahuxotl's Machination", "namespace": "UNIQUE", "unique": {"base": "Omen Crest Shield"}}
 {"name": "Maligaro's Virtuosity", "refName": "Maligaro's Virtuosity", "namespace": "UNIQUE", "unique": {"base": "Fine Bracers"}}
 {"name": "Mask of the Sanguimancer", "refName": "Mask of the Sanguimancer", "namespace": "UNIQUE", "unique": {"base": "Face Mask"}}
 {"name": "Mask of the Stitched Demon", "refName": "Mask of the Stitched Demon", "namespace": "UNIQUE", "unique": {"base": "Feathered Tiara"}}
@@ -2939,8 +2943,10 @@
 {"name": "Obern's Bastion", "refName": "Obern's Bastion", "namespace": "UNIQUE", "unique": {"base": "Stacked Sabatons"}}
 {"name": "Painter's Servant", "refName": "Painter's Servant", "namespace": "UNIQUE", "unique": {"base": "Torn Gloves"}}
 {"name": "Pariah's Embrace", "refName": "Pariah's Embrace", "namespace": "UNIQUE", "unique": {"base": "Cloaked Mail"}}
+{"name": "Perfidy", "refName": "Perfidy", "namespace": "UNIQUE", "unique": {"base": "Knight Armour"}}
 {"name": "Plaguefinger", "refName": "Plaguefinger", "namespace": "UNIQUE", "unique": {"base": "Gauze Wraps"}}
 {"name": "Powertread", "refName": "Powertread", "namespace": "UNIQUE", "unique": {"base": "Hunting Shoes"}}
+{"name": "Pragmatism", "refName": "Pragmatism", "namespace": "UNIQUE", "unique": {"base": "Explorer Armour"}}
 {"name": "Prayers for Rain", "refName": "Prayers for Rain", "namespace": "UNIQUE", "unique": {"base": "Keth Raiment"}}
 {"name": "Quatl's Molt", "refName": "Quatl's Molt", "namespace": "UNIQUE", "unique": {"base": "Serpentscale Coat"}}
 {"name": "Queen of the Forest", "refName": "Queen of the Forest", "namespace": "UNIQUE", "unique": {"base": "Smuggler Coat"}}
@@ -2992,10 +2998,15 @@
 {"name": "Wings of Caelyn", "refName": "Wings of Caelyn", "namespace": "UNIQUE", "unique": {"base": "Rusted Greathelm"}}
 {"name": "Wondertrap", "refName": "Wondertrap", "namespace": "UNIQUE", "unique": {"base": "Silk Slippers"}}
 {"name": "Wulfsbane", "refName": "Wulfsbane", "namespace": "UNIQUE", "unique": {"base": "Painted Tower Shield"}}
+{"name": "Melting Maelstrom", "refName": "Melting Maelstrom", "namespace": "UNIQUE", "unique": {"base": "Ultimate Mana Flask"}}
+{"name": "Olroth's Resolve", "refName": "Olroth's Resolve", "namespace": "UNIQUE", "unique": {"base": "Ultimate Life Flask"}}
 {"name": "Against the Darkness", "refName": "Against the Darkness", "namespace": "UNIQUE", "unique": {"base": "Time-Lost Diamond"}}
 {"name": "Controlled Metamorphosis", "refName": "Controlled Metamorphosis", "namespace": "UNIQUE", "unique": {"base": "Diamond"}}
-{"name": "Grand Spectrum", "refName": "Grand Spectrum", "namespace": "UNIQUE", "unique": {"base": "Ruby"}}
+{"name": "From Nothing", "refName": "From Nothing", "namespace": "UNIQUE", "unique": {"base": "Diamond"}}
+{"name": "Grand Spectrum", "refName": "Grand Spectrum", "namespace": "UNIQUE", "unique": {"base": "Emerald"}}
 {"name": "Grand Spectrum", "refName": "Grand Spectrum", "namespace": "UNIQUE", "unique": {"base": "Sapphire"}}
+{"name": "Grand Spectrum", "refName": "Grand Spectrum", "namespace": "UNIQUE", "unique": {"base": "Ruby"}}
+{"name": "The Adorned", "refName": "The Adorned", "namespace": "UNIQUE", "unique": {"base": "Diamond"}}
 {"name": "Brain Rattler", "refName": "Brain Rattler", "namespace": "UNIQUE", "unique": {"base": "Studded Greatclub"}}
 {"name": "Brynhand's Mark", "refName": "Brynhand's Mark", "namespace": "UNIQUE", "unique": {"base": "Wooden Club"}}
 {"name": "Chober Chaber", "refName": "Chober Chaber", "namespace": "UNIQUE", "unique": {"base": "Leaden Greathammer"}}
