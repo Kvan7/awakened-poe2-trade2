@@ -93,7 +93,6 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
 ];
 
 export function parseClipboard(clipboard: string): Result<ParsedItem, string> {
-  // print call stack
   try {
     let sections = itemTextToSections(clipboard);
 
