@@ -29,7 +29,8 @@
     "push-ndjson": "bash ./push-ndjson.sh",
     "anon-python": "python ./vendor/client/parser.py",
     "temp-images": "python ./data/en/imageFix.py",
-    "copy-py-ndjson": "cp -R ./vendor/client/pyDumps/en/* ./data/en/"
+    "copy-py-ndjson": "cp -R ./vendor/client/pyDumps/en/* ./data/en/",
+    "fetch-json": "bash ./pull-json.sh"
   },
   "keywords": [],
   "author": "",
