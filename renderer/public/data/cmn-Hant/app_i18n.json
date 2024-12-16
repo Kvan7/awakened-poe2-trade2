@@ -319,5 +319,15 @@
       "select_stock": "始終選擇“庫存”過濾器",
       "show_prediction": "顯示價格預測",
       "remember_currency": "記住買方貨幣過濾器"
-    }
+    },
+    "poe2_new": {
+      "beta_warning": "這是 POE2 的測試版，某些功能可能無法正常運作。",
+      "beta_warning2": "如發現任何問題請回報。",
+      "pseudo_note": "交易網站不支援偽屬性",
+      "pseudo_note2": "物品可能會顯示比實際更高的價值",
+      "parse_error": "由於某些原因，此物品的屬性無法解析。",
+      "parse_error2": "可能包含尚未支援的詞綴。",
+      "parse_error3": "（可能是來自 POE1 的新詞綴或修改後的措辭）",
+      "bulk_exchange": "尚未實現大量交易匯率功能"
+      }
   }
