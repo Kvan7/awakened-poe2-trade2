@@ -704,7 +704,7 @@ export async function requestTradeResultList(
       {
         method: "POST",
         headers: {
-          Accept: "application/json",
+          "Accept": "application/json",
           "Content-Type": "application/json",
         },
         body: JSON.stringify(body),
@@ -852,7 +852,7 @@ function nameToQuery(name: string, filters: ItemFilters) {
 
 function pseudoPseudoToQuery(id: string, stat: StatFilter) {
   const filter = PSEUDO_ID_TO_TRADE_REQUEST[id];
-  filter["value"] = { ...getMinMax(stat.roll) };
-  filter["disabled"] = stat.disabled;
+  filter.value = { ...getMinMax(stat.roll) };
+  filter.disabled = stat.disabled;
   return filter;
 }
