@@ -4,7 +4,7 @@
 declare -A lang_urls=(
     ["en"]="https://www.pathofexile.com"
     ["ru"]="https://ru.pathofexile.com"
-    # ["ko"]="https://poe.game.daum.net"
+    ["ko"]="https://poe.game.daum.net"
 )
 
 # URLs to fetch JSON from (relative paths)

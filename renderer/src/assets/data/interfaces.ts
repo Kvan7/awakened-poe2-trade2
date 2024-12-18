@@ -30,6 +30,7 @@ export interface Stat {
       [type: string]: string[];
     };
   };
+  // isFakePseudo?: true;
 }
 
 export interface DropEntry {
@@ -184,4 +185,24 @@ export interface TranslationDict {
   CHAT_WHISPER_TO: RegExp;
   CHAT_WHISPER_FROM: RegExp;
   CHAT_WEBTRADE_GEM: RegExp;
+}
+
+export interface Filter {
+  id: string;
+  value: {
+    weight: number;
+  };
+  disabled: boolean;
+}
+
+export interface PseudoIdToTradeRequest {
+  [id: string]: {
+    filters: Filter[];
+    type: "weight";
+    value: {
+      min?: number;
+      max?: number;
+    };
+    disabled?: boolean;
+  };
 }
