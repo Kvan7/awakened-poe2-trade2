@@ -102,5 +102,7 @@ export default {
   CHAT_WHISPER_TO: /^@向 (?<char_name>.+?): (?<body>.+)$/,
   CHAT_WHISPER_FROM: /^@來自 (?:<(?<guild_tag>.+?)> )?(?<char_name>.+?): (?<body>.+)$/,
   CHAT_WEBTRADE_GEM: /^等級 (?<gem_lvl>\d+) (?<gem_qual>\d+)% (?<gem_name>.+)$/,
-  REQUIREMENTS: ''
+  REQUIREMENTS: '需求:',
+  CHARM_SLOTS: '護符欄位:',
+  BASE_SPIRIT: '精魂:'
 }

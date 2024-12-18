@@ -65,6 +65,8 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
   parseArmour,
   parseWeapon,
   parseFlask,
+  parseCharmSlots,
+  parseSpirit,
   parseStackSize,
   parseCorrupted,
   parseFoil,
@@ -910,6 +912,40 @@ function parseFlask(section: string[], item: ParsedItem) {
 
   if (isParsed) {
     parseQualityNested(section, item);
+  }
+
+  return isParsed;
+}
+
+function parseCharmSlots(section: string[], item: ParsedItem) {
+  // the purpose of this parser is to "consume" charm slot 1 sections
+  // so they are not recognized as modifiers
+  if (item.category !== ItemCategory.Belt) return "PARSER_SKIPPED";
+
+  let isParsed: SectionParseResult = "SECTION_SKIPPED";
+
+  for (const line of section) {
+    if (line.startsWith(_$.CHARM_SLOTS)) {
+      isParsed = "SECTION_PARSED";
+      break;
+    }
+  }
+
+  return isParsed;
+}
+
+function parseSpirit(section: string[], item: ParsedItem) {
+  // the purpose of this parser is to "consume" Spirit: 100 sections
+  // so they are not recognized as modifiers
+  if (item.category !== ItemCategory.Sceptre) return "PARSER_SKIPPED";
+
+  let isParsed: SectionParseResult = "SECTION_SKIPPED";
+
+  for (const line of section) {
+    if (line.startsWith(_$.BASE_SPIRIT)) {
+      isParsed = "SECTION_PARSED";
+      break;
+    }
   }
 
   return isParsed;

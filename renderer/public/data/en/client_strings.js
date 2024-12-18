@@ -102,5 +102,7 @@ export default {
   CHAT_WHISPER_TO: /^@To (?<char_name>.+?): (?<body>.+)$/,
   CHAT_WHISPER_FROM: /^@From (?:<(?<guild_tag>.+?)> )?(?<char_name>.+?): (?<body>.+)$/,
   CHAT_WEBTRADE_GEM: /^level (?<gem_lvl>\d+) (?<gem_qual>\d+)% (?<gem_name>.+)$/,
-  REQUIREMENTS: 'Requirements'
+  REQUIREMENTS: 'Requirements',
+  CHARM_SLOTS: 'Charm Slots:',
+  BASE_SPIRIT: 'Spirit:',
 }

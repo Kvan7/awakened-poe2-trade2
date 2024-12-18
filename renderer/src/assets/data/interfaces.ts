@@ -176,6 +176,8 @@ export interface TranslationDict {
   FOIL_UNIQUE: string;
   UNMODIFIABLE: string;
   REQUIREMENTS: string;
+  CHARM_SLOTS: string;
+  BASE_SPIRIT: string;
   // ---
   CHAT_SYSTEM: RegExp;
   CHAT_TRADE: RegExp;
