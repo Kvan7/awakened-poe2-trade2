@@ -223,12 +223,8 @@ export default defineComponent({
       wm.show(props.config.wmId);
       checkPosition.value = e.position;
       advancedCheck.value = e.focusOverlay;
-      const manualDebug = ``;
-
       item.value = (
-        e.item
-          ? ok(e.item as ParsedItem)
-          : parseClipboard(manualDebug || e.clipboard)
+        e.item ? ok(e.item as ParsedItem) : parseClipboard(e.clipboard)
       )
         .andThen((item) =>
           (item.category === ItemCategory.HeistContract &&

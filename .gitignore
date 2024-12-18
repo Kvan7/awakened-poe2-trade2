@@ -25,3 +25,5 @@ yarn-error.log*
 # vitepress
 docs/.vitepress/dist
 docs/.vitepress/cache
+
+*.bin
