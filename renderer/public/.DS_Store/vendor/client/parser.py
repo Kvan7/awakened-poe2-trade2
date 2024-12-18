@@ -52,6 +52,7 @@ stats = {}
 stats_trade_ids = {}
 mod_translations = {}
 mods = {}
+matchers_no_trade_ids = []
 
 def make_poe_cdn_url(path):
     return urllib.parse.urljoin('https://web.poecdn.com/', path)
@@ -93,7 +94,7 @@ def parse_trade_ids():
             text = entry.get("text")
             type = entry.get("type")
             text = convert_stat_name(text)
-            
+
             if text not in stats_trade_ids:
                 stats_trade_ids[text] = {}
                 
@@ -133,6 +134,11 @@ def parse_mod(id, english):
     id = id.split(" ")
     
     for a in id:
+        if a == "number_of_additional_arrows":
+            matchers.append({
+                "string": "Bow Attacks fire # additional Arrows",
+                "negate": False
+            })
         mod_translations[a] = {
             "ref": ref,
             "matchers": matchers,
@@ -191,10 +197,25 @@ def parse_mods():
                 ref = translation.get("ref")
                 matchers = translation.get("matchers")
                 ids = stats_trade_ids.get(matchers[0].get("string"))
+                # if ref.lower() == "bow attacks fire an additional arrow":
+                #     print("ID")
+                #     print(f"stats_id: {stats_id}")
+                #     print(f"matchers: {matchers}")
+                #     print(f"ref: {ref}")
+                #     print("break")
+                #     print(f"mod: {mod}")
+                #     print(f"stats_trade_ids: {stats_trade_ids}")
+                #     print(f"ids: {ids}")
+                #     print(f"translation: {translation}")
                 if ids == None and len(matchers) > 1:
                     ids = stats_trade_ids.get(matchers[1].get("string"))
                     if ids == None:
                         print("No trade ids found for", matchers[0].get("string"), "or", matchers[1].get("string"))
+                        matchers_no_trade_ids.append(matchers[0].get("string"))
+                        matchers_no_trade_ids.append(matchers[1].get("string"))
+                elif ids == None:
+                    print("No trade ids found for", matchers[0].get("string"))
+                    matchers_no_trade_ids.append(matchers[0].get("string"))
                 trade = {"ids": ids}
                 mods[id] = {
                     "ref": translation.get("ref"),
@@ -441,6 +462,9 @@ def write_to_file():
     
     with open(f"{get_script_dir()}/pyDumps/mods_dump.json", "w", encoding="utf-8") as f:
         f.write(json.dumps(mods, indent=4))
+
+    with open(f"{get_script_dir()}/pyDumps/matchers_no_trade_ids.json", "w", encoding="utf-8") as f:
+        f.write(json.dumps(matchers_no_trade_ids, indent=4))
 
 if __name__ == "__main__":
     parse_trade_ids()
