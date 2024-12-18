@@ -104,5 +104,8 @@ export default {
   CHAT_WEBTRADE_GEM: /^等級 (?<gem_lvl>\d+) (?<gem_qual>\d+)% (?<gem_name>.+)$/,
   REQUIREMENTS: '需求:',
   CHARM_SLOTS: '護符欄位:',
-  BASE_SPIRIT: '精魂:'
+  BASE_SPIRIT: '精魂:',
+  QUIVER_HELP_TEXT: '持弓時才可裝備',
+  FLASK_HELP_TEXT: '右鍵點擊以喝下藥劑。',
+  CHARM_HELP_TEXT: '達成特定條件時會自動使用。'
 }

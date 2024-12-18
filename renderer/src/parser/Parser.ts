@@ -67,6 +67,7 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
   parseFlask,
   parseCharmSlots,
   parseSpirit,
+  parseHelpText,
   parseStackSize,
   parseCorrupted,
   parseFoil,
@@ -949,6 +950,26 @@ function parseSpirit(section: string[], item: ParsedItem) {
   }
 
   return isParsed;
+}
+
+function parseHelpText(section: string[], item: ParsedItem) {
+  if (
+    item.category !== ItemCategory.Quiver &&
+    item.category !== ItemCategory.Flask &&
+    item.category !== ItemCategory.Charm
+  )
+    return "PARSER_SKIPPED";
+
+  for (const line of section) {
+    if (
+      line.startsWith(_$.QUIVER_HELP_TEXT) ||
+      line.startsWith(_$.FLASK_HELP_TEXT) ||
+      line.startsWith(_$.CHARM_HELP_TEXT)
+    ) {
+      return "SECTION_PARSED";
+    }
+  }
+  return "SECTION_SKIPPED";
 }
 
 function parseSentinelCharge(section: string[], item: ParsedItem) {

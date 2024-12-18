@@ -178,6 +178,9 @@ export interface TranslationDict {
   REQUIREMENTS: string;
   CHARM_SLOTS: string;
   BASE_SPIRIT: string;
+  QUIVER_HELP_TEXT: string;
+  FLASK_HELP_TEXT: string;
+  CHARM_HELP_TEXT: string;
   // ---
   CHAT_SYSTEM: RegExp;
   CHAT_TRADE: RegExp;

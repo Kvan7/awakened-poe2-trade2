@@ -138,5 +138,8 @@ export default {
   CHAT_WEBTRADE_GEM: /^уровень (?<gem_lvl>\d+) (?<gem_qual>\d+)% (?<gem_name>.+)$/,
   REQUIREMENTS: 'Требования:',
   CHARM_SLOTS: 'Ячейки оберегов:',
-  BASE_SPIRIT: 'Дух:'
+  BASE_SPIRIT: 'Дух:',
+  QUIVER_HELP_TEXT: 'Можно использовать',
+  FLASK_HELP_TEXT: 'Щёлкните ПКМ, чтобы выпить.',
+  CHARM_HELP_TEXT: 'Используется автоматически при определённых условиях'
 }

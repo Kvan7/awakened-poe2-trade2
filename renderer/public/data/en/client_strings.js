@@ -105,4 +105,8 @@ export default {
   REQUIREMENTS: 'Requirements',
   CHARM_SLOTS: 'Charm Slots:',
   BASE_SPIRIT: 'Spirit:',
+  QUIVER_HELP_TEXT: 'Can only be equipped',
+  FLASK_HELP_TEXT: 'Right click to drink.',
+  CHARM_HELP_TEXT: 'Used automatically when condition'
 }
+
