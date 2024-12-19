@@ -187,7 +187,8 @@
     "currency_any": "Any Currency",
     "currency_only_chaos": "Chaos Orb",
     "currency_only_div": "Divine Orb",
-    "currency_chaos_div": "Both Orbs"
+    "currency_chaos_div": "Both Orbs",
+    "currency_only_exalted": "Exalted Orbs"
   },
   "widget": {
     "title": "widget title",
